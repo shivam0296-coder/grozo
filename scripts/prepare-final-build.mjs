@@ -1,0 +1,16 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const edit=(file,fn)=>{const old=readFileSync(file,'utf8'),next=fn(old);writeFileSync(file,next);};
+for(const file of ['apps/android/customer/build.gradle.kts','apps/android/rider/build.gradle.kts'])edit(file,s=>s.replace('versionCode = 4','versionCode = 5').replace('versionName = "0.3.1"','versionName = "0.4.0"'));
+for(const file of ['apps/web/src/main.tsx','assets/brand/logo.svg','apps/android/customer/src/main/java/com/grozo/customer/MainActivity.kt'])edit(file,s=>s.replaceAll('Daily Needs. Delivered Faster.','Goodness, Delivered by the Bagful.'));
+edit('apps/web/src/main.tsx',s=>s.replace('<p>Customer support channels will be configured and verified before launch.</p>','<p>Shivam Kumar · GROZO, Siyana, Bulandshahr, Uttar Pradesh.</p><p><a href="tel:+917830838894">7830838894</a> · <a href="mailto:Shivam989845@gmail.com">Shivam989845@gmail.com</a></p><p>Ordering and delivery services are not commercially active.</p>'));
+edit('packages/ui/src/index.tsx',s=>s.replace('href="/" aria-label="GROZO home"','href={import.meta.env.BASE_URL} aria-label="GROZO home"'));
+for(const file of ['apps/web/vite.config.ts','apps/admin/vite.config.ts'])edit(file,s=>s.replace('defineConfig({plugins:','defineConfig({base:"./",plugins:'));
+edit('apps/android/customer/src/main/AndroidManifest.xml',s=>s.replace('android:label="GROZO Customer DEV"','android:label="GROZO"'));
+edit('apps/android/rider/src/main/AndroidManifest.xml',s=>s.replace('android:label="GROZO Partner DEV"','android:label="GROZO Partner"'));
+edit('apps/android/core/src/main/java/com/grozo/core/Models.kt',s=>s.replace('val license:String,val artist:String)','val license:String,val artist:String,val licenseUrl:String?=null,val reviewNote:String?=null,val modifications:String?=null)'));
+edit('apps/android/core/src/main/java/com/grozo/core/CatalogueImport.kt',s=>s.replace('if(p.sourceRow!=null&&p.publishedImage==null)p.copy(publishedImage=photos.images.firstOrNull{it.productId==p.id}', 'if(p.sourceRow!=null&&p.imageUrl==null)p.copy(publishedImage=photos.images.firstOrNull{it.productId==p.id}?:p.publishedImage'));
+edit('packages/client/src/types.ts',s=>s.replace('license:string;artist:string;reviewedAt:', 'license:string;licenseUrl?:string;modifications?:string;artist:string;reviewedAt:'));
+edit('apps/web/src/catalogue.tsx',s=>s.replace('<p>{p.publishedImage.reviewNote}</p>','<p>{p.publishedImage.reviewNote}</p><p>{p.publishedImage.modifications}</p><a href={p.publishedImage.licenseUrl} target="_blank" rel="noreferrer">License terms</a>'));
+edit('tests/owner-catalogue.test.mjs',s=>s.replaceAll('media.images.length,13','media.images.length,104').replace('map(i=>i.productId)).size,13','map(i=>i.productId)).size,104').replace('map(i=>i.fileSha256)).size,13','map(i=>i.fileSha256)).size,103').replace("assert.ok(['Public domain','CC0'].includes(image.license));","assert.ok(/^(Public domain|CC0|CC BY)/.test(image.license));if(image.license.startsWith('CC BY'))assert.ok(image.artist&&image.licenseUrl);"));
+edit('scripts/source-inventory.mjs',s=>s.replace("'reports']);","'reports','.github']);"));
+edit('.gitignore',s=>s+'\n__pycache__/\n*.pyc\n');

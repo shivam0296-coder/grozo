@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180" role="img" aria-labelledby="title desc">
+<title id="title">GROZO — Goodness, Delivered by the Bagful.</title>
+<desc id="desc">Original green grocery bag and leaf mark with an orange accent and GROZO wordmark.</desc>
+<rect width="600" height="180" rx="24" fill="#fff"/>
+<rect x="24" y="27" width="126" height="126" rx="32" fill="#147D46"/>
+<path d="M59 70h56l7 57H52z" fill="#fff"/>
+<path d="M73 71V60a14 14 0 0 1 28 0v11" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+<path d="M85 109c-13-21 1-32 23-30-1 19-8 30-23 30" fill="#147D46"/>
+<path d="M80 118l20-30" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="127" cy="39" r="14" fill="#F5A13A"/>
+<text x="176" y="104" fill="#133528" font-family="system-ui,Segoe UI,sans-serif" font-size="65" font-weight="800" letter-spacing="-2">GROZO</text>
+<text x="179" y="137" fill="#56665D" font-family="system-ui,Segoe UI,sans-serif" font-size="20">Goodness, Delivered by the Bagful.</text>
+</svg>

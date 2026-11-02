@@ -1,0 +1,613 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GROZO Stage 3 catalogue extension",
+    "version": "0.3.1",
+    "description": "Additive design only. All server routes remain NOT_IMPLEMENTED; original openapi.json is preserved."
+  },
+  "servers": [
+    {
+      "url": "/api/v1"
+    }
+  ],
+  "paths": {
+    "/admin/catalogue/categories": {
+      "get": {
+        "summary": "GET /admin/catalogue/categories",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      },
+      "post": {
+        "summary": "POST /admin/catalogue/categories",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/categories/{id}": {
+      "patch": {
+        "summary": "PATCH /admin/catalogue/categories/{id}",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/brands": {
+      "get": {
+        "summary": "GET /admin/catalogue/brands",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      },
+      "post": {
+        "summary": "POST /admin/catalogue/brands",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/brands/{id}": {
+      "patch": {
+        "summary": "PATCH /admin/catalogue/brands/{id}",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/imports": {
+      "post": {
+        "summary": "POST /admin/catalogue/imports",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/imports/{id}": {
+      "get": {
+        "summary": "GET /admin/catalogue/imports/{id}",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/imports/{id}/apply": {
+      "post": {
+        "summary": "POST /admin/catalogue/imports/{id}/apply",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/variants/{id}/media": {
+      "post": {
+        "summary": "POST /admin/catalogue/variants/{id}/media",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/media/{id}/review": {
+      "post": {
+        "summary": "POST /admin/catalogue/media/{id}/review",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Server operation not implemented. Local tools do not implement this route."
+          }
+        }
+      }
+    },
+    "/admin/catalogue/source-entries": {
+      "get": {
+        "summary": "Browse source concepts separately from sellable variants",
+        "x-implementation": "NOT_IMPLEMENTED",
+        "x-required-role": "admin",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "responses": {
+          "503": {
+            "description": "Design only. No server operation or database import is implemented."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "grozo_session"
+      }
+    },
+    "schemas": {
+      "Category": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "parentId",
+          "active"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "parentId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uuid"
+          },
+          "active": {
+            "type": "boolean"
+          }
+        }
+      },
+      "ProductMetadata": {
+        "type": "object",
+        "properties": {
+          "ingredients": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "storageInfo": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "variantAttributes": {
+            "type": "object"
+          },
+          "sourceRecord": {
+            "type": "object"
+          },
+          "subcategoryId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uuid"
+          }
+        }
+      },
+      "ImageSource": {
+        "type": "object",
+        "required": [
+          "variantId",
+          "sourceUrl",
+          "rightsRecord",
+          "reviewStatus"
+        ],
+        "properties": {
+          "variantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sourceUrl": {
+            "type": "string"
+          },
+          "rightsRecord": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewStatus": {
+            "enum": [
+              "pending_review",
+              "owner_reviewed",
+              "rejected"
+            ]
+          },
+          "reviewedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "reviewNote": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "thumbnailKey": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "ImportReport": {
+        "type": "object",
+        "required": [
+          "sourceCount",
+          "importedCount",
+          "duplicates",
+          "missingImages",
+          "mappingErrors"
+        ],
+        "properties": {
+          "sourceSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "sourceCount": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "importedCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duplicates": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "missingImages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "mappingErrors": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "SourceConcept": {
+        "type": "object",
+        "description": "PDF concept record, never an orderable variant until merchant data is reviewed.",
+        "required": [
+          "id",
+          "name",
+          "source",
+          "categoryId",
+          "pricingStatus"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "categoryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "brandId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uuid"
+          },
+          "subcategoryId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uuid"
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "file",
+              "sha256",
+              "page",
+              "ordinal",
+              "rawText"
+            ],
+            "properties": {
+              "file": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "page": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "ordinal": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "rawText": {
+                "type": "string"
+              }
+            }
+          },
+          "pricingStatus": {
+            "const": "merchant_details_pending"
+          },
+          "sellable": {
+            "const": false
+          },
+          "reviewFlags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

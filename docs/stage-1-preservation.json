@@ -1,0 +1,9 @@
+{
+  "packages/domain/src/pricing.ts": "584b4aeb4e7dca57d58120911163076224db96c31708653d90dc24bc672fff05",
+  "packages/domain/src/orders.ts": "8bf8d7d28da1466ad76696c6da5ad7a2a43068096614d99bdc0b5aa7703349a8",
+  "packages/contracts/openapi.json": "cd2e58ce9432dd78fd9aaa8e7bc5100dacb0fbeff014b6e6911aeb8f904db5a0",
+  "database/migrations/0001_initial.sql": "aad4b2bef2f342d938fcc2908a6a09b4c5539e653d3a7821f753416e86157d26",
+  "database/seeds/0001_reference.sql": "b955abf36913ff10b93556e683dd2ac9d624300ca6b91f8ceb1735e085214543",
+  "tests/commerce.test.mjs": "e617932d91132fd4ae213056f4d2dee52caeb0ac87c078572a636797f9a89cc2",
+  "tests/contracts.test.mjs": "754b19ecc4f0e55075f450d829474950e4231d55fc5619fb1dacc8eafe5146af"
+}

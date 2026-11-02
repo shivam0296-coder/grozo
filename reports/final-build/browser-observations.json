@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "engine": "Chromium via supported browser control",
+  "routesChecked": [
+    "categories",
+    "shop",
+    "search",
+    "cart",
+    "checkout",
+    "login",
+    "signup",
+    "orders",
+    "tracking",
+    "account",
+    "support",
+    "contact",
+    "privacy",
+    "terms",
+    "about"
+  ],
+  "allRoutesRendered": true,
+  "sourceSearch": {
+    "query": "Royal Gala",
+    "matches": 1,
+    "opened": "Royal Gala Apple",
+    "correctPhotoLoaded": true,
+    "attribution": "Santeri Viinamäki / CC BY-SA 4.0"
+  },
+  "responsiveFrames": [
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "scrollWidth": 360
+    },
+    {
+      "width": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425
+    }
+  ],
+  "apiConnection": "PASS_REAL_LOCAL_HTTP",
+  "apiFailure": "PASS_SERVER_STOPPED_NO_FALLBACK",
+  "apiRetry": "PASS_SERVER_RESTARTED",
+  "physicalPhone": "NOT_TESTED_OWNER_CHOSE_NO_PHONE",
+  "iPhoneSafari": "NOT_TESTED"
+}

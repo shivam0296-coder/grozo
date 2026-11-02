@@ -1,0 +1,20 @@
+import {chromium} from 'playwright-core';
+import {existsSync} from 'node:fs';
+import {mkdir,writeFile} from 'node:fs/promises';
+import {join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {sourceCatalogueFlows,sourceAdminFlows} from './catalogue-update-browser-flows.mjs';
+import {catalogueManagement,catalogueShopping} from './stage3-browser-flows.mjs';
+import {customerFlows,adminNavigation,adminManagement} from './browser-flows.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const executablePath=[process.env.GROZO_BROWSER_PATH,'C:/Program Files/Google/Chrome/Application/chrome.exe','C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'].find(p=>p&&existsSync(p));
+if(!executablePath)throw Error('Set GROZO_BROWSER_PATH to an existing Chrome/Edge executable. No browser download is performed.');
+const browser=await chromium.launch({executablePath,headless:true});
+const context=await browser.newContext({viewport:{width:1440,height:1000}});
+const customer=await context.newPage(),admin=await context.newPage();
+const errors=[];for(const page of [customer,admin])page.on('pageerror',error=>errors.push(error.message));
+const results=[];await mkdir(join(root,'reports','screenshots'),{recursive:true});
+const options={customer,admin,setViewport:async size=>{await customer.setViewportSize(size);await admin.setViewportSize(size);},saveScreenshot:async(page,name)=>page.screenshot({path:join(root,'reports','screenshots','catalogue-update-'+name),fullPage:false})};
+options.uploadCsv=async(page,text)=>{await mkdir(join(root,'artifacts','test'),{recursive:true});const path=join(root,'artifacts','test','catalogue-browser.csv');await writeFile(path,text);const chooser=page.waitForEvent('filechooser');await page.getByLabel('Choose catalogue CSV',{exact:true}).click();await(await chooser).setFiles(path);};
+options.uploadImage=async(page,name)=>{const chooser=page.waitForEvent('filechooser');await page.getByLabel('Upload / replace photograph',{exact:true}).click();await(await chooser).setFiles(join(root,'reports','screenshots',name));};
+try{results.push(...await customerFlows(options),...await adminNavigation(options),...await adminManagement(options),...await catalogueManagement(options),...await catalogueShopping(options),...await sourceCatalogueFlows(options),...await sourceAdminFlows(options));await customer.getByRole('button',{name:/YOUR NEIGHBOURHOOD/}).click();await customer.getByRole('button',{name:/Demo home/}).click();await customer.getByRole('dialog',{name:'Delivery location',exact:true}).waitFor({state:'hidden'});results.push({test:'Saved delivery location selection',result:'passed'});await admin.getByRole('button',{name:'Notifications',exact:true}).click();await admin.getByRole('dialog').waitFor({state:'visible'});await admin.keyboard.press('Escape');if(await admin.getByRole('heading',{name:'Workspace notifications',exact:true}).isVisible())throw Error('Escape did not close dialog');results.push({test:'Keyboard Escape closes native dialog',result:'passed'});if(errors.length)throw Error(errors.join('\n'));console.log('PASS: '+results.length+' browser assertions.');}finally{await writeFile(join(root,'reports','catalogue-update-browser-results.json'),JSON.stringify({runner:'playwright-core with installed browser',results,errors},null,2));await browser.close();}

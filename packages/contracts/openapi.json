@@ -1,0 +1,3118 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GROZO REST API — design contract",
+    "version": "0.1.0",
+    "description": "Stage 1 contract baseline. All HTTP operations are NOT_IMPLEMENTED. Further module endpoints are enumerated in docs/api.md; database/API integration follows in Stage 3."
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:4000/api/v1",
+      "description": "Planned loopback development URL; no server is shipped in Stage 1"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "getHealth",
+        "tags": [
+          "Operations"
+        ],
+        "summary": "getHealth",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        }
+      }
+    },
+    "/auth/otp/request": {
+      "post": {
+        "operationId": "requestOtp",
+        "tags": [
+          "Authentication"
+        ],
+        "summary": "requestOtp",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtpChallenge"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtpRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/otp/verify": {
+      "post": {
+        "operationId": "verifyOtp",
+        "tags": [
+          "Authentication"
+        ],
+        "summary": "Native-client session. Browser proxy converts tokens to secure HttpOnly cookies.",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Session"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtpVerify"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/refresh": {
+      "post": {
+        "operationId": "refreshSession",
+        "tags": [
+          "Authentication"
+        ],
+        "summary": "refreshSession",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Session"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/logout": {
+      "post": {
+        "operationId": "logout",
+        "tags": [
+          "Authentication"
+        ],
+        "summary": "logout",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Completed; no response body"
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/me": {
+      "get": {
+        "operationId": "getProfile",
+        "tags": [
+          "Users"
+        ],
+        "summary": "getProfile",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer",
+          "rider",
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        }
+      }
+    },
+    "/categories": {
+      "get": {
+        "operationId": "listCategories",
+        "tags": [
+          "Catalogue"
+        ],
+        "summary": "listCategories",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Category"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        }
+      }
+    },
+    "/products": {
+      "get": {
+        "operationId": "listProducts",
+        "tags": [
+          "Catalogue"
+        ],
+        "summary": "listProducts",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductPage"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 512
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "categoryId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "storeId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      }
+    },
+    "/products/{productId}": {
+      "get": {
+        "operationId": "getProduct",
+        "tags": [
+          "Catalogue"
+        ],
+        "summary": "getProduct",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      }
+    },
+    "/addresses": {
+      "get": {
+        "operationId": "listAddresses",
+        "tags": [
+          "Addresses"
+        ],
+        "summary": "listAddresses",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Address"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        }
+      },
+      "post": {
+        "operationId": "createAddress",
+        "tags": [
+          "Addresses"
+        ],
+        "summary": "createAddress",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Address"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressWrite"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/addresses/{addressId}": {
+      "put": {
+        "operationId": "updateAddress",
+        "tags": [
+          "Addresses"
+        ],
+        "summary": "updateAddress",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Address"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "addressId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressWrite"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "deleteAddress",
+        "tags": [
+          "Addresses"
+        ],
+        "summary": "deleteAddress",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Completed; no response body"
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "addressId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      }
+    },
+    "/cart": {
+      "get": {
+        "operationId": "getCart",
+        "tags": [
+          "Cart"
+        ],
+        "summary": "getCart",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cart"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "storeId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      },
+      "put": {
+        "operationId": "replaceCart",
+        "tags": [
+          "Cart"
+        ],
+        "summary": "replaceCart",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cart"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartWrite"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/checkout/quotes": {
+      "post": {
+        "operationId": "createQuote",
+        "tags": [
+          "Commerce"
+        ],
+        "summary": "Re-read server prices, stock, coupon eligibility, address and zone; no client money fields accepted.",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quote"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuoteRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/orders": {
+      "post": {
+        "operationId": "createOrder",
+        "tags": [
+          "Commerce"
+        ],
+        "summary": "createOrder",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderSummary"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderCreate"
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "operationId": "listOrders",
+        "tags": [
+          "Commerce"
+        ],
+        "summary": "listOrders",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderPage"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 512
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            }
+          }
+        ]
+      }
+    },
+    "/orders/{orderId}": {
+      "get": {
+        "operationId": "getOrder",
+        "tags": [
+          "Commerce"
+        ],
+        "summary": "getOrder",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer",
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderSummary"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      }
+    },
+    "/orders/{orderId}/cancel": {
+      "post": {
+        "operationId": "cancelOrder",
+        "tags": [
+          "Commerce"
+        ],
+        "summary": "cancelOrder",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer",
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderSummary"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CancelRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/orders/{orderId}/tracking": {
+      "get": {
+        "operationId": "getTracking",
+        "tags": [
+          "Delivery"
+        ],
+        "summary": "getTracking",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer",
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Tracking"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ]
+      }
+    },
+    "/orders/{orderId}/payment-session": {
+      "post": {
+        "operationId": "createPaymentSession",
+        "tags": [
+          "Payments"
+        ],
+        "summary": "createPaymentSession",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentSession"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ]
+      }
+    },
+    "/payments/verify": {
+      "post": {
+        "operationId": "verifyPayment",
+        "tags": [
+          "Payments"
+        ],
+        "summary": "verifyPayment",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "customer"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentVerify"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/payments/webhooks/razorpay": {
+      "post": {
+        "operationId": "processRazorpayWebhook",
+        "tags": [
+          "Payments"
+        ],
+        "summary": "Verify signature over bounded raw bytes before parsing; match merchant amount/currency and deduplicate event ID.",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [],
+        "security": [],
+        "responses": {
+          "204": {
+            "description": "Completed; no response body"
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-Razorpay-Signature",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 512
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Provider-controlled payload; verify raw bytes before interpreting fields."
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/orders/{orderId}/status": {
+      "patch": {
+        "operationId": "updateOrderStatus",
+        "tags": [
+          "Admin"
+        ],
+        "summary": "updateOrderStatus",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderSummary"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StatusRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/settings/business": {
+      "get": {
+        "operationId": "getBusinessSettings",
+        "tags": [
+          "Admin"
+        ],
+        "summary": "getBusinessSettings",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessSettings"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        }
+      },
+      "put": {
+        "operationId": "updateBusinessSettings",
+        "tags": [
+          "Admin"
+        ],
+        "summary": "updateBusinessSettings",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessSettings"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BusinessSettings"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/inventory/adjustments": {
+      "post": {
+        "operationId": "adjustInventory",
+        "tags": [
+          "Admin"
+        ],
+        "summary": "adjustInventory",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "operator",
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Completed; no response body"
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventoryAdjustment"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/refunds": {
+      "post": {
+        "operationId": "requestRefund",
+        "tags": [
+          "Admin"
+        ],
+        "summary": "requestRefund",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "admin"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RefundResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefundRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/rider/assignments/{assignmentId}/locations": {
+      "post": {
+        "operationId": "recordRiderLocation",
+        "tags": [
+          "Delivery"
+        ],
+        "summary": "Only assigned approved rider during active task; validate freshness and stop on permission revocation.",
+        "x-implementation-status": "NOT_IMPLEMENTED",
+        "x-allowed-roles": [
+          "rider"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Completed; no response body"
+          },
+          "400": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "401": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "403": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "404": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "409": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "422": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "429": {
+            "$ref": "#/components/responses/StandardError"
+          },
+          "503": {
+            "$ref": "#/components/responses/StandardError"
+          }
+        },
+        "parameters": [
+          {
+            "name": "assignmentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocationWrite"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "requestId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "code",
+          "message",
+          "requestId"
+        ]
+      },
+      "Category": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "slug": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "slug"
+        ]
+      },
+      "Variant": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sku": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "quantityLabel": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "mrpPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "sellingPricePaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "taxRateBps": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "availableQuantity": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "id",
+          "sku",
+          "quantityLabel",
+          "mrpPaise",
+          "sellingPricePaise",
+          "taxRateBps",
+          "availableQuantity"
+        ]
+      },
+      "Product": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "categoryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "brandName": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "imageUrl": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Variant"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "categoryId",
+          "brandName",
+          "imageUrl",
+          "variants"
+        ]
+      },
+      "ProductPage": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            }
+          },
+          "nextCursor": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 512
+          }
+        },
+        "required": [
+          "items",
+          "nextCursor"
+        ]
+      },
+      "LineInput": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "variantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 99
+          }
+        },
+        "required": [
+          "variantId",
+          "quantity"
+        ]
+      },
+      "CartWrite": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "storeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "items": {
+            "type": "array",
+            "maxItems": 100,
+            "items": {
+              "$ref": "#/components/schemas/LineInput"
+            }
+          }
+        },
+        "required": [
+          "storeId",
+          "items"
+        ]
+      },
+      "Cart": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "storeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LineInput"
+            }
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "storeId",
+          "items",
+          "updatedAt"
+        ]
+      },
+      "QuoteRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "storeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "addressId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "items": {
+              "$ref": "#/components/schemas/LineInput"
+            }
+          },
+          "couponCode": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_-]{1,40}$"
+          }
+        },
+        "required": [
+          "storeId",
+          "addressId",
+          "items"
+        ]
+      },
+      "QuoteLine": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "variantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 99
+          },
+          "subtotalPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "couponDiscountPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "payablePaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "taxableValuePaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "taxPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          }
+        },
+        "required": [
+          "variantId",
+          "quantity",
+          "subtotalPaise",
+          "couponDiscountPaise",
+          "payablePaise",
+          "taxableValuePaise",
+          "taxPaise"
+        ]
+      },
+      "Quote": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "quoteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rulesVersion": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "currency": {
+            "const": "INR"
+          },
+          "mrpTotalPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "subtotalPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "productDiscountPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "couponDiscountPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "deliveryChargePaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "deliveryTaxPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "taxIncludedPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "totalPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteLine"
+            }
+          }
+        },
+        "required": [
+          "quoteId",
+          "expiresAt",
+          "rulesVersion",
+          "currency",
+          "mrpTotalPaise",
+          "subtotalPaise",
+          "productDiscountPaise",
+          "couponDiscountPaise",
+          "deliveryChargePaise",
+          "deliveryTaxPaise",
+          "taxIncludedPaise",
+          "totalPaise",
+          "lines"
+        ]
+      },
+      "AddressWrite": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+          },
+          "houseDetails": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "street": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 250
+          },
+          "landmark": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "city": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "postalCode": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$"
+          },
+          "latitude": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          }
+        },
+        "required": [
+          "label",
+          "houseDetails",
+          "street",
+          "city",
+          "postalCode",
+          "latitude",
+          "longitude"
+        ]
+      },
+      "OtpRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "phoneE164": {
+            "type": "string",
+            "pattern": "^\\+[1-9][0-9]{7,14}$"
+          },
+          "purpose": {
+            "type": "string",
+            "enum": [
+              "login",
+              "registration"
+            ]
+          }
+        },
+        "required": [
+          "phoneE164",
+          "purpose"
+        ]
+      },
+      "OtpChallenge": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "challengeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "retryAfterSeconds": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "challengeId",
+          "expiresAt",
+          "retryAfterSeconds"
+        ]
+      },
+      "OtpVerify": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "challengeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "code": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$"
+          }
+        },
+        "required": [
+          "challengeId",
+          "code"
+        ]
+      },
+      "User": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "displayName": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "customer",
+                "operator",
+                "rider",
+                "admin"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "displayName",
+          "roles"
+        ]
+      },
+      "Session": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "accessToken": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 5000
+          },
+          "refreshToken": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 5000
+          },
+          "accessExpiresAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "user",
+          "accessToken",
+          "refreshToken",
+          "accessExpiresAt"
+        ]
+      },
+      "RefreshRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 5000
+          }
+        },
+        "required": [
+          "refreshToken"
+        ]
+      },
+      "OrderCreate": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "quoteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "paymentMethod": {
+            "type": "string",
+            "enum": [
+              "online",
+              "cod"
+            ]
+          }
+        },
+        "required": [
+          "quoteId",
+          "paymentMethod"
+        ]
+      },
+      "OrderSummary": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "orderNumber": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "placed",
+              "confirmed",
+              "packed",
+              "out_for_delivery",
+              "delivered",
+              "cancelled"
+            ]
+          },
+          "currency": {
+            "const": "INR"
+          },
+          "totalPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "id",
+          "orderNumber",
+          "status",
+          "currency",
+          "totalPaise",
+          "createdAt",
+          "version"
+        ]
+      },
+      "OrderPage": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderSummary"
+            }
+          },
+          "nextCursor": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 512
+          }
+        },
+        "required": [
+          "items",
+          "nextCursor"
+        ]
+      },
+      "CancelRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "expectedVersion": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "reason",
+          "expectedVersion"
+        ]
+      },
+      "StatusRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "packed",
+              "out_for_delivery",
+              "delivered",
+              "cancelled"
+            ]
+          },
+          "expectedVersion": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "reason": {
+            "type": "string",
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "status",
+          "expectedVersion"
+        ]
+      },
+      "PaymentSession": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "provider": {
+            "const": "razorpay"
+          },
+          "providerOrderId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "keyId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "amountPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "currency": {
+            "const": "INR"
+          }
+        },
+        "required": [
+          "provider",
+          "providerOrderId",
+          "keyId",
+          "amountPaise",
+          "currency"
+        ]
+      },
+      "PaymentVerify": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "providerOrderId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "providerPaymentId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "signature": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "required": [
+          "providerOrderId",
+          "providerPaymentId",
+          "signature"
+        ]
+      },
+      "PaymentResult": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "verified",
+              "failed"
+            ]
+          }
+        },
+        "required": [
+          "orderId",
+          "status"
+        ]
+      },
+      "LocationWrite": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "recordedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "latitude": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "accuracyMeters": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10000
+          }
+        },
+        "required": [
+          "recordedAt",
+          "latitude",
+          "longitude",
+          "accuracyMeters"
+        ]
+      },
+      "Tracking": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "order": {
+            "$ref": "#/components/schemas/OrderSummary"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/LocationWrite"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "freshness": {
+            "type": "string",
+            "enum": [
+              "fresh",
+              "stale",
+              "unavailable"
+            ]
+          },
+          "etaMinutes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "etaSource": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "order",
+          "location",
+          "freshness",
+          "etaMinutes",
+          "etaSource"
+        ]
+      },
+      "BusinessSettings": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "minimumOrderPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "freeDeliveryThresholdPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "deliveryChargePaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "maximumBasketPaise": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "deliveryTaxRateBps": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "codEnabled": {
+            "type": "boolean"
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "minimumOrderPaise",
+          "freeDeliveryThresholdPaise",
+          "deliveryChargePaise",
+          "maximumBasketPaise",
+          "deliveryTaxRateBps",
+          "codEnabled",
+          "version"
+        ]
+      },
+      "InventoryAdjustment": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "storeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "variantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantityDelta": {
+            "type": "integer",
+            "minimum": -1000000,
+            "maximum": 1000000
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "expectedVersion": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "supplierId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "storeId",
+          "variantId",
+          "quantityDelta",
+          "reason",
+          "expectedVersion"
+        ]
+      },
+      "RefundRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "paymentId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "amountPaise": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100000000
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "paymentId",
+          "amountPaise",
+          "reason"
+        ]
+      },
+      "RefundResult": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "requested",
+              "processing",
+              "succeeded",
+              "failed"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "status"
+        ]
+      },
+      "Health": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "degraded"
+            ]
+          },
+          "database": {
+            "type": "string",
+            "enum": [
+              "ready",
+              "unavailable"
+            ]
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+          }
+        },
+        "required": [
+          "status",
+          "database",
+          "version"
+        ]
+      },
+      "Address": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+          },
+          "houseDetails": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "street": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 250
+          },
+          "landmark": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "city": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "postalCode": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$"
+          },
+          "latitude": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "houseDetails",
+          "street",
+          "city",
+          "postalCode",
+          "latitude",
+          "longitude"
+        ]
+      }
+    },
+    "responses": {
+      "StandardError": {
+        "description": "Structured error; no secrets or raw provider payload",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    }
+  }
+}

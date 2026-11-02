@@ -1,0 +1,38 @@
+<testsuites>
+  <testsuite name="com.grozo.core.CatalogueImportTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-31T08:41:22.046Z" hostname="DESKTOP-2PUDI0O" time="0.861">
+    <properties />
+    <testcase name="nestedTaxonomyIsBoundedAndCorrect" classname="com.grozo.core.CatalogueImportTest" time="0.775" />
+    <testcase name="photosOnlyAttachToMatchingSourceEntry" classname="com.grozo.core.CatalogueImportTest" time="0.062" />
+    <testcase name="pendingSourceCannotProduceAPayableQuote" classname="com.grozo.core.CatalogueImportTest" time="0.009" />
+    <testcase name="mergingTwiceDoesNotDuplicateOrOverwriteEdits" classname="com.grozo.core.CatalogueImportTest" time="0.002" />
+    <testcase name="mergePreservesBasketAndExistingRecords" classname="com.grozo.core.CatalogueImportTest" time="0.0" />
+    <system-out><![CDATA[]]></system-out>
+    <system-err><![CDATA[]]></system-err>
+  </testsuite>
+  <testsuite name="com.grozo.core.CatalogueQueryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-31T08:41:22.922Z" hostname="DESKTOP-2PUDI0O" time="0.18">
+    <properties />
+    <testcase name="priceStockAndBrandFiltersCompose" classname="com.grozo.core.CatalogueQueryTest" time="0.015" />
+    <testcase name="searchMatchesBrandAndPack" classname="com.grozo.core.CatalogueQueryTest" time="0.014" />
+    <testcase name="thousandsOfTestRowsAreNotTruncated" classname="com.grozo.core.CatalogueQueryTest" time="0.129" />
+    <testcase name="priceAndPopularitySort" classname="com.grozo.core.CatalogueQueryTest" time="0.019" />
+    <system-out><![CDATA[]]></system-out>
+    <system-err><![CDATA[]]></system-err>
+  </testsuite>
+  <testsuite name="com.grozo.core.CommerceTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-31T08:41:23.108Z" hostname="DESKTOP-2PUDI0O" time="0.018">
+    <properties />
+    <testcase name="minimumReject" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="stockReject" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="freeBoundary" classname="com.grozo.core.CommerceTest" time="0.003" />
+    <testcase name="couponThresholdBeforeDiscount" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="customerCannotSkip" classname="com.grozo.core.CommerceTest" time="0.003" />
+    <testcase name="maximumReject" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="deliveryFlow" classname="com.grozo.core.CommerceTest" time="0.002" />
+    <testcase name="minimumInclusive" classname="com.grozo.core.CommerceTest" time="0.0" />
+    <testcase name="maximumInclusive" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="badCoupon" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="cashRequired" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <testcase name="unassignedRiderDenied" classname="com.grozo.core.CommerceTest" time="0.001" />
+    <system-out><![CDATA[]]></system-out>
+    <system-err><![CDATA[]]></system-err>
+  </testsuite>
+</testsuites>

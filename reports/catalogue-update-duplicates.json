@@ -1,0 +1,1313 @@
+{
+  "exact": [
+    {
+      "name": "colin glass cleaner",
+      "records": [
+        {
+          "id": "4142a90b-36af-5fe9-af8d-5124eab607ce",
+          "name": "Colin Glass Cleaner",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 88,
+            "sectionPath": [
+              "Household Grocery",
+              "Kitchen & Home Utilities"
+            ],
+            "rawText": "Colin Glass Cleaner",
+            "lineRange": [
+              11,
+              13
+            ]
+          }
+        },
+        {
+          "id": "6d1da78b-0683-57d7-b8d3-72174d48a09d",
+          "name": "Colin Glass Cleaner",
+          "source": {
+            "file": "personal_care_and_protectors.pdf",
+            "page": 1,
+            "entry": 52,
+            "sectionPath": [
+              "Personal Care & Home Protection",
+              "Home Protectors & Cleaners",
+              "Dishwash & Glass Cleaners"
+            ],
+            "rawText": "Colin Glass Cleaner",
+            "lineRange": [
+              26,
+              27
+            ]
+          }
+        }
+      ],
+      "action": "Retained separately; no silent deduplication."
+    },
+    {
+      "name": "lemon",
+      "records": [
+        {
+          "id": "eb56b575-4af4-5937-b464-a994f3332241",
+          "name": "Lemon",
+          "source": {
+            "file": "vegetables_list.pdf",
+            "page": 4,
+            "entry": 88,
+            "sectionPath": [
+              "Vegetables",
+              "कच्चे फल जो स  जी की तरह इस्तेमाल होते हैं"
+            ],
+            "rawText": "Lemon (नींबू)",
+            "lineRange": [
+              14,
+              14
+            ]
+          }
+        },
+        {
+          "id": "8cb0c78d-53e3-527b-bff6-dce2a8e35b80",
+          "name": "Lemon",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 1,
+            "entry": 13,
+            "sectionPath": [
+              "Fruits",
+              "सदाबहार और आम फल (रोजाना  मलने वाले)"
+            ],
+            "rawText": "Lemon (नींबू)",
+            "lineRange": [
+              15,
+              15
+            ]
+          }
+        }
+      ],
+      "action": "Retained separately; no silent deduplication."
+    }
+  ],
+  "possibleAliases": [
+    {
+      "names": [
+        "Almonds",
+        "Almond"
+      ],
+      "records": [
+        {
+          "id": "d236b652-eb1b-5126-add2-737859c4a1a1",
+          "name": "Almonds",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 68,
+            "sectionPath": [
+              "Household Grocery",
+              "Dry Fruits & Seeds"
+            ],
+            "rawText": "Almonds (बादाम)",
+            "lineRange": [
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "id": "83e8d381-da78-5553-b0dd-69d2126e4b12",
+          "name": "Almond",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 4,
+            "entry": 84,
+            "sectionPath": [
+              "Fruits",
+              "Dry Fruits & Dates"
+            ],
+            "rawText": "Almond (बादाम)",
+            "lineRange": [
+              4,
+              4
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    },
+    {
+      "names": [
+        "Cashews",
+        "Cashew"
+      ],
+      "records": [
+        {
+          "id": "5aa50a5a-9dcd-5fc6-b67c-dbce8649ec22",
+          "name": "Cashews",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 69,
+            "sectionPath": [
+              "Household Grocery",
+              "Dry Fruits & Seeds"
+            ],
+            "rawText": "Cashews (किाजू)",
+            "lineRange": [
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "id": "e222f3d0-3ded-5e77-b067-b699e0317fe7",
+          "name": "Cashew",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 4,
+            "entry": 85,
+            "sectionPath": [
+              "Fruits",
+              "Dry Fruits & Dates"
+            ],
+            "rawText": "Cashew (काजू)",
+            "lineRange": [
+              5,
+              5
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    },
+    {
+      "names": [
+        "Walnuts",
+        "Walnut"
+      ],
+      "records": [
+        {
+          "id": "45aefc1d-2859-559a-b2dd-2a80042c71c3",
+          "name": "Walnuts",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 71,
+            "sectionPath": [
+              "Household Grocery",
+              "Dry Fruits & Seeds"
+            ],
+            "rawText": "Walnuts (अखरोट)",
+            "lineRange": [
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "id": "aa47f8ed-d3db-5944-9610-5260d0e77320",
+          "name": "Walnut",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 4,
+            "entry": 86,
+            "sectionPath": [
+              "Fruits",
+              "Dry Fruits & Dates"
+            ],
+            "rawText": "Walnut (अखरोट)",
+            "lineRange": [
+              6,
+              6
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    },
+    {
+      "names": [
+        "Dates",
+        "Dates / Khajoor"
+      ],
+      "records": [
+        {
+          "id": "3a623764-9177-51c1-8090-6a095e00c5e0",
+          "name": "Dates",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 73,
+            "sectionPath": [
+              "Household Grocery",
+              "Dry Fruits & Seeds"
+            ],
+            "rawText": "Dates (खजूर)",
+            "lineRange": [
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "id": "56830704-c2d9-534f-9c7d-4c36bdee7dbb",
+          "name": "Dates / Khajoor",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 4,
+            "entry": 82,
+            "sectionPath": [
+              "Fruits",
+              "Dry Fruits & Dates"
+            ],
+            "rawText": "Dates / Khajoor (खजूर)",
+            "lineRange": [
+              2,
+              2
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    },
+    {
+      "names": [
+        "Raisins",
+        "Raisins / Kishmish"
+      ],
+      "records": [
+        {
+          "id": "489cc5be-282f-5dc7-b9ef-8013c50e8791",
+          "name": "Raisins",
+          "source": {
+            "file": "household_grocery_list.pdf",
+            "page": 2,
+            "entry": 70,
+            "sectionPath": [
+              "Household Grocery",
+              "Dry Fruits & Seeds"
+            ],
+            "rawText": "Raisins (  किश  मश)",
+            "lineRange": [
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "id": "42e571ac-720f-5dcb-b3df-c54c7588c36f",
+          "name": "Raisins / Kishmish",
+          "source": {
+            "file": "fruits_list.pdf",
+            "page": 4,
+            "entry": 87,
+            "sectionPath": [
+              "Fruits",
+              "Dry Fruits & Dates"
+            ],
+            "rawText": "Raisins / Kishmish (  कश  मश)",
+            "lineRange": [
+              7,
+              7
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    },
+    {
+      "names": [
+        "Brahmi",
+        "Sanjeevani / Brahmi Leaves"
+      ],
+      "records": [
+        {
+          "id": "a2afb27c-b217-5e61-b195-cfbe06953740",
+          "name": "Brahmi",
+          "source": {
+            "file": "vegetables_list.pdf",
+            "page": 2,
+            "entry": 26,
+            "sectionPath": [
+              "Vegetables",
+              "Leafy Greens"
+            ],
+            "rawText": "Brahmi (ब्राह्मी)",
+            "lineRange": [
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "id": "78b8af4e-5355-568b-8f00-58538c8dbe26",
+          "name": "Sanjeevani / Brahmi Leaves",
+          "source": {
+            "file": "vegetables_list.pdf",
+            "page": 4,
+            "entry": 95,
+            "sectionPath": [
+              "Vegetables",
+              "व  शष्ट पारंप  रक और जंगली स   जयां"
+            ],
+            "rawText": "Sanjeevani / Brahmi Leaves (ब्राह्मी साग)",
+            "lineRange": [
+              22,
+              22
+            ]
+          }
+        }
+      ],
+      "status": "possible_alias_review_required"
+    }
+  ],
+  "groupedAlternatives": [
+    {
+      "id": "125d33ee-b128-518d-9102-9dde3a5819a1",
+      "name": "Cornflakes / Oats",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 9,
+        "sectionPath": [
+          "Household Grocery",
+          "Dairy & Breakfast Essentials"
+        ],
+        "rawText": "Cornflakes / Oats",
+        "lineRange": [
+          3,
+          4
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "50b69742-b8c6-5772-af25-cc33f421be0c",
+      "name": "Vermicelli / Rava",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 10,
+        "sectionPath": [
+          "Household Grocery",
+          "Dairy & Breakfast Essentials"
+        ],
+        "rawText": "Vermicelli / Rava (सेंवई / सूजी)",
+        "lineRange": [
+          3,
+          4
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "347d5ca1-3591-5a5e-88cc-53f292bc8345",
+      "name": "Basmati/Everyday Rice",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 12,
+        "sectionPath": [
+          "Household Grocery",
+          "Staples - Flours, Rice & Pulses"
+        ],
+        "rawText": "Basmati/Everyday Rice (चावल)",
+        "lineRange": [
+          7,
+          8
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0040faef-8952-55c7-ae3a-9e89ab296ef9",
+      "name": "Arhar / Toor Dal",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 13,
+        "sectionPath": [
+          "Household Grocery",
+          "Staples - Flours, Rice & Pulses"
+        ],
+        "rawText": "Arhar / Toor Dal",
+        "lineRange": [
+          7,
+          8
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "525b9b29-60ae-5d31-a142-daeab78065ca",
+      "name": "Brown Sugar / Khand",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 28,
+        "sectionPath": [
+          "Household Grocery",
+          "Sweeteners & Baking"
+        ],
+        "rawText": "Brown Sugar / Khand (बुरा / खांड)",
+        "lineRange": [
+          10,
+          11
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "3f7be3c5-7340-5401-8153-4380eeecc730",
+      "name": "Refined Sunflower / Soybean Oil",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 30,
+        "sectionPath": [
+          "Household Grocery",
+          "Cooking Oils & Ghee"
+        ],
+        "rawText": "Refined Sunflower / Soybean Oil",
+        "lineRange": [
+          13,
+          14
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0c90e07c-1525-59fa-810f-470a44e43dc7",
+      "name": "Bournvita / Horlicks / Complan",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 1,
+        "entry": 55,
+        "sectionPath": [
+          "Household Grocery",
+          "Beverages"
+        ],
+        "rawText": "Bournvita / Horlicks / Complan",
+        "lineRange": [
+          21,
+          22
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "12d386ab-fa56-50be-9bc4-492fd0d7bb97",
+      "name": "Maggi / Instant Noodles",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 57,
+        "sectionPath": [
+          "Household Grocery",
+          "Snacks, Packaged Foods & Sauces"
+        ],
+        "rawText": "Maggi / Instant Noodles",
+        "lineRange": [
+          2,
+          3
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "fe5086c6-e452-5176-8276-9a4dfa22699d",
+      "name": "Pasta / Macaroni",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 58,
+        "sectionPath": [
+          "Household Grocery",
+          "Snacks, Packaged Foods & Sauces"
+        ],
+        "rawText": "Pasta / Macaroni",
+        "lineRange": [
+          2,
+          3
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0118a372-d41e-5270-a5ff-6948a446b75d",
+      "name": "Namkeen / Bhujia",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 65,
+        "sectionPath": [
+          "Household Grocery",
+          "Snacks, Packaged Foods & Sauces"
+        ],
+        "rawText": "Namkeen / Bhujia",
+        "lineRange": [
+          2,
+          3
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "a604adf9-a44c-5950-b793-a4560328afbb",
+      "name": "Vim Bar / Gel",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 81,
+        "sectionPath": [
+          "Household Grocery",
+          "Kitchen & Home Utilities"
+        ],
+        "rawText": "Vim Bar / Gel",
+        "lineRange": [
+          11,
+          13
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "14a4f268-13d9-5023-a195-8817bff31825",
+      "name": "Surf Excel / Tide",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 85,
+        "sectionPath": [
+          "Household Grocery",
+          "Kitchen & Home Utilities"
+        ],
+        "rawText": "Surf Excel / Tide",
+        "lineRange": [
+          11,
+          13
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "be0436e0-b9da-535d-b9f4-f97b06dc667c",
+      "name": "Good Knight / All Out Refill",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 92,
+        "sectionPath": [
+          "Household Grocery",
+          "Kitchen & Home Utilities"
+        ],
+        "rawText": "Good Knight / All Out Refill",
+        "lineRange": [
+          11,
+          13
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "2fba8d41-80f2-5eb9-806e-a6364563ceb8",
+      "name": "Body Lotion / Hair Oil",
+      "source": {
+        "file": "household_grocery_list.pdf",
+        "page": 2,
+        "entry": 99,
+        "sectionPath": [
+          "Household Grocery",
+          "Personal Care Grocery"
+        ],
+        "rawText": "Body Lotion / Hair Oil",
+        "lineRange": [
+          15,
+          16
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "824523ad-7aa4-585e-8b6d-27a6ce2e8004",
+      "name": "Dettol Plaster / Band-Aid",
+      "source": {
+        "file": "personal_care_and_protectors.pdf",
+        "page": 2,
+        "entry": 74,
+        "sectionPath": [
+          "Personal Care & Home Protection",
+          "First Aid & OTC Healthcare"
+        ],
+        "rawText": "Dettol Plaster / Band-Aid",
+        "lineRange": [
+          14,
+          15
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "8b775f3a-8753-553d-ab16-350c164576fe",
+      "name": "Colocasia / Taro Root",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 1,
+        "entry": 7,
+        "sectionPath": [
+          "Vegetables",
+          "Tubers and Root Vegetables"
+        ],
+        "rawText": "Colocasia / Taro Root (अरबी)",
+        "lineRange": [
+          9,
+          9
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "63b3de24-c24a-5757-86a1-1d4806f86416",
+      "name": "Tapioca / Cassava",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 1,
+        "entry": 9,
+        "sectionPath": [
+          "Vegetables",
+          "Tubers and Root Vegetables"
+        ],
+        "rawText": "Tapioca / Cassava (कसवा / कप्पा)",
+        "lineRange": [
+          11,
+          11
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "21958d63-31f8-5f1f-8cbc-f78e9d3ddfd5",
+      "name": "Bathua / Chenopodium",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 1,
+        "entry": 20,
+        "sectionPath": [
+          "Vegetables",
+          "Leafy Greens"
+        ],
+        "rawText": "Bathua / Chenopodium (बथुआ)",
+        "lineRange": [
+          23,
+          23
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0021e846-d12d-5420-89b8-1779935a9e4f",
+      "name": "Poi Sag / Malabar Spinach",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 2,
+        "entry": 29,
+        "sectionPath": [
+          "Vegetables",
+          "Leafy Greens"
+        ],
+        "rawText": "Poi Sag / Malabar Spinach (पोई साग)",
+        "lineRange": [
+          5,
+          5
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "b302dc8b-5cb6-5ecd-975b-78bd895a5c1b",
+      "name": "Spiny Gourd / Teasle Gourd",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 2,
+        "entry": 39,
+        "sectionPath": [
+          "Vegetables",
+          "Gourds and Vines"
+        ],
+        "rawText": "Spiny Gourd / Teasle Gourd (कкоड़ा)",
+        "lineRange": [
+          16,
+          16
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "28d3e46c-98c8-5d22-9167-b62272d13121",
+      "name": "Ash Gourd / Winter Melon",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 2,
+        "entry": 41,
+        "sectionPath": [
+          "Vegetables",
+          "Gourds and Vines"
+        ],
+        "rawText": "Ash Gourd / Winter Melon (पेठा)",
+        "lineRange": [
+          18,
+          18
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "a1081bcf-0a51-594f-8e9f-c12468495005",
+      "name": "Chayote / Chow-Chow",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 2,
+        "entry": 44,
+        "sectionPath": [
+          "Vegetables",
+          "Gourds and Vines"
+        ],
+        "rawText": "Chayote / Chow-Chow (चायोटे / इस्कुस)",
+        "lineRange": [
+          21,
+          21
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "5b5a8a2c-1239-54e9-91e7-bdf199feb059",
+      "name": "Tinda / Apple Gourd",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 2,
+        "entry": 45,
+        "sectionPath": [
+          "Vegetables",
+          "Gourds and Vines"
+        ],
+        "rawText": "Tinda / Apple Gourd (  टंडा)",
+        "lineRange": [
+          22,
+          22
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "4e0b3874-6513-55d3-b7b5-faa7df297878",
+      "name": "Kohlrabi / Knol Khol",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 53,
+        "sectionPath": [
+          "Vegetables",
+          "Cruciferous & Flower Vegetables"
+        ],
+        "rawText": "Kohlrabi / Knol Khol (गांठ गोभी)",
+        "lineRange": [
+          1,
+          1
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "e5984f8f-ed13-5805-a982-b483ad1b03b8",
+      "name": "Flat Beans / Sem",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 57,
+        "sectionPath": [
+          "Vegetables",
+          "Pods and Beans"
+        ],
+        "rawText": "Flat Beans / Sem (सेम फली)",
+        "lineRange": [
+          6,
+          6
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "b48d4ee7-06fa-5e8d-825b-6266326df705",
+      "name": "Drumstick / Moringa",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 58,
+        "sectionPath": [
+          "Vegetables",
+          "Pods and Beans"
+        ],
+        "rawText": "Drumstick / Moringa (सहजन की फली)",
+        "lineRange": [
+          7,
+          7
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "aae971fa-3e47-5ca1-8ceb-566bc5556a92",
+      "name": "Cowpea / Long Beans",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 59,
+        "sectionPath": [
+          "Vegetables",
+          "Pods and Beans"
+        ],
+        "rawText": "Cowpea / Long Beans (लो  बया की फली)",
+        "lineRange": [
+          8,
+          8
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "9a4a79bd-e57e-5cb4-9ce5-c1995b760a70",
+      "name": "Soybean Pods / Edamame",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 63,
+        "sectionPath": [
+          "Vegetables",
+          "Pods and Beans"
+        ],
+        "rawText": "Soybean Pods / Edamame (सोयाबीन फली)",
+        "lineRange": [
+          12,
+          12
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "06aa792b-8df9-51da-896d-187c4bbc6f54",
+      "name": "Brinjal / Eggplant",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 66,
+        "sectionPath": [
+          "Vegetables",
+          "Nightshades & Fruiting Vegetables"
+        ],
+        "rawText": "Brinjal / Eggplant (बैंगन)",
+        "lineRange": [
+          17,
+          17
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "a60fd7b7-48f6-5541-96df-d8a01ac7d7de",
+      "name": "Capsicum / Bell Pepper",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 69,
+        "sectionPath": [
+          "Vegetables",
+          "Nightshades & Fruiting Vegetables"
+        ],
+        "rawText": "Capsicum / Bell Pepper (  शमला  मचर्च)",
+        "lineRange": [
+          20,
+          20
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "13a6873f-c1b6-569b-b111-226ef492e522",
+      "name": "Lady Finger / Okra",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 3,
+        "entry": 72,
+        "sectionPath": [
+          "Vegetables",
+          "Nightshades & Fruiting Vegetables"
+        ],
+        "rawText": "Lady Finger / Okra (  भंडी)",
+        "lineRange": [
+          23,
+          23
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "55288985-a528-5f47-a9e1-f948e857777f",
+      "name": "Lotus Cucumber / Kamal Kakdi",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 4,
+        "entry": 89,
+        "sectionPath": [
+          "Vegetables",
+          "व  शष्ट पारंप  रक और जंगली स   जयां"
+        ],
+        "rawText": "Lotus Cucumber / Kamal Kakdi (कमल ककड़ी)",
+        "lineRange": [
+          16,
+          16
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "f664ee72-5e50-5927-9a57-7025e9b0ed24",
+      "name": "Water Spinach / Kalmi Sag",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 4,
+        "entry": 93,
+        "sectionPath": [
+          "Vegetables",
+          "व  शष्ट पारंप  रक और जंगली स   जयां"
+        ],
+        "rawText": "Water Spinach / Kalmi Sag (कलमी साग)",
+        "lineRange": [
+          20,
+          20
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "78b8af4e-5355-568b-8f00-58538c8dbe26",
+      "name": "Sanjeevani / Brahmi Leaves",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 4,
+        "entry": 95,
+        "sectionPath": [
+          "Vegetables",
+          "व  शष्ट पारंप  रक और जंगली स   जयां"
+        ],
+        "rawText": "Sanjeevani / Brahmi Leaves (ब्राह्मी साग)",
+        "lineRange": [
+          22,
+          22
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "321376ae-aba3-5b27-929b-7ccd66246cb1",
+      "name": "Heartleaf / Jamyrdoh",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 5,
+        "entry": 102,
+        "sectionPath": [
+          "Vegetables",
+          "व  शष्ट पारंप  रक और जंगली स   जयां"
+        ],
+        "rawText": "Heartleaf / Jamyrdoh (जा  मरदोह)",
+        "lineRange": [
+          1,
+          1
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "c1ee52fa-7ebf-5719-958a-347c611bfb94",
+      "name": "Sweet Lime / Mosambi",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 1,
+        "entry": 8,
+        "sectionPath": [
+          "Fruits",
+          "सदाबहार और आम फल (रोजाना  मलने वाले)"
+        ],
+        "rawText": "Sweet Lime / Mosambi (मौसमी)",
+        "lineRange": [
+          10,
+          10
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "e6fd019a-228c-5c05-a549-3635ece832fe",
+      "name": "Muskmelon / Cantaloupe",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 1,
+        "entry": 10,
+        "sectionPath": [
+          "Fruits",
+          "सदाबहार और आम फल (रोजाना  मलने वाले)"
+        ],
+        "rawText": "Muskmelon / Cantaloupe (खरबूजा)",
+        "lineRange": [
+          12,
+          12
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "85b9b86d-b30a-5f67-97d3-85d4bce9387d",
+      "name": "Blackberry / Java Plum",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 1,
+        "entry": 15,
+        "sectionPath": [
+          "Fruits",
+          "Berries & Small Fruits"
+        ],
+        "rawText": "Blackberry / Java Plum (जामुन)",
+        "lineRange": [
+          18,
+          18
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "36eb9225-489d-5452-aacf-7f784ffbb88c",
+      "name": "Sapodilla / Naseberry",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 27,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Sapodilla / Naseberry (चीकू)",
+        "lineRange": [
+          4,
+          4
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "a9707559-1c35-5802-ad8a-029e6b3b65af",
+      "name": "Jujube / Indian Ber",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 30,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Jujube / Indian Ber (बेर)",
+        "lineRange": [
+          7,
+          7
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "db0c5f76-7f32-5e6b-8693-8c16b8a55482",
+      "name": "Wood Apple / Bael",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 31,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Wood Apple / Bael (बेल)",
+        "lineRange": [
+          8,
+          8
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "1e1627bf-58a0-52fc-8024-8c162f1ab250",
+      "name": "Lotus Cucumber / Kakdi",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 34,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Lotus Cucumber / Kakdi (ककड़ी)",
+        "lineRange": [
+          11,
+          11
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "c9a7ced0-586b-5dc8-b4b6-79f6dc5f5355",
+      "name": "Carambola / Star Fruit",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 36,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Carambola / Star Fruit (कमरख)",
+        "lineRange": [
+          13,
+          13
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0f2cb05a-9418-5fe3-afc2-61127e70fdf8",
+      "name": "Avocado / Butter Fruit",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 44,
+        "sectionPath": [
+          "Fruits",
+          "Exotic & Imported Fruits"
+        ],
+        "rawText": "Avocado / Butter Fruit (मक्खन फल)",
+        "lineRange": [
+          22,
+          22
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "0ebfc0f2-1832-5e5e-86d9-e0ad62b34747",
+      "name": "Grapefruit / Pomelo",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 49,
+        "sectionPath": [
+          "Fruits",
+          "Exotic & Imported Fruits"
+        ],
+        "rawText": "Grapefruit / Pomelo (चकोतरा)",
+        "lineRange": [
+          27,
+          27
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "a029677c-6589-5984-8513-4212073461f6",
+      "name": "Kinnow / Mandarin",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 50,
+        "sectionPath": [
+          "Fruits",
+          "Exotic & Imported Fruits"
+        ],
+        "rawText": "Kinnow / Mandarin (कीनू / माल्टा)",
+        "lineRange": [
+          28,
+          28
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "21d0ef6e-35cc-5725-b0d3-0fb1a7d14bd9",
+      "name": "Green Apple / Granny Smith",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 3,
+        "entry": 71,
+        "sectionPath": [
+          "Fruits",
+          "Specific Varieties"
+        ],
+        "rawText": "Green Apple / Granny Smith (हरा सेब)",
+        "lineRange": [
+          20,
+          20
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "56830704-c2d9-534f-9c7d-4c36bdee7dbb",
+      "name": "Dates / Khajoor",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 4,
+        "entry": 82,
+        "sectionPath": [
+          "Fruits",
+          "Dry Fruits & Dates"
+        ],
+        "rawText": "Dates / Khajoor (खजूर)",
+        "lineRange": [
+          2,
+          2
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "42e571ac-720f-5dcb-b3df-c54c7588c36f",
+      "name": "Raisins / Kishmish",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 4,
+        "entry": 87,
+        "sectionPath": [
+          "Fruits",
+          "Dry Fruits & Dates"
+        ],
+        "rawText": "Raisins / Kishmish (  कश  मश)",
+        "lineRange": [
+          7,
+          7
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    },
+    {
+      "id": "c8074d14-b6c8-5caa-8986-333b6c0becf1",
+      "name": "Gooler / Cluster Fig",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 4,
+        "entry": 94,
+        "sectionPath": [
+          "Fruits",
+          "Rare & Specialty Fruits"
+        ],
+        "rawText": "Gooler / Cluster Fig (गूलर)",
+        "lineRange": [
+          15,
+          15
+        ]
+      },
+      "status": "Alias or alternative group retained; individual merchant SKUs not inferred."
+    }
+  ]
+}

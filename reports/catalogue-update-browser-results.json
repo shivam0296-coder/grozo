@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-31",
+  "runner": "Cua in-app browser; shared repeatable UI flows",
+  "started": "2026-10-31T08:51:42.304Z",
+  "passed": 86,
+  "results": [
+    {
+      "test": "Customer home navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Customer desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Instant product search",
+      "result": "passed"
+    },
+    {
+      "test": "Basket navigation and editable quantities",
+      "result": "passed"
+    },
+    {
+      "test": "Coupon and free delivery calculate ₹470",
+      "result": "passed"
+    },
+    {
+      "test": "Development order confirmation",
+      "result": "passed"
+    },
+    {
+      "test": "Placed order can be cancelled locally",
+      "result": "passed"
+    },
+    {
+      "test": "Customer error state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer empty state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer loading state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Search empty results",
+      "result": "passed"
+    },
+    {
+      "test": "Search filter recovery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Products",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Inventory",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Customers",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Delivery partners",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Service zones",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Campaigns",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Coupons",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Reports",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Support inbox",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Settings",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Activity log",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Integrations",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Overview",
+      "result": "passed"
+    },
+    {
+      "test": "Admin desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Admin mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Mobile admin drawer navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Admin rejects selling price above MRP",
+      "result": "passed"
+    },
+    {
+      "test": "Admin creates and filters a development product",
+      "result": "passed"
+    },
+    {
+      "test": "Admin product update",
+      "result": "passed"
+    },
+    {
+      "test": "Admin confirm, pack, assign, dispatch and simulated delivery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin support resolution",
+      "result": "passed"
+    },
+    {
+      "test": "Admin campaign date form",
+      "result": "passed"
+    },
+    {
+      "test": "Admin error state",
+      "result": "passed"
+    },
+    {
+      "test": "Notifications remain an explicit placeholder",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue studio navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Create root category",
+      "result": "passed"
+    },
+    {
+      "test": "Create mapped subcategory",
+      "result": "passed"
+    },
+    {
+      "test": "Create brand",
+      "result": "passed"
+    },
+    {
+      "test": "CSV invalid row blocks complete batch",
+      "result": "passed"
+    },
+    {
+      "test": "Invalid CSV import button disabled",
+      "result": "passed"
+    },
+    {
+      "test": "CSV preview preserves duplicate-looking rows",
+      "result": "passed"
+    },
+    {
+      "test": "Duplicate import requires explicit retention",
+      "result": "passed"
+    },
+    {
+      "test": "Bulk import adds searchable variants",
+      "result": "passed"
+    },
+    {
+      "test": "All imported pack variants retained",
+      "result": "passed"
+    },
+    {
+      "test": "Variant and price edit persists",
+      "result": "passed"
+    },
+    {
+      "test": "Image upload remains pending review",
+      "result": "passed"
+    },
+    {
+      "test": "Image source metadata persists",
+      "result": "passed"
+    },
+    {
+      "test": "Image replacement persists",
+      "result": "passed"
+    },
+    {
+      "test": "Completed PDF reconciliation visible",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue admin mobile fits viewport",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue sorting and stock filter",
+      "result": "passed"
+    },
+    {
+      "test": "Visible catalogue price order is ascending",
+      "result": "passed"
+    },
+    {
+      "test": "List view toggle",
+      "result": "passed"
+    },
+    {
+      "test": "Detailed product information",
+      "result": "passed"
+    },
+    {
+      "test": "Missing exact photograph disclosed",
+      "result": "passed"
+    },
+    {
+      "test": "Recently viewed section",
+      "result": "passed"
+    },
+    {
+      "test": "Recently viewed contains opened item",
+      "result": "passed"
+    },
+    {
+      "test": "Customer tablet fits viewport",
+      "result": "passed"
+    },
+    {
+      "test": "Saved delivery location selection",
+      "result": "passed"
+    },
+    {
+      "test": "All 390 PDF entries are browseable",
+      "result": "passed"
+    },
+    {
+      "test": "Only four source root categories shown",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue paginated into 17 pages",
+      "result": "passed"
+    },
+    {
+      "test": "Unknown merchant fields cannot add to basket",
+      "result": "passed"
+    },
+    {
+      "test": "Unknown price does not appear as free",
+      "result": "passed"
+    },
+    {
+      "test": "All 88 personal care entries retained",
+      "result": "passed"
+    },
+    {
+      "test": "Source brand filter returns both Dove entries",
+      "result": "passed"
+    },
+    {
+      "test": "Three-level source hierarchy filters correctly",
+      "result": "passed"
+    },
+    {
+      "test": "Unpriced source entries excluded from price filter",
+      "result": "passed"
+    },
+    {
+      "test": "Unknown source stock excluded from in-stock filter",
+      "result": "passed"
+    },
+    {
+      "test": "All matching source names remain searchable",
+      "result": "passed"
+    },
+    {
+      "test": "Real photograph with visible item identity",
+      "result": "passed"
+    },
+    {
+      "test": "PDF page provenance visible in details",
+      "result": "passed"
+    },
+    {
+      "test": "Reviewed local product photograph loads",
+      "result": "passed"
+    },
+    {
+      "test": "Named cultivar does not borrow generic Apple photograph",
+      "result": "passed"
+    },
+    {
+      "test": "Visible source homepage photos load",
+      "result": "passed"
+    },
+    {
+      "test": "Category tile retains selected leaf on navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Imported catalogue fits tablet",
+      "result": "passed"
+    },
+    {
+      "test": "Imported catalogue fits phone",
+      "result": "passed"
+    },
+    {
+      "test": "Imported draft metadata editable without invented price",
+      "result": "passed"
+    },
+    {
+      "test": "Merchant draft edit survives reopening",
+      "result": "passed"
+    },
+    {
+      "test": "Unpriced imported item cannot be confirmed sellable",
+      "result": "passed"
+    },
+    {
+      "test": "Reconciled source counts shown in admin",
+      "result": "passed"
+    },
+    {
+      "test": "Keyboard Escape closes admin dialog",
+      "result": "passed"
+    }
+  ],
+  "finalConsoleErrors": [],
+  "historicalIssues": [
+    "Duplicate category names produced React key warnings; source/demo taxonomy filter corrected and all final 86 assertions rechecked.",
+    "Description getByLabel matched initial textarea text on repeat run; test now targets accessible textbox role."
+  ],
+  "nativeDeviceUi": "NOT_RUN_NO_DEVICE_OR_EMULATOR"
+}

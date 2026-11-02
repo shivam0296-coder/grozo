@@ -1,0 +1,7 @@
+{
+  "artifact": "gradle-8.13-src.zip",
+  "officialSource": "https://downloads.gradle.org/distributions/gradle-8.13-src.zip.sha256",
+  "sha256": "21414d6e543139c962ea95a4c61a585eb77b7a8fd45aa16f281234ae4b02c661",
+  "cachedFileVerified": true,
+  "strictDependencyVerificationRetained": true
+}

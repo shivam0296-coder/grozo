@@ -1,0 +1,36 @@
+# GROZO capability status
+
+Reviewed: 2026-10-30. Active phase: **Stage 2 development interfaces delivered**. Next phase: Stage 3 persistent backend and authenticated integration.
+
+| Capability | Maturity | Evidence and limits |
+| --- | --- | --- |
+| Stage 1 commerce rules | PROTOTYPE, preserved | Original hashes and all original tests pass |
+| Customer website | PROTOTYPE / development data | React build, TypeScript and browser workflow assertions |
+| Admin workspace | PROTOTYPE / development data | Functional local management, derived sample records, browser assertions; no real admin authentication |
+| Customer Android | COMPILED PROTOTYPE | Kotlin/Compose/Hilt/Room app, verified debug APK; no physical-device/emulator UI run |
+| Rider Android | COMPILED PROTOTYPE | Offer/pickup/completion workflow and verified debug APK; location/contact/provider actions unavailable |
+| Shared client and contract adapters | PROTOTYPE | Local repository tests; fail-closed HTTP adapters; no implemented backend to connect |
+| Database/API server/worker | NOT_IMPLEMENTED | Stage 1 designs remain unchanged |
+| OTP/JWT/RBAC enforcement | NOT_IMPLEMENTED | Explicit development sessions only |
+| Maps/routes/ETA/location | NOT_IMPLEMENTED | Labelled placeholders; no permissions/keys or fabricated data |
+| Payments/refunds/push | NOT_IMPLEMENTED | Labelled placeholders; no charge or message sent |
+| Model-backed AI | NOT_IMPLEMENTED | No model/provider or key selected |
+| Production release | NOT_READY | Development APKs and local web builds only |
+
+## Evidence
+
+42 Node tests; 12 Android unit tests; 38 browser assertions. Both web applications build and type-check. Both debug APKs compile and verify with APK signature scheme v2. Reports, exact limitations and checksums are linked from validation.md and stage-2-build.md.
+
+## Changes and assumptions
+
+New app sources, shared client/UI/fixtures, dependency/Gradle locks, verification metadata, notices, tests, screenshots and build/package helpers. Updated setup, architecture annotations, roadmap and status. Original Stage 1 domain, API contract, migration, seed and original tests remain protected by hashes. GROZO has no Git initialization/commit/remote; the neighboring research project was not modified.
+
+The approved threshold interpretation remains unchanged. Native local estimates use the initial business rules and the fixed FRESH20 development coupon; live quotations will be server-owned. Admin rule changes affect its independent browser workspace only. Rider development earnings use a disclosed ₹25 per completed synthetic assignment, not actual income.
+
+## Resources, data and licensing
+
+Short Node/web checks plus CPU Android compilation; no GPU, emulator, paid API or cloud deployment. Official toolchain/SDK/Maven/npm downloads and local caches are recorded in the build report. No real customer/rider data or external AI service was used. Original license remains all rights reserved; third-party notices accompany their components. No private key, .env secret, local cache or toolchain is included in the source ZIP.
+
+## Limitations and next smallest step
+
+See stage-2-features.md. Next: implement the NestJS/PostgreSQL identity/catalogue/address slice under the preserved contract, validate migrations and ownership/roles, then replace development repositories with authenticated server data. Device UI testing and full production security/accessibility/performance/provider validation remain pending.

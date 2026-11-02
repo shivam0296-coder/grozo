@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-30",
+  "scope": "Source fixtures only; excludes browser QA records",
+  "sourceFiles": {
+    "productPdf": null,
+    "classificationPdf": null,
+    "designReferences": []
+  },
+  "sourceStatus": "BLOCKED_MISSING_SOURCE_FILES",
+  "pdfProducts": null,
+  "importedFromPdf": 0,
+  "developmentProducts": 18,
+  "categoryCount": 12,
+  "subcategoryCount": 0,
+  "duplicates": [],
+  "missingImages": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "Bananas",
+      "pack": "6 pieces",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "Farm-fresh tomatoes",
+      "pack": "500 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "name": "Whole milk",
+      "pack": "500 ml",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "name": "Whole wheat bread",
+      "pack": "400 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "name": "Royal apples",
+      "pack": "4 pieces",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000006",
+      "name": "Tender spinach",
+      "pack": "250 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000007",
+      "name": "Greek-style curd",
+      "pack": "400 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000008",
+      "name": "Salted potato chips",
+      "pack": "90 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000009",
+      "name": "Orange juice",
+      "pack": "1 litre",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000010",
+      "name": "Hand wash",
+      "pack": "250 ml",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000011",
+      "name": "Kitchen towels",
+      "pack": "2 rolls",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000012",
+      "name": "Floor cleaner",
+      "pack": "500 ml",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000013",
+      "name": "Basmati rice",
+      "pack": "1 kg",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000014",
+      "name": "Whole wheat atta",
+      "pack": "5 kg",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000015",
+      "name": "Green peas",
+      "pack": "500 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000016",
+      "name": "Baby wipes",
+      "pack": "72 pieces",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000017",
+      "name": "Almonds",
+      "pack": "200 g",
+      "status": "pending"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000018",
+      "name": "Fresh carrots",
+      "pack": "500 g",
+      "status": "pending"
+    }
+  ],
+  "mappingErrors": [],
+  "notes": [
+    "PDF totals are unknown, not zero.",
+    "No PDF rows or classification hierarchy were imported.",
+    "Legacy fixtures are explicitly synthetic; no guessed products were added."
+  ]
+}

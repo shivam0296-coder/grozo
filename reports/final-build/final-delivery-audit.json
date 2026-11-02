@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-02",
+  "sourceFiles": 533,
+  "protectedStage1Files": 7,
+  "protectedStage1Hashes": "PASS",
+  "apkHashes": "PASS",
+  "sourceExclusions": "PASS",
+  "credentialPatternCheck": "PASS_LIMITED_PATTERN_SCAN",
+  "screenshots": [
+    "reports/screenshots/final-admin-overview.jpg",
+    "reports/screenshots/final-api-catalogue.jpg",
+    "reports/screenshots/final-api-error.jpg",
+    "reports/screenshots/final-catalogue-desktop.jpg",
+    "reports/screenshots/final-catalogue-phone-frame.jpg",
+    "reports/screenshots/final-demo-cancelled-order.jpg"
+  ],
+  "physicalDevice": "NOT_TESTED_OWNER_CHOSE_NO_PHONE",
+  "ideSync": "UNVERIFIED_OWNER_REQUESTED_NO_FURTHER_TESTING",
+  "cleanupExecuted": false
+}

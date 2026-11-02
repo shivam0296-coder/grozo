@@ -1,0 +1,17 @@
+# Product photo sources
+
+Reviewed 2026-10-31. Optimized WebP copies, resized/compressed without replacing product content. Original project license is unchanged.
+
+- Mango: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Mango_(1).jpg
+- Banana: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Banana_(1).jpg
+- Apple: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Apple_(1).jpg
+- Orange: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Orange_(1).jpg
+- Watermelon: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Watermelon_(1).jpg
+- Pineapple: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Pineapple.jpg
+- Muskmelon / Cantaloupe: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Cantaloupe.jpg
+- Tomato: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Tomato_(1).jpg
+- Celery: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:Celery_(1).jpg
+- Red Bell Pepper: Renee Comet (photographer); Public domain; https://commons.wikimedia.org/wiki/File:RedBellPepper.jpg
+- Strawberry: Renee Comet (Photographer); Public domain; https://commons.wikimedia.org/wiki/File:A_strawberry_with_achene.jpg
+- Guava: Manju Thilagavathi; CC0; https://commons.wikimedia.org/wiki/File:Fruit_Guava.jpg
+- Green Peas: George Chernilevsky; Public domain; https://commons.wikimedia.org/wiki/File:Peas_in_pods_2016_G1.jpg

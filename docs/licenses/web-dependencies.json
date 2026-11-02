@@ -1,0 +1,212 @@
+[
+  {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.13",
+    "license": "MIT"
+  },
+  {
+    "name": "@jridgewell/remapping",
+    "version": "2.3.5",
+    "license": "MIT"
+  },
+  {
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31",
+    "license": "MIT"
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.155.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@rolldown/binding-win32-x64-msvc",
+    "version": "1.2.15",
+    "license": "MIT"
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@tailwindcss/node",
+    "version": "4.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "@tailwindcss/oxide",
+    "version": "4.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "@tailwindcss/oxide-win32-x64-msvc",
+    "version": "4.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "@tailwindcss/vite",
+    "version": "4.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "@types/node",
+    "version": "24.19.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.1.2",
+    "license": "MIT"
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "license": "MIT"
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "5.26.0",
+    "license": "MIT"
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "license": "MIT"
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "license": "ISC"
+  },
+  {
+    "name": "jiti",
+    "version": "2.7.0",
+    "license": "MIT"
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.32.0",
+    "license": "MPL-2.0"
+  },
+  {
+    "name": "lightningcss-win32-x64-msvc",
+    "version": "1.32.0",
+    "license": "MPL-2.0"
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.468.0",
+    "license": "ISC"
+  },
+  {
+    "name": "magic-string",
+    "version": "0.30.21",
+    "license": "MIT"
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.20",
+    "license": "MIT"
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC"
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT"
+  },
+  {
+    "name": "playwright-core",
+    "version": "1.64.1",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.32",
+    "license": "MIT"
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT"
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.15",
+    "license": "MIT"
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT"
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "tapable",
+    "version": "2.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "license": "MIT"
+  },
+  {
+    "name": "typescript",
+    "version": "5.9.3",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "undici-types",
+    "version": "7.24.6",
+    "license": "MIT"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.5",
+    "license": "MIT"
+  }
+]

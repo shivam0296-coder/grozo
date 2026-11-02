@@ -1,0 +1,102 @@
+{
+  "unmapped": [],
+  "structuralErrors": [],
+  "sourceWordingForReview": [
+    {
+      "id": "55288985-a528-5f47-a9e1-f948e857777f",
+      "name": "Lotus Cucumber / Kamal Kakdi",
+      "source": {
+        "file": "vegetables_list.pdf",
+        "page": 4,
+        "entry": 89,
+        "sectionPath": [
+          "Vegetables",
+          "व  शष्ट पारंप  रक और जंगली स   जयां"
+        ],
+        "rawText": "Lotus Cucumber / Kamal Kakdi (कमल ककड़ी)",
+        "lineRange": [
+          16,
+          16
+        ]
+      },
+      "note": "Unusual source wording/classification retained; ask owner to confirm exact intended merchant item."
+    },
+    {
+      "id": "85b9b86d-b30a-5f67-97d3-85d4bce9387d",
+      "name": "Blackberry / Java Plum",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 1,
+        "entry": 15,
+        "sectionPath": [
+          "Fruits",
+          "Berries & Small Fruits"
+        ],
+        "rawText": "Blackberry / Java Plum (जामुन)",
+        "lineRange": [
+          18,
+          18
+        ]
+      },
+      "note": "Unusual source wording/classification retained; ask owner to confirm exact intended merchant item."
+    },
+    {
+      "id": "08a74e37-2d25-525d-b0ae-5b5f6c1d7553",
+      "name": "Cranberry",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 1,
+        "entry": 20,
+        "sectionPath": [
+          "Fruits",
+          "Berries & Small Fruits"
+        ],
+        "rawText": "Cranberry (करौंदा)",
+        "lineRange": [
+          23,
+          23
+        ]
+      },
+      "note": "Unusual source wording/classification retained; ask owner to confirm exact intended merchant item."
+    },
+    {
+      "id": "1e1627bf-58a0-52fc-8024-8c162f1ab250",
+      "name": "Lotus Cucumber / Kakdi",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 2,
+        "entry": 34,
+        "sectionPath": [
+          "Fruits",
+          "Indian Traditional Fruits"
+        ],
+        "rawText": "Lotus Cucumber / Kakdi (ककड़ी)",
+        "lineRange": [
+          11,
+          11
+        ]
+      },
+      "note": "Unusual source wording/classification retained; ask owner to confirm exact intended merchant item."
+    },
+    {
+      "id": "fcdd31c4-8091-5a36-bb58-421469a925a6",
+      "name": "Pink Sourced Guava",
+      "source": {
+        "file": "fruits_list.pdf",
+        "page": 3,
+        "entry": 78,
+        "sectionPath": [
+          "Fruits",
+          "Specific Varieties"
+        ],
+        "rawText": "Pink Sourced Guava (गुलाबी अमरूद)",
+        "lineRange": [
+          27,
+          27
+        ]
+      },
+      "note": "Unusual source wording/classification retained; ask owner to confirm exact intended merchant item."
+    }
+  ],
+  "note": "No silent botanical/name/category corrections were applied."
+}

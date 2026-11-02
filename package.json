@@ -1,0 +1,40 @@
+{
+  "name": "grozo",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "GROZO Android testing builds, customer catalogue, local admin and shared read-only API",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.12.0 <25"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "pnpm --filter @grozo/web build && pnpm --filter @grozo/admin build",
+    "dev:web": "pnpm --filter @grozo/web dev",
+    "dev:admin": "pnpm --filter @grozo/admin dev",
+    "test:ui": "node tests/browser.mjs",
+    "check:android": "node scripts/check-android.mjs",
+    "example": "node examples/quote.ts",
+    "dev:api": "node services/api/server.mjs",
+    "build:catalogue": "pnpm --filter @grozo/web build"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "@tailwindcss/vite": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "playwright-core": "1.64.1"
+  }
+}

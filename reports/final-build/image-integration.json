@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-01",
+  "catalogueEntries": 390,
+  "mappedEntries": 104,
+  "uniquePhotoSets": 103,
+  "missingEntries": 286,
+  "sharedMappings": [
+    {
+      "productId": "8cb0c78d-53e3-527b-bff6-dce2a8e35b80",
+      "canonicalProductId": "eb56b575-4af4-5937-b464-a994f3332241",
+      "name": "Lemon",
+      "reason": "Identical source product name listed in two source records; one canonical image, no duplicate file."
+    }
+  ],
+  "checkedSourceHashes": true,
+  "source": "GROZO_PRODUCT_IMAGE_LIBRARY/Reports/product-image-manifest.json"
+}

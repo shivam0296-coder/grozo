@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-31",
+  "version": "0.3.1-development",
+  "checks": {
+    "sourceSyntax": "PASS",
+    "typescript": "PASS",
+    "androidStructure": "PASS",
+    "localMarkdownLinks": "PASS",
+    "nodeTests": {
+      "passed": 65,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browserAssertions": {
+      "passed": 86,
+      "failed": 0,
+      "finalConsoleErrors": 0
+    },
+    "androidCoreTests": {
+      "passed": 21,
+      "failed": 0,
+      "skipped": 0
+    },
+    "androidBuild": {
+      "result": "BUILD SUCCESSFUL",
+      "duration": "2m 14s",
+      "tasks": 119,
+      "executed": 16,
+      "upToDate": 103,
+      "offline": true
+    }
+  },
+  "web": [
+    {
+      "app": "web",
+      "result": "PASS",
+      "bundles": [
+        {
+          "name": "index-Bu1KBe1A.js",
+          "bytes": 722587,
+          "gzipBytes": 166403
+        },
+        {
+          "name": "index-DLWEdVZt.css",
+          "bytes": 61639,
+          "gzipBytes": 13744
+        }
+      ]
+    },
+    {
+      "app": "admin",
+      "result": "PASS",
+      "bundles": [
+        {
+          "name": "index-DLWEdVZt.css",
+          "bytes": 61639,
+          "gzipBytes": 13744
+        },
+        {
+          "name": "index-mRamfTCh.js",
+          "bytes": 740266,
+          "gzipBytes": 170637
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Tailwind transform does not provide a complete sourcemap.",
+    "Catalogue JSON is bundled locally: minified JS chunks exceed 500 kB; authenticated server pagination/code splitting remain future work."
+  ],
+  "nativeDeviceUi": "NOT_TESTED_NO_DEVICE_OR_EMULATOR",
+  "sourceZip": "GROZO-Stage-3-Catalogue-Update-Source.zip",
+  "sourceZipVerification": "Packaging writes external per-entry SHA256 manifest and compares every archived byte; see sidecars."
+}

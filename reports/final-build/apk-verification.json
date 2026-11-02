@@ -1,0 +1,80 @@
+[
+  {
+    "module": "customer",
+    "artifact": "GROZO-Customer-debug.apk",
+    "bytes": 37393057,
+    "sha256": "C8DAAC1A336FF6EA50BAFB97F4886ADB3F33F9DD322EAC513929F27AD0D6B59F",
+    "signatureVerified": true,
+    "signature": [
+      "Verifies",
+      "Verified using v1 scheme (JAR signing): false",
+      "Verified using v2 scheme (APK Signature Scheme v2): true",
+      "Verified using v3 scheme (APK Signature Scheme v3): false",
+      "Verified using v3.1 scheme (APK Signature Scheme v3.1): false",
+      "Verified using v4 scheme (APK Signature Scheme v4): false",
+      "Verified for SourceStamp: false",
+      "Number of signers: 1",
+      "Signer #1 certificate DN: C=US, O=Android, CN=Android Debug",
+      "Signer #1 certificate SHA-256 digest: 225fcc601e6abfcfb30fd7be433d972cf404e2a29a7c8e5509e0056bf31ff3b7",
+      "Signer #1 certificate SHA-1 digest: 7192150955df6c32d3ae78effbc38d2edf3025fc",
+      "Signer #1 certificate MD5 digest: c4df42f40e2cb83a7b7be2fefd325276",
+      "Signer #1 key algorithm: RSA",
+      "Signer #1 key size (bits): 2048",
+      "Signer #1 public key SHA-256 digest: ca1d364c1af1101b88ebde3c7bb20d84a3e41a41be2164372d1b39544109d5f7",
+      "Signer #1 public key SHA-1 digest: 2aea747837d435be16ff0723d364467474090c67",
+      "Signer #1 public key MD5 digest: 251b54049e9b23464f02c6c83a75ee59"
+    ],
+    "badging": [
+      "package: name='com.grozo.customer.dev' versionCode='5' versionName='0.4.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.customer.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "application-label:'GROZO'",
+      "launchable-activity: name='com.grozo.customer.MainActivity'  label='' icon=''"
+    ],
+    "bundledSourceEntries": 390,
+    "verifiedPhotoMappings": 104,
+    "photoHashesChecked": 208,
+    "deviceInstallation": "NOT_TESTED_OWNER_PROCEED_WITHOUT_PHONE"
+  },
+  {
+    "module": "rider",
+    "artifact": "GROZO-Delivery-debug.apk",
+    "bytes": 37294757,
+    "sha256": "B9766E71467C866544E8D373F602DF232BC82FC3BE51B7D665A5FC88AFF53F36",
+    "signatureVerified": true,
+    "signature": [
+      "Verifies",
+      "Verified using v1 scheme (JAR signing): false",
+      "Verified using v2 scheme (APK Signature Scheme v2): true",
+      "Verified using v3 scheme (APK Signature Scheme v3): false",
+      "Verified using v3.1 scheme (APK Signature Scheme v3.1): false",
+      "Verified using v4 scheme (APK Signature Scheme v4): false",
+      "Verified for SourceStamp: false",
+      "Number of signers: 1",
+      "Signer #1 certificate DN: C=US, O=Android, CN=Android Debug",
+      "Signer #1 certificate SHA-256 digest: 225fcc601e6abfcfb30fd7be433d972cf404e2a29a7c8e5509e0056bf31ff3b7",
+      "Signer #1 certificate SHA-1 digest: 7192150955df6c32d3ae78effbc38d2edf3025fc",
+      "Signer #1 certificate MD5 digest: c4df42f40e2cb83a7b7be2fefd325276",
+      "Signer #1 key algorithm: RSA",
+      "Signer #1 key size (bits): 2048",
+      "Signer #1 public key SHA-256 digest: ca1d364c1af1101b88ebde3c7bb20d84a3e41a41be2164372d1b39544109d5f7",
+      "Signer #1 public key SHA-1 digest: 2aea747837d435be16ff0723d364467474090c67",
+      "Signer #1 public key MD5 digest: 251b54049e9b23464f02c6c83a75ee59"
+    ],
+    "badging": [
+      "package: name='com.grozo.rider.dev' versionCode='5' versionName='0.4.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.rider.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "application-label:'GROZO Partner'",
+      "launchable-activity: name='com.grozo.rider.MainActivity'  label='' icon=''"
+    ],
+    "bundledSourceEntries": 390,
+    "verifiedPhotoMappings": 104,
+    "photoHashesChecked": 208,
+    "deviceInstallation": "NOT_TESTED_OWNER_PROCEED_WITHOUT_PHONE"
+  }
+]

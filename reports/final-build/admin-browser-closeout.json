@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-02",
+  "navigation": [
+    {
+      "page": "Products",
+      "headings": [
+        "Products",
+        "A thoughtfully stocked catalogue"
+      ]
+    },
+    {
+      "page": "Catalogue studio",
+      "headings": [
+        "Catalogue studio",
+        "Catalogue workspace"
+      ]
+    },
+    {
+      "page": "Inventory",
+      "headings": [
+        "Inventory",
+        "Stock that keeps the day going"
+      ]
+    },
+    {
+      "page": "Customers",
+      "headings": [
+        "Customers",
+        "Customer records"
+      ]
+    },
+    {
+      "page": "Delivery partners",
+      "headings": [
+        "Delivery partners",
+        "Demo partner A",
+        "Demo partner B"
+      ]
+    },
+    {
+      "page": "Service zones",
+      "headings": [
+        "Service zones",
+        "Core Siyana · sample boundary pending",
+        "Standard area · sample boundary pending",
+        "Future expansion"
+      ]
+    },
+    {
+      "page": "Campaigns",
+      "headings": [
+        "Campaigns",
+        "Little reasons to celebrate",
+        "The everyday fresh edit",
+        "Synthetic seasonal UI test 1793361503334",
+        "Synthetic seasonal UI test 1793373810558",
+        "Synthetic seasonal UI test 1793436309294",
+        "Synthetic seasonal UI test 1793436715395"
+      ]
+    },
+    {
+      "page": "Coupons",
+      "headings": [
+        "Coupons",
+        "A little extra value",
+        "FRESH20"
+      ]
+    },
+    {
+      "page": "Reports",
+      "headings": [
+        "Reports",
+        "Delivered product summary"
+      ]
+    },
+    {
+      "page": "Support inbox",
+      "headings": [
+        "Support inbox",
+        "Support inbox",
+        "Development packing question",
+        "Development packing question",
+        "Development packing question",
+        "Development packing question"
+      ]
+    },
+    {
+      "page": "Settings",
+      "headings": [
+        "Settings",
+        "Commerce rules"
+      ]
+    },
+    {
+      "page": "Activity log",
+      "headings": [
+        "Activity log",
+        "Local activity log"
+      ]
+    },
+    {
+      "page": "Integrations",
+      "headings": [
+        "Integrations",
+        "Connections, thoughtfully staged."
+      ]
+    }
+  ],
+  "overview": "PASS",
+  "orders": "PASS",
+  "confirmedFilter": "ONE_MATCHING_DEV_ORDER",
+  "cancelledFilter": "EMPTY_NO_MATCHING_ORDERS",
+  "previewError": "PASS_LABELLED_DEVELOPMENT_ERROR",
+  "retry": "PASS",
+  "savedRecordsChanged": false,
+  "realBackend": false,
+  "scope": "Supported Chromium browser observations; no physical device or authentication claim"
+}

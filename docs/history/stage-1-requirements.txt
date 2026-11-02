@@ -1,0 +1,38 @@
+# Master brief coverage and pending work
+
+Stage 1 records the full requested scope. A planned feature is not implemented.
+
+| Brief area | Destination and acceptance evidence | Current state |
+| --- | --- | --- |
+| Branding/design | assets/brand and design-system.md; original logo/tokens | Source assets created; app integration pending |
+| Customer Android stack/screens A–M | apps/android/customer; Compose navigation/state/cache/API tests | NOT_IMPLEMENTED |
+| Categories/products/details | Catalogue module; all 12 categories, variants, MRP/price/stock/media/related products | Reference category seed and schema only |
+| Search | Product text index, suggestions/history, category/price filters, popular terms | Design only |
+| Cart and bill | Persisted cart + server quote; quantities, savings, coupons, min/max, delivery/tax/payable | Pure calculation implemented; API/UI/storage pending |
+| Auth/profile/logout | OTP, sessions/revocation, profile, optional registration, privacy | Design only |
+| Addresses/checkout | Owned addresses, Maps pin/search/manual entry, serviceability, payment method | Design only |
+| Orders/cancellation/refunds | Idempotent orders, history/detail/confirmation, refund status | Pure transition policy implemented; persistence/workflow pending |
+| Tracking | Actual active rider position/route/ETA/progress/contact | NOT_IMPLEMENTED |
+| Rider app | Registration/approval, availability/offers, pickup/delivery, contact, earnings/history | Design only |
+| Website 16 pages | Home, shop, categories, detail, search, cart, checkout, auth, orders, tracking, account, contact, about and three policy pages | NOT_IMPLEMENTED |
+| Admin overview | Actual order/customer/rider/product/revenue/stock aggregates and trends | Design only; no fictional live metrics |
+| Product admin | Product/media/category/brand/price/availability CRUD and inventory | Schema/API inventory only |
+| Order/customer/delivery admin | Confirm/assign/status/cancel/refund, customer support/history, rider/zone management | Design only |
+| Marketing | Coupons, banners, discounts, campaign dates/collections/notifications/performance | Schema/design only |
+| Financial reports | Daily/weekly/monthly/product/order revenue, fees, discounts, refunds; profit only with real cost data | Design only |
+| Backend 24 modules | architecture.md module map and api.md endpoint inventory | Domain foundation only |
+| Database | Relational migration, indexes/constraints/reference seed | Draft SQL; NOT_DATABASE_VALIDATED |
+| Maps/zone A–C | Separate restricted keys, address selection, route/tracking, realistic estimates and zone CRUD | Credentials guide only |
+| Business rules | ₹199 minimum, ₹399 free delivery, ₹19 fee, ₹5,000 max; admin editable later | Pure rule calculation tested |
+| Payments | Razorpay/UPI sandbox, configurable COD, verification/failure/refund states | Design and env placeholders only |
+| Notifications | Registration/login verification and all order/refund/marketing events | Outbox/notification schema; adapters pending |
+| Festival campaigns | Diwali, Holi, Raksha Bandhan, Janmashtami, Navratri, Dussehra, Makar Sankranti, Maha Shivaratri, Ram Navami, Eid, Christmas, New Year | Editable occasion/date design; no hardcoded dates/offers |
+| UI quality | Responsive, loading/empty/error/success, accessible navigation, dark token readiness, approved product images | Design source only |
+| Security | security.md controls and negative-test gates | Domain role rules only; platform security pending |
+| QA | Android/web/backend/admin/integration/security/device/load/recovery matrix | Small offline domain/contract checks only |
+| Final deliverables A–G | Full source per stage, setup/API/DB/integration/deploy/test guides, Android builds and ZIP | Stage 1 source/docs ZIP only |
+| AI features | Concrete evaluated use case/provider/privacy/cost decision | NOT_IMPLEMENTED; no model/API selected |
+
+Wallet is conditional in the brief and remains optional/deferred. Profit reporting needs actual acquisition, fulfilment and other costs; order totals alone cannot establish profit.
+
+No proprietary competitor source/screens/images are copied. No prohibited former brand is used in application/docs/assets. Keep claims tied to reproducible evidence, especially payments, maps, useful AI quality, load capacity and production readiness.

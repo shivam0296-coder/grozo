@@ -1,0 +1,155 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :core
+Unable to initialize metrics, ensure C:\Users\shiva\.android is writable, details: C:\Users\shiva\.android\analytics.settings (Access is denied)
+
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:generateDebugBuildConfig
+> Task :core:generateDebugResValues UP-TO-DATE
+> Task :core:generateDebugResources UP-TO-DATE
+> Task :core:packageDebugResources UP-TO-DATE
+> Task :core:processDebugNavigationResources UP-TO-DATE
+> Task :core:parseDebugLocalResources UP-TO-DATE
+> Task :core:generateDebugRFile UP-TO-DATE
+> Task :core:javaPreCompileDebug UP-TO-DATE
+> Task :core:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :customer:preBuild UP-TO-DATE
+> Task :customer:preDebugBuild UP-TO-DATE
+> Task :customer:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :customer:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :customer:generateDebugBuildConfig
+> Task :core:compileDebugLibraryResources UP-TO-DATE
+> Task :core:writeDebugAarMetadata UP-TO-DATE
+> Task :customer:checkDebugAarMetadata UP-TO-DATE
+> Task :customer:processDebugNavigationResources UP-TO-DATE
+> Task :customer:compileDebugNavigationResources UP-TO-DATE
+> Task :customer:generateDebugResValues UP-TO-DATE
+> Task :customer:mapDebugSourceSetPaths UP-TO-DATE
+> Task :customer:generateDebugResources UP-TO-DATE
+> Task :customer:mergeDebugResources UP-TO-DATE
+> Task :customer:packageDebugResources UP-TO-DATE
+> Task :customer:parseDebugLocalResources UP-TO-DATE
+> Task :customer:createDebugCompatibleScreenManifests
+> Task :core:extractDeepLinksDebug UP-TO-DATE
+> Task :core:processDebugManifest UP-TO-DATE
+> Task :customer:extractDeepLinksDebug UP-TO-DATE
+> Task :customer:processDebugMainManifest
+> Task :customer:processDebugManifest
+> Task :customer:processDebugManifestForPackage
+> Task :customer:processDebugResources
+> Task :customer:javaPreCompileDebug UP-TO-DATE
+> Task :core:mergeDebugShaders UP-TO-DATE
+> Task :core:compileDebugShaders NO-SOURCE
+> Task :core:generateDebugAssets UP-TO-DATE
+> Task :core:mergeDebugAssets
+> Task :customer:mergeDebugShaders UP-TO-DATE
+> Task :customer:compileDebugShaders NO-SOURCE
+> Task :customer:generateDebugAssets UP-TO-DATE
+> Task :customer:mergeDebugAssets
+> Task :customer:compressDebugAssets
+> Task :customer:desugarDebugFileDependencies UP-TO-DATE
+> Task :customer:checkDebugDuplicateClasses UP-TO-DATE
+> Task :customer:mergeExtDexDebug UP-TO-DATE
+> Task :core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:mergeDebugNativeLibs NO-SOURCE
+> Task :core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :customer:mergeDebugJniLibFolders UP-TO-DATE
+> Task :customer:mergeDebugNativeLibs UP-TO-DATE
+> Task :customer:stripDebugDebugSymbols UP-TO-DATE
+> Task :customer:validateSigningDebug UP-TO-DATE
+> Task :customer:writeDebugAppMetadata UP-TO-DATE
+> Task :customer:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :rider:preBuild UP-TO-DATE
+> Task :rider:preDebugBuild UP-TO-DATE
+> Task :rider:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :rider:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :rider:generateDebugBuildConfig
+> Task :rider:checkDebugAarMetadata UP-TO-DATE
+> Task :rider:processDebugNavigationResources UP-TO-DATE
+> Task :rider:compileDebugNavigationResources UP-TO-DATE
+> Task :rider:generateDebugResValues UP-TO-DATE
+> Task :rider:mapDebugSourceSetPaths UP-TO-DATE
+> Task :rider:generateDebugResources UP-TO-DATE
+> Task :rider:mergeDebugResources UP-TO-DATE
+> Task :rider:packageDebugResources UP-TO-DATE
+> Task :rider:parseDebugLocalResources UP-TO-DATE
+> Task :rider:createDebugCompatibleScreenManifests
+> Task :rider:extractDeepLinksDebug UP-TO-DATE
+> Task :rider:processDebugMainManifest
+> Task :rider:processDebugManifest
+> Task :rider:processDebugManifestForPackage
+> Task :rider:processDebugResources
+> Task :rider:javaPreCompileDebug UP-TO-DATE
+> Task :rider:mergeDebugShaders UP-TO-DATE
+> Task :rider:compileDebugShaders NO-SOURCE
+> Task :rider:generateDebugAssets UP-TO-DATE
+> Task :rider:mergeDebugAssets
+> Task :core:kspDebugKotlin
+> Task :rider:compressDebugAssets
+> Task :rider:desugarDebugFileDependencies UP-TO-DATE
+> Task :rider:checkDebugDuplicateClasses UP-TO-DATE
+> Task :rider:mergeExtDexDebug UP-TO-DATE
+> Task :rider:mergeDebugJniLibFolders UP-TO-DATE
+> Task :rider:mergeDebugNativeLibs UP-TO-DATE
+> Task :rider:stripDebugDebugSymbols UP-TO-DATE
+> Task :rider:validateSigningDebug UP-TO-DATE
+> Task :rider:writeDebugAppMetadata UP-TO-DATE
+> Task :rider:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :core:compileDebugKotlin
+> Task :core:compileDebugJavaWithJavac
+> Task :core:processDebugJavaRes UP-TO-DATE
+> Task :core:transformDebugClassesWithAsm
+> Task :core:bundleLibRuntimeToJarDebug
+> Task :core:bundleLibCompileToJarDebug
+> Task :core:createFullJarDebug
+> Task :core:kspDebugUnitTestKotlin
+> Task :customer:kspDebugKotlin
+> Task :core:compileDebugUnitTestKotlin
+> Task :core:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:hiltAggregateDepsDebugUnitTest UP-TO-DATE
+> Task :core:hiltJavaCompileDebugUnitTest NO-SOURCE
+> Task :core:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :core:transformDebugUnitTestClassesWithAsm
+> Task :core:testDebugUnitTest
+> Task :core:bundleLibRuntimeToDirDebug
+> Task :customer:mergeLibDexDebug
+> Task :customer:compileDebugKotlin
+> Task :rider:kspDebugKotlin
+> Task :customer:compileDebugJavaWithJavac
+> Task :customer:hiltAggregateDepsDebug UP-TO-DATE
+> Task :rider:compileDebugKotlin
+> Task :customer:hiltJavaCompileDebug
+> Task :customer:transformDebugClassesWithAsm
+> Task :customer:dexBuilderDebug
+> Task :customer:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :customer:processDebugJavaRes UP-TO-DATE
+> Task :customer:mergeDebugJavaResource UP-TO-DATE
+> Task :customer:mergeProjectDexDebug
+> Task :rider:compileDebugJavaWithJavac
+> Task :rider:hiltAggregateDepsDebug UP-TO-DATE
+> Task :customer:packageDebug
+> Task :rider:hiltJavaCompileDebug
+> Task :customer:createDebugApkListingFileRedirect
+> Task :customer:assembleDebug
+> Task :rider:processDebugJavaRes UP-TO-DATE
+> Task :rider:mergeDebugJavaResource UP-TO-DATE
+> Task :rider:mergeLibDexDebug
+> Task :rider:transformDebugClassesWithAsm
+> Task :rider:dexBuilderDebug
+> Task :rider:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :rider:mergeProjectDexDebug
+> Task :rider:packageDebug
+> Task :rider:createDebugApkListingFileRedirect
+> Task :rider:assembleDebug
+Persisted dependency lock state for buildscript of root project 'GROZO'
+Persisted dependency lock state for project ':core'
+Persisted dependency lock state for project ':customer'
+Persisted dependency lock state for project ':rider'
+
+BUILD SUCCESSFUL in 5m 48s
+119 actionable tasks: 50 executed, 69 up-to-date

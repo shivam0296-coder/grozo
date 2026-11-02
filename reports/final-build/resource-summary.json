@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-02",
+  "measurementScope": "Previously measured logical bytes of local Android build workspace plus newly created global Gradle cache files; not a fresh disk-wide measurement",
+  "approvedBuildDiskLimitBytes": 6000000000,
+  "localBuildWorkspaceBytes": 5250735423,
+  "newGlobalGradleCacheBytes": 994539639,
+  "combinedMeasuredBytes": 6245275062,
+  "preExistingGlobalGradleCacheBytesExcluded": 387220367,
+  "diskLimitExceeded": true,
+  "identifiedNewDisposableCacheBytes": 405153071,
+  "approvedCleanupExecuted": false,
+  "cleanupBlocker": "Automatic approval review rejected cache deletion commands under session command policy despite owner approval; no cache files were removed by the agent",
+  "ownerFinalDirection": "Finish without further IDE sync testing",
+  "furtherAndroidDownloads": "STOPPED",
+  "networkAccounting": "No complete historical download counter; do not infer compliance with the original 3 GB download cap. Existing Android build reused offline. GitHub source uploads are separate publication traffic.",
+  "newImageDownloadsThisBuildCycle": 0,
+  "paidServicesPurchased": false,
+  "emulatorInstalled": false,
+  "externalAIUsed": false,
+  "gpuRuns": 0
+}

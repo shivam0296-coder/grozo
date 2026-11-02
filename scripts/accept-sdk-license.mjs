@@ -1,0 +1,14 @@
+import {spawn} from 'node:child_process';
+import {readdir,writeFile,mkdir} from 'node:fs/promises';
+import {join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url)),tools=join(root,'.toolchains');
+const javaHome=join(tools,'java',(await readdir(join(tools,'java'))).find(n=>n.startsWith('jdk-')));
+const sdk=join(tools,'android-sdk');
+await mkdir(join(root,'artifacts','build'),{recursive:true});
+const child=spawn('cmd.exe',['/d','/c',join(sdk,'cmdline-tools','latest','bin','sdkmanager.bat'),'--sdk_root='+sdk,'--licenses'],{env:{...process.env,JAVA_HOME:javaHome,ANDROID_HOME:sdk,ANDROID_USER_HOME:join(root,'.cache','android')},stdio:['pipe','pipe','pipe']});
+let log='',tail='',current='',accepted=false;
+child.stdout.on('data',data=>{const text=data.toString();log+=text;tail+=text;const matches=[...tail.matchAll(/License ([a-z0-9-]+):/gi)];if(matches.length)current=matches.at(-1)[1];if(tail.includes('Review licenses that have not been accepted')){child.stdin.write('y\n');tail='';}else if(/Accept\?\s*\(y\/N\)/i.test(tail)){const yes=current==='android-sdk-license';child.stdin.write(yes?'y\n':'n\n');if(yes)accepted=true;console.log((yes?'Accepted required ':'Skipped unrelated ')+current);tail='';}});
+child.stderr.on('data',data=>{log+=data.toString();});
+const timer=setTimeout(()=>{child.kill();},180000);
+child.on('exit',async code=>{clearTimeout(timer);await writeFile(join(root,'artifacts','build','sdk-license.log'),log);console.log('SDK license process exit '+code+'; required license accepted in this session: '+accepted);process.exitCode=code||0;});

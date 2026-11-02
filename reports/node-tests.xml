@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="199 minimum inclusive; one paise below rejected" time="0.005706" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="399 free-delivery boundary is exact" time="0.000412" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="5000 maximum inclusive; larger basket requires manual handling" time="0.000763" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="thresholds use selling subtotal before coupon" time="0.001734" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="MRP markdown and coupon are separate discounts" time="0.000469" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="percentage rounding and cap use exact integer paise" time="0.000413" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="coupon never produces negative merchandise amount" time="0.000506" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="tax included in price is extracted, not added twice" time="0.000311" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="discount is allocated exactly across mixed tax lines" time="0.000444" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="reject empty, duplicate and oversized baskets" time="0.000855" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="reject invalid IDs, quantities, prices, taxes and unsafe amounts" time="0.001139" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="reject invalid coupons" time="0.004505" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="business rules are validated and configurable" time="0.000446" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="500 deterministic baskets preserve accounting invariants" time="0.010080" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="staff confirms COD; unpaid online order cannot be fulfilled" time="0.001619" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="customer can cancel only own placed order" time="0.000458" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="dispatch requires assigned rider and only assigned rider acts" time="0.000332" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="COD completion requires recorded collection" time="0.000261" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="no skipped, reversed or terminal transitions, even for admin" time="0.000343" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="unknown role/status and missing identity fail closed" time="0.000300" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\commerce.test.mjs"/>
+	<testcase name="all local contract references resolve; no hidden remote dependencies" time="0.005429" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="all 30 HTTP operations truthfully declare pending implementation" time="0.000505" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="checkout contract accepts identity/quantity, never trusted client money" time="0.003446" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="money-moving writes require idempotency and admin writes declare roles" time="0.000806" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="signed webhook and rider-location contracts require boundary information" time="0.000330" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="reference seed and domain defaults agree; integrations default to disabled" time="0.003070" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\contracts.test.mjs"/>
+	<testcase name="Stage 1 protected source hashes are preserved" time="0.013923" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="development records are isolated and metrics derive from actual local records" time="0.016544" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="basket quantity is bounded by stock and whole numbers" time="0.008804" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="minimum and coupon eligibility block checkout estimates" time="0.002387" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="checkout requires local session/address and persists explicit simulated order" time="0.004823" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="failed mutations do not publish partial updates" time="0.002336" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="corrupted storage and failed persistence degrade explicitly to memory" time="0.002038" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="admin can create and edit product records with validated money" time="0.001698" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="development settings enforce rule ordering" time="0.001226" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="assigned rider pickup and collection flow uses Stage 1 transition policy" time="0.002867" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="offline rider cannot be assigned and customers cannot cancel confirmed orders" time="0.001612" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="campaign dates and duplicate coupon codes are validated" time="0.001525" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="local support and activity reflect actual development actions" time="0.001018" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="live API sends only contract fields and idempotency, without fixture substitution" time="0.062481" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="live API rejects unavailable, invalid content and network errors" time="0.001729" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<testcase name="cancelled development order restores stock exactly once" time="0.000901" classname="test" file="C:\Users\shiva\Documents\Codex\grozo\tests\workspace.test.mjs"/>
+	<!-- tests 42 -->
+	<!-- suites 0 -->
+	<!-- pass 42 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 554.0823 -->
+</testsuites>

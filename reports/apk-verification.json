@@ -1,0 +1,34 @@
+[
+  {
+    "module": "customer",
+    "bytes": 20451973,
+    "sha256": "C42EAC358662ECA3AAF8D5E3EB71F6742A2D51D4F18A0B0B73A60D3A77546CEB",
+    "signatureVerified": true,
+    "badging": [
+      "package: name='com.grozo.customer.dev' versionCode='2' versionName='0.2.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.customer.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "application-label:'GROZO Customer DEV'",
+      "launchable-activity: name='com.grozo.customer.MainActivity'  label='' icon=''",
+      "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+    ]
+  },
+  {
+    "module": "rider",
+    "bytes": 20356886,
+    "sha256": "8D5153C93855165E4303831C88C6C6EADF2D53EF449E18C408D54D0EE423FC2E",
+    "signatureVerified": true,
+    "badging": [
+      "package: name='com.grozo.rider.dev' versionCode='2' versionName='0.2.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.rider.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "application-label:'GROZO Partner DEV'",
+      "launchable-activity: name='com.grozo.rider.MainActivity'  label='' icon=''",
+      "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+    ]
+  }
+]

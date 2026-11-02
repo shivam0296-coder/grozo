@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-30",
+  "version": "0.2.0",
+  "phase": "Stage 2 development interfaces",
+  "gitRepository": false,
+  "nodeTests": {
+    "passed": 42,
+    "failed": 0,
+    "skipped": 0
+  },
+  "androidUnitTests": {
+    "passed": 12,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "browserAssertions": {
+    "passed": 38,
+    "runner": "Codex Cua; shared browser-flows.mjs"
+  },
+  "typecheck": "passed",
+  "webBuilds": {
+    "customer": "passed",
+    "admin": "passed"
+  },
+  "androidBuilds": {
+    "customer": "assembleDebug passed",
+    "rider": "assembleDebug passed"
+  },
+  "apkSignatures": "v2 verified, debug signing",
+  "nativeDeviceOrEmulatorRun": false,
+  "backendImplemented": false,
+  "liveProviders": [],
+  "resources": {
+    "approvedDownloadBytes": 3000000000,
+    "approvedDiskBytes": 6000000000,
+    "estimatedTransferBytesRange": [
+      1300000000,
+      1600000000
+    ],
+    "measuredLocalDirectoriesBytes": 4771056228,
+    "exactWireBytesProfiled": false,
+    "emulatorInstalled": false,
+    "paidServicesUsed": false
+  },
+  "sourceArchive": {
+    "script": "scripts/package.ps1",
+    "verification": "Exact entry set plus per-entry source SHA-256 comparison; checksum and manifest sidecars"
+  }
+}

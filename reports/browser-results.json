@@ -1,0 +1,176 @@
+{
+  "runner": "Codex Cua browser automation; shared tests/browser-flows.mjs",
+  "date": "2026-10-30",
+  "results": [
+    {
+      "test": "Customer home navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Customer desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Instant product search",
+      "result": "passed"
+    },
+    {
+      "test": "Basket navigation and editable quantities",
+      "result": "passed"
+    },
+    {
+      "test": "Coupon and free delivery calculate ₹470",
+      "result": "passed"
+    },
+    {
+      "test": "Development order confirmation",
+      "result": "passed"
+    },
+    {
+      "test": "Placed order can be cancelled locally",
+      "result": "passed"
+    },
+    {
+      "test": "Customer error state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer empty state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer loading state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Search empty results",
+      "result": "passed"
+    },
+    {
+      "test": "Search filter recovery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Products",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Inventory",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Customers",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Delivery partners",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Service zones",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Campaigns",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Coupons",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Reports",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Support inbox",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Settings",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Activity log",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Integrations",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Overview",
+      "result": "passed"
+    },
+    {
+      "test": "Admin desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Admin mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Mobile admin drawer navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Admin rejects selling price above MRP",
+      "result": "passed"
+    },
+    {
+      "test": "Admin creates and filters a development product",
+      "result": "passed"
+    },
+    {
+      "test": "Admin product update",
+      "result": "passed"
+    },
+    {
+      "test": "Admin confirm, pack, assign, dispatch and simulated delivery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin support resolution",
+      "result": "passed"
+    },
+    {
+      "test": "Admin campaign date form",
+      "result": "passed"
+    },
+    {
+      "test": "Admin error state",
+      "result": "passed"
+    },
+    {
+      "test": "Notifications remain an explicit placeholder",
+      "result": "passed"
+    },
+    {
+      "test": "Keyboard Escape closes native dialog",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "scope": "Chromium desktop and phone viewport; no Android device/emulator UI run"
+}

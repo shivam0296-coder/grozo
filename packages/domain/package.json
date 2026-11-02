@@ -1,0 +1,10 @@
+{
+  "name": "@grozo/domain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./pricing": "./src/pricing.ts",
+    "./orders": "./src/orders.ts"
+  }
+}

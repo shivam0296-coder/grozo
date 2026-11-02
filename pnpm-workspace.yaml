@@ -1,0 +1,10 @@
+packages:
+  - apps/web
+  - apps/admin
+  - packages/domain
+  - packages/client
+  - packages/ui
+storeDir: .cache/pnpm
+nodeLinker: hoisted
+packageImportMethod: copy
+linkWorkspacePackages: false

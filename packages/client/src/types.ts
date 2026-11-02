@@ -1,0 +1,17 @@
+import type { BasketRules } from '../../domain/src/pricing.ts';
+import type { OrderStatus } from '../../domain/src/orders.ts';
+export type ProductImage = {key:string;sourceUrl:string;rights:string;status:'pending_review'|'owner_reviewed';reviewedAt?:string;reviewNote?:string;originalName:string;width:number;height:number};
+export type PublishedImage={productId:string;file:string;thumbnail:string;sourcePage:string;license:string;licenseUrl?:string;modifications?:string;artist:string;reviewedAt:string;reviewNote:string};
+export type SourceRow={file:string;page:number;entry:number;sectionPath:string[];rawText:string;lineRange:number[]};
+export type CategoryRecord={sourceDocument?:string;sourcePage?:number;rawHeading?:string;id:string;name:string;parentId:string|null;active:boolean};
+export type BrandRecord={id:string;name:string;active:boolean};
+export type Product = {pricingStatus?:"pending"|"confirmed";sourceRow?:SourceRow;reviewFlags?:string[];publishedImage?:PublishedImage;categoryId?:string;subcategoryId?:string;brandId?:string;variant?:string;ingredients?:string;storageInfo?:string;dataSource?:string;image?:ProductImage;id:string;variantId:string;name:string;quantityLabel:string;category:string;pricePaise:number;mrpPaise:number;art:string;brand:string;stock:number;active:boolean;taxRateBps:number;description:string};
+export type Address = {id:string;label:string;houseDetails:string;street:string;city:string;postalCode:string;landmark:string};
+export type DemoOrder = {id:string;orderNumber:string;status:OrderStatus;items:{variantId:string;name:string;quantity:number;pricePaise:number}[];totalPaise:number;subtotalPaise:number;discountPaise:number;deliveryPaise:number;createdAt:string;address:Address;riderId?:string;paymentStatus:'pending'|'collected';simulated:true};
+export type Campaign = {id:string;name:string;occasion:string;startsAt:string;endsAt:string;active:boolean};
+export type CouponRecord = {id:string;code:string;discountPaise:number;minimumPaise:number;active:boolean};
+export type Rider = {id:string;name:string;approved:boolean;online:boolean};
+export type Ticket = {id:string;subject:string;body:string;status:'open'|'resolved'};
+export type Zone = {id:string;name:string;tier:'A'|'B'|'C';active:boolean};
+export type Workspace = {catalogueVersion?:string;catalogueMode?:"source"|"demo";deliveryAddressId?:string;categoryRecords:CategoryRecord[];brandRecords:BrandRecord[];recentProductIds:string[];catalogueIntake:{name:string;sha256:string;bytes:number;kind:'products'|'classification';status:'registered_pending_extraction'}[];products:Product[];cart:Record<string,number>;addresses:Address[];orders:DemoOrder[];campaigns:Campaign[];coupons:CouponRecord[];riders:Rider[];tickets:Ticket[];zones:Zone[];settings:BasketRules;profile:{displayName:string;developmentSession:boolean};audit:{id:string;action:string;createdAt:string}[];notificationOptIn:boolean;searchHistory:string[]};
+export type StorageLike = {getItem(key:string):string|null;setItem(key:string,value:string):void;removeItem(key:string):void};

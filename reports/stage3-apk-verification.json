@@ -1,0 +1,34 @@
+[
+  {
+    "module": "customer",
+    "artifact": "GROZO-Customer-Stage3-debug.apk",
+    "bytes": 20535127,
+    "sha256": "BEBCFD528041BA92B87CFA7B49638B7AD05DA9FEDC82E0F5DF66EC1CE3C2F950",
+    "signatureVerified": true,
+    "badging": [
+      "package: name='com.grozo.customer.dev' versionCode='3' versionName='0.3.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.customer.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "launchable-activity: name='com.grozo.customer.MainActivity'  label='' icon=''",
+      "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+    ]
+  },
+  {
+    "module": "rider",
+    "artifact": "GROZO-Partner-Stage3-debug.apk",
+    "bytes": 20365063,
+    "sha256": "DA1FA5D95DF819AA39FD471C05B05E2FF5D1D94D3CBA5FE9EB522FF17B007631",
+    "signatureVerified": true,
+    "badging": [
+      "package: name='com.grozo.rider.dev' versionCode='3' versionName='0.3.0-development' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'26'",
+      "targetSdkVersion:'36'",
+      "uses-permission: name='android.permission.INTERNET'",
+      "uses-permission: name='com.grozo.rider.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+      "launchable-activity: name='com.grozo.rider.MainActivity'  label='' icon=''",
+      "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+    ]
+  }
+]

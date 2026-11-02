@@ -1,0 +1,1462 @@
+[
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "abi-tools-api",
+    "version": "2.2.21",
+    "file": "abi-tools-api-2.2.21-sources.jar",
+    "sha256": "167bd983ba87211c27d631f7afc68cffb9b44dad5f3aac00497c30909d831247",
+    "vendorSha1": "80d4322e3904a7097a37f7e09978f26556498078",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/abi-tools-api/2.2.21/abi-tools-api-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.sun.xml.fastinfoset",
+    "name": "FastInfoset",
+    "version": "1.2.16",
+    "file": "FastInfoset-1.2.16-sources.jar",
+    "sha256": "b648209797a327140d6fa4ecf78a276f613ec92c5d9ccd6e7a51ff71976b84b0",
+    "vendorSha1": "cf4f90b0099ac1fe58e4dad1edecd27025672724",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "aaptcompiler",
+    "version": "8.13.2",
+    "file": "aaptcompiler-8.13.2-sources.jar",
+    "sha256": "64ee8e3019ff205cc10117106deec65b06492d6944cc894ffee28f18a42da069",
+    "vendorSha1": "11b0583cb82591641240fe53c6bcf3bf31bb2b1c",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/8.13.2/aaptcompiler-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "aapt2-proto",
+    "version": "8.13.2-14304508",
+    "file": "aapt2-proto-8.13.2-14304508-sources.jar",
+    "sha256": "fd993a610ab40df9c4f34697caf92dd3f86c15e5c98dd731faaa2d93e247a29e",
+    "vendorSha1": "027af4df5a2f28dff4d6325f9bfb7a2549e64a47",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/8.13.2-14304508/aapt2-proto-8.13.2-14304508-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-device-provider-ddmlib-proto",
+    "version": "31.13.2",
+    "file": "android-device-provider-ddmlib-proto-31.13.2-sources.jar",
+    "sha256": "51a7029db0af023e0e375c90dbc90a72cfb3f7b249f799fa9d88276095957f98",
+    "vendorSha1": "f5c8562ba7fc71b51f0cb411895d45b630d9bba6",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/31.13.2/android-device-provider-ddmlib-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-device-provider-profile-proto",
+    "version": "31.13.2",
+    "file": "android-device-provider-profile-proto-31.13.2-sources.jar",
+    "sha256": "d28d154d8968fea4ceaf5182c46e076393691ece8230d2ec9f42e8606388f1fe",
+    "vendorSha1": "cfe37759f3a66d021e771cc5ca87b29d71452e1a",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-profile-proto/31.13.2/android-device-provider-profile-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-additional-test-output-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-host-additional-test-output-proto-31.13.2-sources.jar",
+    "sha256": "2c886433e0ecd8a69c33e0cfc3d344d62844bf1b86e30f67c946c000fd793bdb",
+    "vendorSha1": "8252314365902ba2ba08b3206d71aa16c9e18233",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/31.13.2/android-test-plugin-host-additional-test-output-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-apk-installer-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-host-apk-installer-proto-31.13.2-sources.jar",
+    "sha256": "08d3c4b6916a79911c33bcb3d647d8032e3e18b87e7981f28439b839753b674a",
+    "vendorSha1": "819362923ff04e9655022522f8f872d09721a152",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-apk-installer-proto/31.13.2/android-test-plugin-host-apk-installer-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-emulator-control-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-host-emulator-control-proto-31.13.2-sources.jar",
+    "sha256": "db273042be6062e4e16c113da872b9e278bad22706e6852f7e2e5d3b7dc4cb9d",
+    "vendorSha1": "2ea1318a07d7bbf648b11bc6a83c02d34cb5c20a",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-emulator-control-proto/31.13.2/android-test-plugin-host-emulator-control-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-result-listener-gradle-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-result-listener-gradle-proto-31.13.2-sources.jar",
+    "sha256": "912d8eba0d201f93c60d24d1de532818292fa33596261cad7f6a8e488120bf18",
+    "vendorSha1": "38a3f1d01ee439b9bc6de016ce0c235f8cc15434",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/31.13.2/android-test-plugin-result-listener-gradle-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-logcat-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-host-logcat-proto-31.13.2-sources.jar",
+    "sha256": "3c042af7ad87c34ce6966f021673d97d3f51da66d0797e2c1db4b4cf363a5105",
+    "vendorSha1": "cbe92df6eec1b442e9221965f839499be4b06826",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-logcat-proto/31.13.2/android-test-plugin-host-logcat-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-coverage-proto",
+    "version": "31.13.2",
+    "file": "android-test-plugin-host-coverage-proto-31.13.2-sources.jar",
+    "sha256": "b2cd0a9a40dcc2573136d5c656110e9c2e4e212645d243d0248721fc26d59354",
+    "vendorSha1": "46a75896cc7fdea27028c46f37efdb60d3f7b000",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/31.13.2/android-test-plugin-host-coverage-proto-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "animal-sniffer-annotations",
+    "version": "1.24",
+    "file": "animal-sniffer-annotations-1.24-sources.jar",
+    "sha256": "4270ce5531ed0f12e4234e08f240ef3b45ee3ceeb16e28d44abc61c12cf522ca",
+    "vendorSha1": "0c0234a6e963ee1711d77ce1f409ad1c54e09d76",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "13.0",
+    "file": "annotations-13.0-sources.jar",
+    "sha256": "42a5e144b8e81d50d6913d1007b695e62e614705268d8cf9f13dbdc478c2c68e",
+    "vendorSha1": "5991ca87ef1fb5544943d9abc5a9a37583fabe03",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.android",
+    "name": "annotations",
+    "version": "4.1.1.4",
+    "file": "annotations-4.1.1.4-sources.jar",
+    "sha256": "e9b667aa958df78ea1ad115f7bbac18a5869c3128b1d5043feb360b0cfce9d40",
+    "vendorSha1": "deb22daeb37bdcbc14230aeaeddce38320d6d0f9",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "annotations",
+    "version": "31.13.2",
+    "file": "annotations-31.13.2-sources.jar",
+    "sha256": "ed67d455a1b4b0ce47d32b546f19f6114e990d574b6bbf276068e79ccf92fbd7",
+    "vendorSha1": "2dff0483cbbfde717e139107b065a36b4a64b982",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/31.13.2/annotations-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm",
+    "version": "9.8",
+    "file": "asm-9.8-sources.jar",
+    "sha256": "c6294794f956f21e2b252a9bf65a96ce0489fb4c0f978447d85c8a75e485b633",
+    "vendorSha1": "5879fb7cbff7dfd53380f120ed460d3bab6906ef",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8/asm-9.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "apksig",
+    "version": "8.13.2",
+    "file": "apksig-8.13.2-sources.jar",
+    "sha256": "c7a0f43d1e40fdf39725ac090f5c7bbaeae82d1e0bfd9cf2ee507a70eb5136b5",
+    "vendorSha1": "f1bf8773179cc3b41dc2e3bc3f34129115b8649b",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/8.13.2/apksig-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "apkzlib",
+    "version": "8.13.2",
+    "file": "apkzlib-8.13.2-sources.jar",
+    "sha256": "6a6b5982b18e3646a1d1ddd1ab1538798909af3240d87ea4d07465317e2cb0e6",
+    "vendorSha1": "2bd9f4fe94968d3d00ec387f1e2e48cbd15ee873",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/8.13.2/apkzlib-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-analysis",
+    "version": "9.8",
+    "file": "asm-analysis-9.8-sources.jar",
+    "sha256": "ff731d401ea2407759ea19b4b025800d32495a51a912f2553d987cddda424773",
+    "vendorSha1": "3ce67cca2a5bf3d1d271fb13e0011714df6c68e6",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-commons",
+    "version": "9.8",
+    "file": "asm-commons-9.8-sources.jar",
+    "sha256": "a2bd3ba563c5f2e19eea66df99437ef81d69a0dcb3def07028442a273a2da562",
+    "vendorSha1": "049977bde316395824ded9e8e4deead6512f3c88",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.8/asm-commons-9.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-tree",
+    "version": "9.8",
+    "file": "asm-tree-9.8-sources.jar",
+    "sha256": "442d32be6106a41b61c2edf05f8ae496c4c54cca6e73d9d59d38e9cb54820c44",
+    "vendorSha1": "d51ed23b9b4d0e222d0a0cacaf6296e8a009d81b",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.8/asm-tree-9.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-util",
+    "version": "9.8",
+    "file": "asm-util-9.8-sources.jar",
+    "sha256": "d8ee7a6bd066255e1187c3d64ead682d607c4947588e6b727c35a771a7afac93",
+    "vendorSha1": "4a92d0064aa2ffdac4cddc34d3fcd064009a55ec",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.auto.value",
+    "name": "auto-value-annotations",
+    "version": "1.6.2",
+    "file": "auto-value-annotations-1.6.2-sources.jar",
+    "sha256": "9cca705ffd696133e998e289defcc332be5196dbcb6813fcd317b14775a24612",
+    "vendorSha1": "c520c8c75f8fb1c591f327034cd11484e31a956f",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.6.2/auto-value-annotations-1.6.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcpkix-jdk18on",
+    "version": "1.79",
+    "file": "bcpkix-jdk18on-1.79-sources.jar",
+    "sha256": "e68973be5e2eed5c887e9e85d4ac68ceafe4d907e0f03bfb36db80964c904922",
+    "vendorSha1": "57a60d1d9f75320eef70a095dfae679d97ade1c2",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79/bcpkix-jdk18on-1.79-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.databinding",
+    "name": "baseLibrary",
+    "version": "8.13.2",
+    "file": "baseLibrary-8.13.2-sources.jar",
+    "sha256": "ad96bfd215758fe334d3ad7f33f9bbdb6cf931878aeaeb679c9b3e362d00419c",
+    "vendorSha1": "8d8fa61045e72410fdf2ba64cd90b05aca6e95bc",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/8.13.2/baseLibrary-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcutil-jdk18on",
+    "version": "1.79",
+    "file": "bcutil-jdk18on-1.79-sources.jar",
+    "sha256": "eea160325180797639d715311a04af9702e45ceaed3dbb487ab28ca778434cb6",
+    "vendorSha1": "00df03977fb0b80395da655623abca9d7d7dcb66",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79/bcutil-jdk18on-1.79-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcprov-jdk18on",
+    "version": "1.79",
+    "file": "bcprov-jdk18on-1.79-sources.jar",
+    "sha256": "ddab0541b2490e3013cac96179c1c4a8a50685d9b39f29ce5b233b310061ed23",
+    "vendorSha1": "8647816d667ee526a8e3a456229ac5f9f96d2315",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79/bcprov-jdk18on-1.79-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-qual",
+    "version": "3.43.0",
+    "file": "checker-qual-3.43.0-sources.jar",
+    "sha256": "d6bdee58964cd05aabfca4e44947d3cbdada6bf617ed618b62b3b0d5a21de339",
+    "vendorSha1": "dfd1d5ec59d04e7bd1ad44e74da445b880cfc2e1",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "common",
+    "version": "31.13.2",
+    "file": "common-31.13.2-sources.jar",
+    "sha256": "1a9ef5e2753f20e822b380825408d967e0fd49dd1f82649dc39713f750766c00",
+    "vendorSha1": "6f5cd5d7793809b34f0b74a26cf6f6b921c039bb",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/common/31.13.2/common-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "commons-codec",
+    "name": "commons-codec",
+    "version": "1.11",
+    "file": "commons-codec-1.11-sources.jar",
+    "sha256": "901cb5d1f7c2877017c95d3c5efd5a497738d0162ef72cdf58e9cb13f50b2e9c",
+    "vendorSha1": "bce4ba84fd527950e35040b20a991c63e90e2850",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder-model",
+    "version": "8.13.2",
+    "file": "builder-model-8.13.2-sources.jar",
+    "sha256": "27a392831b3915b3969019a372725a4cdd317927555395bef7a17e9d49e02d2a",
+    "vendorSha1": "739ff77ec24031d35db8a4261dae5a12a5abb3fe",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/8.13.2/builder-model-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder-test-api",
+    "version": "8.13.2",
+    "file": "builder-test-api-8.13.2-sources.jar",
+    "sha256": "df5836d11019191e04e6338a9acc6bdc5532e3c6cf00459d0a1db25feeb3f82c",
+    "vendorSha1": "a561df2c1a0d2338b4e04dc7d437b03cd75ba31c",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/8.13.2/builder-test-api-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder",
+    "version": "8.13.2",
+    "file": "builder-8.13.2-sources.jar",
+    "sha256": "46785fe800dfdc013dd3b294d4bfc57abf8e3880a3f47dd28d85ec9b47d0377d",
+    "vendorSha1": "e37aa442bbb41ee67979f0e2e4166a5321722b24",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/8.13.2/builder-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.21",
+    "file": "commons-compress-1.21-sources.jar",
+    "sha256": "f64973e7c00455e819bcf8b74dda6e91b3e09557135b11b3603c2ba7a0e5479b",
+    "vendorSha1": "b3e0a269baa0d05b02f9b4447be463d25da8c097",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "commons-logging",
+    "name": "commons-logging",
+    "version": "1.2",
+    "file": "commons-logging-1.2-sources.jar",
+    "sha256": "44347acfe5860461728e9cb33251e97345be36f8a0dfd5c5130c172559455f41",
+    "vendorSha1": "ecf26c7507d67782a3bbd148d170b31dfad001aa",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "commons-io",
+    "name": "commons-io",
+    "version": "2.16.1",
+    "file": "commons-io-2.16.1-sources.jar",
+    "sha256": "fcfe84e39fb44e38a0ea0ab0815b53adea6fff89c7b72535bc42495f400cb9a1",
+    "vendorSha1": "e0dbaef3c79b647e9c510b40a8366b6765cff249",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.testing.platform",
+    "name": "core-proto",
+    "version": "0.0.9-alpha03",
+    "file": "core-proto-0.0.9-alpha03-sources.jar",
+    "sha256": "63884889714a0ae0ca1857d4f2ba5b3526f48be24c57013452e5cd23d8a0726e",
+    "vendorSha1": "5a6541874cf603d12e93a4419281e3fb1b680cd9",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/google/testing/platform/core-proto/0.0.9-alpha03/core-proto-0.0.9-alpha03-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "compose-compiler-gradle-plugin",
+    "version": "2.2.21",
+    "file": "compose-compiler-gradle-plugin-2.2.21-sources.jar",
+    "sha256": "bc7cd8c91c2b96e61ea2e59edb0c16ef78702c5681b5b3c857001f5717ae1aed",
+    "vendorSha1": "9df1c5dd3d7f97f180dc9851ac618b8f1108cad4",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/compose-compiler-gradle-plugin/2.2.21/compose-compiler-gradle-plugin-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "androidx.databinding",
+    "name": "databinding-common",
+    "version": "8.13.2",
+    "file": "databinding-common-8.13.2-sources.jar",
+    "sha256": "1fffe5f560c73547df8c451fe47a7943463be3a8bbe72b9c49683fde9ab2fe21",
+    "vendorSha1": "11a1cbee1a967c4db030fd5fbf71656ca4dd86c3",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/8.13.2/databinding-common-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "crash",
+    "version": "31.13.2",
+    "file": "crash-31.13.2-sources.jar",
+    "sha256": "19b696222be9f571e337ca66ed1b2728110439d896e86410fb3530a07a874816",
+    "vendorSha1": "1a80f08c09091ab8179b53b16c5194b3fdc95424",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/crash/31.13.2/crash-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "androidx.databinding",
+    "name": "databinding-compiler-common",
+    "version": "8.13.2",
+    "file": "databinding-compiler-common-8.13.2-sources.jar",
+    "sha256": "8e3294128fc73895a0235020766a48cadc3030c18486055e413e607ba77674d3",
+    "vendorSha1": "24aa736bc1a0ea60b5f2ef8852a43d8a8297c2a8",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/8.13.2/databinding-compiler-common-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.dagger",
+    "name": "dagger",
+    "version": "2.28.3",
+    "file": "dagger-2.28.3-sources.jar",
+    "sha256": "bd27a8952be63263a86c3dad1ee175eb02a66cdf9956d041a3985b50a1979b3a",
+    "vendorSha1": "ab17752a49d8c92a0d5132538e7861d7b6c47443",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/dagger/dagger/2.28.3/dagger-2.28.3-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.30.0",
+    "file": "error_prone_annotations-2.30.0-sources.jar",
+    "sha256": "8a05d3e543d7cbefb8e035edc9a92d1b5562d36761754f4d881ae66186c49de1",
+    "vendorSha1": "5fd807da9cc296152cdc37b1692a6f7616d6b2c5",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.30.0/error_prone_annotations-2.30.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.guava",
+    "name": "failureaccess",
+    "version": "1.0.2",
+    "file": "failureaccess-1.0.2-sources.jar",
+    "sha256": "dd3bfa5e2ec5bc5397efb2c3cef044c192313ff77089573667ff97a60c6978e0",
+    "vendorSha1": "6acdafcf2dfc3b548e59dd3a4b454552aeb6ff65",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "dvlib",
+    "version": "31.13.2",
+    "file": "dvlib-31.13.2-sources.jar",
+    "sha256": "7b6bbe40077fc6a871f2e9ff19fbc49445c03292d8746c951eab65f453269036",
+    "vendorSha1": "fc21e7206223ee4e3b49c1f253b4eece096bb478",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/31.13.2/dvlib-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.ddms",
+    "name": "ddmlib",
+    "version": "31.13.2",
+    "file": "ddmlib-31.13.2-sources.jar",
+    "sha256": "eab6887f715c308dfb3def838947704ed76d6a9ff1a3d0d8030b1c8b5eff7b0d",
+    "vendorSha1": "8bb0dcd6c6d71c98834f941576defe31b9133add",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/31.13.2/ddmlib-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.flatbuffers",
+    "name": "flatbuffers-java",
+    "version": "1.12.0",
+    "file": "flatbuffers-java-1.12.0-sources.jar",
+    "sha256": "6522155eaadf630f60c05154c4f79505f14675e408d10e0f40c7fbfebf0a21ab",
+    "vendorSha1": "1bb8c570cde20d1f5e5939f160cc56d8edeef812",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle",
+    "version": "8.13.2",
+    "file": "gradle-8.13.2-sources.jar",
+    "sha256": "0693aa79c9231ffd5917be45ca8c5e25049bba3d9503ce60ada8d56c7b9ed1b4",
+    "vendorSha1": "7ac92efdc8ef8c33e6d1bc4d76119210ca22382c",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/8.13.2/gradle-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle-api",
+    "version": "8.13.2",
+    "file": "gradle-api-8.13.2-sources.jar",
+    "sha256": "eca3e525e6cf4ae80b721013d8960e3b2b2c2d14d6a7ba1eb96ab28b9f130219",
+    "vendorSha1": "9b5ec3653a9ca485c5221b1f285e4dce981558bd",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/8.13.2/gradle-api-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle-common-api",
+    "version": "8.13.2",
+    "file": "gradle-common-api-8.13.2-sources.jar",
+    "sha256": "03222e2153e48e3d3d1b6813797f0ee79818f85c63ec7b06caa1fd92180f5654",
+    "vendorSha1": "bfed62af595835d5d53aaa45e863d03edfdd6485",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-common-api/8.13.2/gradle-common-api-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle-settings-api",
+    "version": "8.13.2",
+    "file": "gradle-settings-api-8.13.2-sources.jar",
+    "sha256": "91b4d33c430f50af2fc9ca2c9bbd91db1b99bf0df0e907a5ff8b21cc0a0f12ae",
+    "vendorSha1": "fb30b3698b48ee3cf12473e04d1d5b0d5e7e67e6",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-settings-api/8.13.2/gradle-settings-api-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-api",
+    "version": "1.69.1",
+    "file": "grpc-api-1.69.1-sources.jar",
+    "sha256": "766c0f64e4cdf2189241df8a0e0e2d5ce65e60a4a29bd82f295b0544e2fedc77",
+    "vendorSha1": "33c16f1e8e2c3c1b20d6d6f0788c852423c369b2",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.69.1/grpc-api-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "fus-statistics-gradle-plugin",
+    "version": "2.2.21",
+    "file": "fus-statistics-gradle-plugin-2.2.21-sources.jar",
+    "sha256": "3b04bbff3043c4032c83f91aa8d17b7469e612ff7262178a352c9231c2d20597",
+    "vendorSha1": "3b6086d8701106766699c88585ed7756af1ac56c",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/fus-statistics-gradle-plugin/2.2.21/fus-statistics-gradle-plugin-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-context",
+    "version": "1.69.1",
+    "file": "grpc-context-1.69.1-sources.jar",
+    "sha256": "f4f509999485f8ec7094b323a8865acd2d62dc97970e9b22d692c8060040a885",
+    "vendorSha1": "03cedaf4ca709efbe39e7d8a4489ace9391cb345",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.69.1/grpc-context-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-inprocess",
+    "version": "1.69.1",
+    "file": "grpc-inprocess-1.69.1-sources.jar",
+    "sha256": "6553c95b3841e69154cce7bf772feeb7ba335ae6369b2b71c38b2f83b0f8f594",
+    "vendorSha1": "4c1d04488ee136e562dfee36f1cc8bd63d0fbb61",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-inprocess/1.69.1/grpc-inprocess-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-core",
+    "version": "1.69.1",
+    "file": "grpc-core-1.69.1-sources.jar",
+    "sha256": "a193a268fd793b7a0d75f6bddb2b88c665707823b7746d2c0c40908dde5ff44b",
+    "vendorSha1": "ac9eb8a4a7e05a3c8800d97c71f8c0d467d13046",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.69.1/grpc-core-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-netty",
+    "version": "1.69.1",
+    "file": "grpc-netty-1.69.1-sources.jar",
+    "sha256": "89d915321a522ebbead4cb29320f1d42ad475591ce90080d3a3f0e6c9b5f8af8",
+    "vendorSha1": "641222934d739fec6aa7e0a132ab3a5e14ffa232",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.69.1/grpc-netty-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-protobuf",
+    "version": "1.69.1",
+    "file": "grpc-protobuf-1.69.1-sources.jar",
+    "sha256": "8525e9749076af63e922f0b8548b643deec3aad0b93707ab6e0514bb2e6dc04c",
+    "vendorSha1": "b4e2c71b5f0f1e8ea92781920ae2921d37a3cbf0",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.69.1/grpc-protobuf-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.code.gson",
+    "name": "gson",
+    "version": "2.11.0",
+    "file": "gson-2.11.0-sources.jar",
+    "sha256": "49a853f71bc874ee1898a4ad5009b57d0c536e5a998b3890253ffbf4b7276ad3",
+    "vendorSha1": "bbd772a8634d3d6fea7ffea693535a4bd1c773c0",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-stub",
+    "version": "1.69.1",
+    "file": "grpc-stub-1.69.1-sources.jar",
+    "sha256": "6856652d69cd811dc6c42851786af0180293696ed4f2b5f3d8d1e33a3acfce78",
+    "vendorSha1": "b73ec0b6838a748a1b9a3a6bb1dc229d923ab57c",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.69.1/grpc-stub-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-protobuf-lite",
+    "version": "1.69.1",
+    "file": "grpc-protobuf-lite-1.69.1-sources.jar",
+    "sha256": "3dc83b66617f1e98d2c4f75b677c2caa75404dcac73b2bdcd5ab1ca29605c6c7",
+    "vendorSha1": "d4a9470ba614d7c05622895d03d9b5661a8f52af",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.69.1/grpc-protobuf-lite-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "33.3.1-jre",
+    "file": "guava-33.3.1-jre-sources.jar",
+    "sha256": "b7cbdad958b791f2a036abff7724570bf9836531c460966f8a3d0df8eaa1c21d",
+    "vendorSha1": "e788c9bc41ef2bcbb89794f793da9b576b5dde38",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-util",
+    "version": "1.69.1",
+    "file": "grpc-util-1.69.1-sources.jar",
+    "sha256": "b4571d5c29ceaf8cfb8e091f8b2044c057ef205640eb61e144273e034fea6db3",
+    "vendorSha1": "1a260aae1f1ad520c86f25b02bf1cd68a43d7728",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/grpc/grpc-util/1.69.1/grpc-util-1.69.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcore",
+    "version": "4.4.16",
+    "file": "httpcore-4.4.16-sources.jar",
+    "sha256": "705f8cf3671093b6c1db16bbf6971a7ef400e3819784f1af53e5bc3e67b5a9a0",
+    "vendorSha1": "229e4c0eae80465381ae02adf61bca5558360777",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpclient",
+    "version": "4.5.14",
+    "file": "httpclient-4.5.14-sources.jar",
+    "sha256": "55b01f9f4cbec9ac646866a4b64b176570d79e293a556796b5b0263d047ef8e6",
+    "vendorSha1": "14321a360aa0e037c56d4c820747a84954d9196e",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.sun.istack",
+    "name": "istack-commons-runtime",
+    "version": "3.0.8",
+    "file": "istack-commons-runtime-3.0.8-sources.jar",
+    "sha256": "4874ce5789c8684debd0099c8fa4ec8e00545626af4c9890760f0cb6fdf6d4db",
+    "vendorSha1": "03ca86990732cc05853c591cc454c98ba8ac3e06",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpmime",
+    "version": "4.5.6",
+    "file": "httpmime-4.5.6-sources.jar",
+    "sha256": "3054d6f3160cdc1a4a60cf2a199f5acd2f3b209aa3e82e2f69e7028741847622",
+    "vendorSha1": "0f349336722665ba37bcc67d95efb5f2926b5ebc",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "jakarta.activation",
+    "name": "jakarta.activation-api",
+    "version": "1.2.1",
+    "file": "jakarta.activation-api-1.2.1-sources.jar",
+    "sha256": "e9638b764202c0def1b4d54bd37a984c681b2ed46a548ae94ef3f7e4a4b58a31",
+    "vendorSha1": "6fe481428613e57af220e17b9ebf3475fb27efb8",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "jakarta.xml.bind",
+    "name": "jakarta.xml.bind-api",
+    "version": "2.3.2",
+    "file": "jakarta.xml.bind-api-2.3.2-sources.jar",
+    "sha256": "61ceb3ed35ecf99f1803eac9c4b8f12103c7531952beae38ba53cc727f405532",
+    "vendorSha1": "8f7b9baa75556d2c03371c7e4b45b484683c7d28",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.j2objc",
+    "name": "j2objc-annotations",
+    "version": "3.0.0",
+    "file": "j2objc-annotations-3.0.0-sources.jar",
+    "sha256": "bd60019a0423c3a025ef6ab24fe0761f5f45ffb48a8cca74a01b678de1105d38",
+    "vendorSha1": "e6e870c6faf70867a723848b036607cd7d389621",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.dagger",
+    "name": "hilt-android-gradle-plugin",
+    "version": "2.57.2",
+    "file": "hilt-android-gradle-plugin-2.57.2-sources.jar",
+    "sha256": "c6ae0b3aaab2aea97ada37cd4c302376e03d9cdf8962ab8f72cff69993fe4162",
+    "vendorSha1": "8c739542347767e562aa3113915e75b879a96cf2",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/dagger/hilt-android-gradle-plugin/2.57.2/hilt-android-gradle-plugin-2.57.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.squareup",
+    "name": "javapoet",
+    "version": "1.13.0",
+    "file": "javapoet-1.13.0-sources.jar",
+    "sha256": "d1699067787846453fdcc104aeba3946f070fb2c167cfb3445838e4c86bb1f11",
+    "vendorSha1": "dfb1b91cb583dba87ec8cc64b18e2f9f852ba1cc",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/squareup/javapoet/1.13.0/javapoet-1.13.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.squareup",
+    "name": "javawriter",
+    "version": "2.5.0",
+    "file": "javawriter-2.5.0-sources.jar",
+    "sha256": "d1b91fc7cfdecf6f0e9b888d28c08c79e91152acc2359bff201f579732012048",
+    "vendorSha1": "1b2a0925ff06220c0261b6fd468183cd9e9a9a47",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "javax.annotation",
+    "name": "javax.annotation-api",
+    "version": "1.3.2",
+    "file": "javax.annotation-api-1.3.2-sources.jar",
+    "sha256": "128971e52e0d84a66e3b6e049dab8ad7b2c58b7e1ad37fa2debd3d40c2947b95",
+    "vendorSha1": "65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.sun.activation",
+    "name": "javax.activation",
+    "version": "1.2.0",
+    "file": "javax.activation-1.2.0-sources.jar",
+    "sha256": "7e5aed0cc354684f1c96a1d24513c95f0971541b9ed03bf90a782ba189571022",
+    "vendorSha1": "5b034823866d38f38f02bdad7ed8a14e650c61b6",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-runtime",
+    "version": "2.3.2",
+    "file": "jaxb-runtime-2.3.2-sources.jar",
+    "sha256": "b85c2e314e6565e7dc4fb7e00ec8688c1c0fe9c9f7275125fb8dee43898f3743",
+    "vendorSha1": "9c2033de9f6f23ca45b77496e1d260875c93c532",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jdom",
+    "name": "jdom2",
+    "version": "2.0.6",
+    "file": "jdom2-2.0.6-sources.jar",
+    "sha256": "6c22216da089669c24bbb3607e974a8eb8b5c5dbd729613898ebc4ff9fe1bc7d",
+    "vendorSha1": "3dcf8ba7582eeac3b67ed5155ee3659e16c8dadc",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build.jetifier",
+    "name": "jetifier-core",
+    "version": "1.0.0-beta10",
+    "file": "jetifier-core-1.0.0-beta10-sources.jar",
+    "sha256": "9b86f5a3a70d14a27363d20526276917c18e5a9d479a4eb179c2763f494ae007",
+    "vendorSha1": "a848cd57e8f313f9f111429e2aaa3490e38635af",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta10/jetifier-core-1.0.0-beta10-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build.jetifier",
+    "name": "jetifier-processor",
+    "version": "1.0.0-beta10",
+    "file": "jetifier-processor-1.0.0-beta10-sources.jar",
+    "sha256": "535e86bd7967d7461bd2e5520649df271bfd6be15ea9a534ce7e3adcbe6ee616",
+    "vendorSha1": "54b89fdd8cd8258bbaed0ec043738a2a049b133a",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta10/jetifier-processor-1.0.0-beta10-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "javax.inject",
+    "name": "javax.inject",
+    "version": "1",
+    "file": "javax.inject-1-sources.jar",
+    "sha256": "c4b87ee2911c139c3daf498a781967f1eb2e75bc1a8529a2e7b328a15d0e433e",
+    "vendorSha1": "a00123f261762a7c5e0ec916a2c7c8298d29c400",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.jimfs",
+    "name": "jimfs",
+    "version": "1.1",
+    "file": "jimfs-1.1-sources.jar",
+    "sha256": "adebb53450d2313d6927db5155c9be85336109e8f8c0af106ec2a30bc37e64ce",
+    "vendorSha1": "a2e6f6d75b7fa7e8eedb3062e5bfd24cc9fe8591",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna",
+    "version": "5.6.0",
+    "file": "jna-5.6.0-sources.jar",
+    "sha256": "3bb0536c6bfe8931afa898a5022af628f936b09a8437552429a2f9977d254c46",
+    "vendorSha1": "754dbdc797e1decd2cb1f1a26104e2460c414768",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.6.0/jna-5.6.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna-platform",
+    "version": "5.6.0",
+    "file": "jna-platform-5.6.0-sources.jar",
+    "sha256": "ec090292829f0974710c1890634a58b55d3285feecad8ac6121515a7e27891fe",
+    "vendorSha1": "feecafda956e16ce05e9de98a1f0ab0abf2280bf",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "net.sf.jopt-simple",
+    "name": "jopt-simple",
+    "version": "4.9",
+    "file": "jopt-simple-4.9-sources.jar",
+    "sha256": "17cf5b2a5fc3da6a077e37ec6567ce4999a8518704ca1253cc07fac190f8ff02",
+    "vendorSha1": "d965219b87f79e81b07116d451e684ab2f3acc27",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.bitbucket.b_c",
+    "name": "jose4j",
+    "version": "0.9.5",
+    "file": "jose4j-0.9.5-sources.jar",
+    "sha256": "9865f3f3a5c60fde3bfb285d45071135cfd1a07dccae98d4d03abc29a1ba638f",
+    "vendorSha1": "e2cb7dbf96cb867f09d622137d5cfcd4700f8914",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/bitbucket/b_c/jose4j/0.9.5/jose4j-0.9.5-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.code.findbugs",
+    "name": "jsr305",
+    "version": "3.0.2",
+    "file": "jsr305-3.0.2-sources.jar",
+    "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b",
+    "vendorSha1": "b19b5927c2c25b6c70f093767041e641ae0b1b35",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.googlecode.juniversalchardet",
+    "name": "juniversalchardet",
+    "version": "1.0.3",
+    "file": "juniversalchardet-1.0.3-sources.jar",
+    "sha256": "3d1cb067f5cfe3cc19b77c837156f22368462af9acac5dd878e785966758fc27",
+    "vendorSha1": "77979eaa98f90806f984155f44f63cc1fb60ac25",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-build-tools-api",
+    "version": "2.2.21",
+    "file": "kotlin-build-tools-api-2.2.21-sources.jar",
+    "sha256": "74ec6d4366a0f29aa548483d24dd3b4997f86a1b2c32e3dc24248f703b791bad",
+    "vendorSha1": "180acebf130e05a7564f35cd531fc3895ee30710",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.21/kotlin-build-tools-api-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-compiler-runner",
+    "version": "2.2.21",
+    "file": "kotlin-compiler-runner-2.2.21-sources.jar",
+    "sha256": "61200cfe4fb6e94ef5e82d46f4471fdb10d79692e2347b5d61f157c499385abb",
+    "vendorSha1": "1bd5eabcdfa2081e5057987738226a8cbfb7c44b",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.21/kotlin-compiler-runner-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-daemon-client",
+    "version": "2.2.21",
+    "file": "kotlin-daemon-client-2.2.21-sources.jar",
+    "sha256": "f5d5f456c2b37c7378dfb97b63030635179f92aa2cab8cd7b3601937d68a22e2",
+    "vendorSha1": "1ce83f8c4e2f6e98396b4ad1a03e64b542c7af35",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.21/kotlin-daemon-client-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-build-statistics",
+    "version": "2.2.21",
+    "file": "kotlin-build-statistics-2.2.21-sources.jar",
+    "sha256": "c8c144cd4c46fb954149012ab3931e8c2b83f97079969a2d6f7cc4e7db355aaa",
+    "vendorSha1": "8e9606d9878245111f660a7f2aba5ebd95272515",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-statistics/2.2.21/kotlin-build-statistics-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin-annotations",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-annotations-2.2.21-sources.jar",
+    "sha256": "9c47f31d1fc95cae98764339ea43064074696be18a93b15b3a755426350053e3",
+    "vendorSha1": "6219bcaa18f8d8aa46abd2bd0b4bbdf86414d698",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.2.21/kotlin-gradle-plugin-annotations-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-2.2.21-sources.jar",
+    "sha256": "f79965870973bf7cc2b5ec9e762077b82dfb190b6452f43d4d91618a8311f263",
+    "vendorSha1": "26b8c4b9f2f7dc14b5e00ca0828aa7eeeebb4218",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.2.21/kotlin-gradle-plugin-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin-api",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-api-2.2.21-sources.jar",
+    "sha256": "741f5e60d1e94b50852a4c3d8b0bf34596c687dd584a554bd7541d2707e84f86",
+    "vendorSha1": "c87f0f3fdbf169d398fc635888cbecf590787e63",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.2.21/kotlin-gradle-plugin-api-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin-idea",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-idea-2.2.21-sources.jar",
+    "sha256": "7d2c62633e1d654bb9400253d8e510e3744a109e403939423c74768e2b2fe062",
+    "vendorSha1": "703b885378c1e2c6a4ceddbac037850cde77ecf8",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.2.21/kotlin-gradle-plugin-idea-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin-idea-proto",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-idea-proto-2.2.21-sources.jar",
+    "sha256": "65673fb356b7d7ad49d3404ceb038d1810b552ec4b988261bfc2f90c0146997f",
+    "vendorSha1": "a29d04e3c7a4716a110b0b9d55997d54aecba045",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.2.21/kotlin-gradle-plugin-idea-proto-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugin-model",
+    "version": "2.2.21",
+    "file": "kotlin-gradle-plugin-model-2.2.21-sources.jar",
+    "sha256": "59c819fbbab305889d75ec19bc2e61e39c163546944269c9dd18ce76412632ba",
+    "vendorSha1": "727acf04a3f280604db07a1c6d2374369eeb7b88",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.2.21/kotlin-gradle-plugin-model-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-native-utils",
+    "version": "2.2.21",
+    "file": "kotlin-native-utils-2.2.21-sources.jar",
+    "sha256": "203fec346a8e9c86ca296f4c338ccb505f122c38f1eb50d0a568a9591d1485c4",
+    "vendorSha1": "2a9c6d3a6fcc6cfbb9df75ea12cfffdf43cc1f71",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/2.2.21/kotlin-native-utils-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-reflect",
+    "version": "2.0.21",
+    "file": "kotlin-reflect-2.0.21-sources.jar",
+    "sha256": "9d88e821c645d67106ce7afb11c405acf1ae4153f0d41f3667d66e77d51dd5be",
+    "vendorSha1": "e3027f36ef9cc946503d124786457605064599af",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.0.21/kotlin-reflect-2.0.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-klib-commonizer-api",
+    "version": "2.2.21",
+    "file": "kotlin-klib-commonizer-api-2.2.21-sources.jar",
+    "sha256": "a89cbb7f4f5719b25d1747e7674bb4802c887307a27187c1cfb5cd48d3ab5e55",
+    "vendorSha1": "b09c5a1073d18547fe48a540b13df32c6471429d",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.2.21/kotlin-klib-commonizer-api-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib",
+    "version": "2.0.21",
+    "file": "kotlin-stdlib-2.0.21-sources.jar",
+    "sha256": "5995c780c3ac742fb277ced561ebd7b0739227ea7c93a6bd9c7cee6593493fce",
+    "vendorSha1": "4789c95c3f2037f6689c0786baf1684275734ad3",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "2.2.0",
+    "file": "kotlin-stdlib-jdk8-2.2.0-sources.jar",
+    "sha256": "3cb6895054a0985bba591c165503fe4dd63a215af53263b67a071ccdc242bf6e",
+    "vendorSha1": "114750c3625f9fdfb6dd568add7b3629d2c52627",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.2.0/kotlin-stdlib-jdk8-2.2.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "2.2.0",
+    "file": "kotlin-stdlib-jdk7-2.2.0-sources.jar",
+    "sha256": "2534c8908432e06de73177509903d405b55f423dd4c2f747e16b92a2162611e6",
+    "vendorSha1": "19a55005faf474d4021b61d617693e462c17aa54",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.2.0/kotlin-stdlib-jdk7-2.2.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-tooling-core",
+    "version": "2.2.21",
+    "file": "kotlin-tooling-core-2.2.21-sources.jar",
+    "sha256": "666a29ef8b546a40d06c7fda1c00c6948877d7837a64ea862740d2a541468d88",
+    "vendorSha1": "51ed3a8473e7928197385e6c3f44ed0a33c6559c",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-tooling-core/2.2.21/kotlin-tooling-core-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-util-io",
+    "version": "2.2.21",
+    "file": "kotlin-util-io-2.2.21-sources.jar",
+    "sha256": "647f88bc1f66bc6a7a808ea340bb9b25c49bb7263f1e4daa583dcba30d78e5d7",
+    "vendorSha1": "bd513eae5fa8c3f5302d147e6ebf83e3ee7682ad",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-io/2.2.21/kotlin-util-io-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-util-klib",
+    "version": "2.2.21",
+    "file": "kotlin-util-klib-2.2.21-sources.jar",
+    "sha256": "dfa462a4f28f321f24230d697092663d24ccdd873edad435c5e1023ff7d83f45",
+    "vendorSha1": "98b54fba7d6283fb30d108168e098618a9d962cf",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/2.2.21/kotlin-util-klib-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-util-klib-metadata",
+    "version": "2.2.21",
+    "file": "kotlin-util-klib-metadata-2.2.21-sources.jar",
+    "sha256": "7fb2756ce37b1d81f2d7805815789868af3eb37ff118e5a8bc43f7b49db6796a",
+    "vendorSha1": "5387b62e0701b37d3a151bfe699c827b85faed93",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-klib-metadata/2.2.21/kotlin-util-klib-metadata-2.2.21-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "net.sf.kxml",
+    "name": "kxml2",
+    "version": "2.3.0",
+    "file": "kxml2-2.3.0-sources.jar",
+    "sha256": "85495366666158b58961e8911ced0f6f3bc92f1ebee865518b493fdb90760250",
+    "vendorSha1": "309cd2cff7260e465792fda3dcbb063b730d8050",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.layoutlib",
+    "name": "layoutlib-api",
+    "version": "31.13.2",
+    "file": "layoutlib-api-31.13.2-sources.jar",
+    "sha256": "46e951d2c0f5190aedc0bd586f4a5187f8bea8a77dcc1aed6ee1bde8e9719b43",
+    "vendorSha1": "918936eec5051f918601a75aa3263a737e198886",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/31.13.2/layoutlib-api-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-core-jvm",
+    "version": "1.9.0",
+    "file": "kotlinx-coroutines-core-jvm-1.9.0-sources.jar",
+    "sha256": "01e0f26a274d8f2f2ae702b161bc0980cea817bfcaf66ca4944434ea7b601771",
+    "vendorSha1": "2d4e1ecf680fbaad910557dbae5077014aeffde1",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.lint",
+    "name": "lint-model",
+    "version": "31.13.2",
+    "file": "lint-model-31.13.2-sources.jar",
+    "sha256": "f6d6349e3d31c6048d59abb553ece79f1deb3cfd5d310c8a170f29164422bb8c",
+    "vendorSha1": "0c7274611409826dd19da7b8baed758fb88cf5c7",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/31.13.2/lint-model-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.lint",
+    "name": "lint-typedef-remover",
+    "version": "31.13.2",
+    "file": "lint-typedef-remover-31.13.2-sources.jar",
+    "sha256": "e719d951f9011ea40949fecb3d934e4d0ee123d1d94cec05316d8b22f25d2d83",
+    "vendorSha1": "4cafda71cc59559b39dcd89aa530767b3779f1af",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-typedef-remover/31.13.2/lint-typedef-remover-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-buffer",
+    "version": "4.1.110.Final",
+    "file": "netty-buffer-4.1.110.Final-sources.jar",
+    "sha256": "b4e7d5c0d3cbbed2bfc2c26922e6e8989330e7d2ec653a39ab40635d24ee5850",
+    "vendorSha1": "4c8f734f43112bd731911a4c19fcab97875d2073",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.110.Final/netty-buffer-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec",
+    "version": "4.1.110.Final",
+    "file": "netty-codec-4.1.110.Final-sources.jar",
+    "sha256": "da6a146add7a60a96ee363d59db2fc79d4858d0c73ec9afe995a13f4bbd4a110",
+    "vendorSha1": "260948f89f44320790a0bf8ceaba3c660d2e9708",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.110.Final/netty-codec-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-http",
+    "version": "4.1.110.Final",
+    "file": "netty-codec-http-4.1.110.Final-sources.jar",
+    "sha256": "b03b477f0607bbb6693ea1de41e4db3dbec1de616bea6feeba096fbf9fca1209",
+    "vendorSha1": "57c54586881131c4b68784731847327a80cf0e68",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.110.Final/netty-codec-http-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-http2",
+    "version": "4.1.110.Final",
+    "file": "netty-codec-http2-4.1.110.Final-sources.jar",
+    "sha256": "555279bfb4ddd1fede5afaced0973bc763a6b643de7c6b006280f79d92e30889",
+    "vendorSha1": "7afe00a78f6fe1431c4bfb02e489cf6644214166",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.110.Final/netty-codec-http2-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-socks",
+    "version": "4.1.110.Final",
+    "file": "netty-codec-socks-4.1.110.Final-sources.jar",
+    "sha256": "aedb4ffb91584e1b60d4c64f96c6033c204fcbca64b97ebf895df05ec6700dd3",
+    "vendorSha1": "7de2eaf2eba065618f44425c5138b70805e6165a",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.110.Final/netty-codec-socks-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-common",
+    "version": "4.1.110.Final",
+    "file": "netty-common-4.1.110.Final-sources.jar",
+    "sha256": "ca8799963fdfc712f0b87120f1b6a5e728444eeb41feaf2ecca52435b03bf099",
+    "vendorSha1": "db8c6430f28f1a12916b67c081e2071a9f3a0c84",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.110.Final/netty-common-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "manifest-merger",
+    "version": "31.13.2",
+    "file": "manifest-merger-31.13.2-sources.jar",
+    "sha256": "1dba06233281a68e9ec6163644956112f1a9ed8360d72ec1e594056b2fc297fc",
+    "vendorSha1": "b855b34784f54a454352e9aed094c8e44ebfb253",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/31.13.2/manifest-merger-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-handler",
+    "version": "4.1.110.Final",
+    "file": "netty-handler-4.1.110.Final-sources.jar",
+    "sha256": "3e8186c75527436a7fb99d0686cf138676df9498724aa787f7894d2ad6c4caa6",
+    "vendorSha1": "91f6a27a66ed30c0552c998f5dc2a2e13e65d4fe",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.110.Final/netty-handler-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-resolver",
+    "version": "4.1.110.Final",
+    "file": "netty-resolver-4.1.110.Final-sources.jar",
+    "sha256": "792d057545fc3f1aa72c5571f6caf44d4166527322003cfb7b621c15bcd8d9e7",
+    "vendorSha1": "a1d4e58416aa3dbe85d8df368a74f72e23a41cb4",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.110.Final/netty-resolver-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.perfmark",
+    "name": "perfmark-api",
+    "version": "0.27.0",
+    "file": "perfmark-api-0.27.0-sources.jar",
+    "sha256": "311551ab29cf51e5a8abee6a019e88dee47d1ea71deb9fcd3649db9c51b237bc",
+    "vendorSha1": "c7a23ed4115a2d2d04cb88d3575c8fb43a6fb6e6",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-transport-native-unix-common",
+    "version": "4.1.110.Final",
+    "file": "netty-transport-native-unix-common-4.1.110.Final-sources.jar",
+    "sha256": "05c3989c61518b7dd6225a445401d1e8a9508a0d99a839847dac373e305e784d",
+    "vendorSha1": "cd3c51ca482ed539e0b49f6ffb207a6dc73246d4",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-transport",
+    "version": "4.1.110.Final",
+    "file": "netty-transport-4.1.110.Final-sources.jar",
+    "sha256": "8b30a2af314e828040b7736f2134192fcf932e9f34756c6e6168753dfae32cb5",
+    "vendorSha1": "0376e9971c09f3684b74738975d592a025b60fc3",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.110.Final/netty-transport-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-handler-proxy",
+    "version": "4.1.110.Final",
+    "file": "netty-handler-proxy-4.1.110.Final-sources.jar",
+    "sha256": "b1411f4864e9f76d435aca6adfe93bf8745718e1c0e1b7d73d0d1926e2e92a8a",
+    "vendorSha1": "e1deed730ab2e2a9e726c701df0b7e5da19f4c0c",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.110.Final/netty-handler-proxy-4.1.110.Final-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-java-util",
+    "version": "3.25.5",
+    "file": "protobuf-java-util-3.25.5-sources.jar",
+    "sha256": "db5bda981edcda1fd4d60bf4cc7dca9ab144f6b880233fd4d1582fd0065f232c",
+    "vendorSha1": "c1c4a59a712e9670e7f1f636dfc11e266e6640a6",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.25.5/protobuf-java-util-3.25.5-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-java",
+    "version": "3.25.5",
+    "file": "protobuf-java-3.25.5-sources.jar",
+    "sha256": "d686e802329e42954e72e9b3b148b67eeb4f6f3ed327abc4508b79fda4937c3b",
+    "vendorSha1": "fc58beabfba862f33d143fb414d7dde12b0d28a3",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.api.grpc",
+    "name": "proto-google-common-protos",
+    "version": "2.48.0",
+    "file": "proto-google-common-protos-2.48.0-sources.jar",
+    "sha256": "6954ee2057e201eda9584edcbb9e781649e15a808adaef87942f1f539a2f6551",
+    "vendorSha1": "777da9cce8912d61f28dc9561bcabe46c991b37e",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.48.0/proto-google-common-protos-2.48.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "repository",
+    "version": "31.13.2",
+    "file": "repository-31.13.2-sources.jar",
+    "sha256": "825e8e7510f52c5f49a2f9a6fdb99c006d28399ffb6092f4992e2a0f333eca98",
+    "vendorSha1": "8baf85d6d0811f7e2d8e51dc6a6fc107408db506",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/repository/31.13.2/repository-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "protos",
+    "version": "31.13.2",
+    "file": "protos-31.13.2-sources.jar",
+    "sha256": "3b20b11b9fcb18309c0a30897d7ef3377e05450434173fc48e777bf75d4e4aad",
+    "vendorSha1": "1e48392a15a210b5b38ad24a5f5430e1523f1258",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/31.13.2/protos-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "sdk-common",
+    "version": "31.13.2",
+    "file": "sdk-common-31.13.2-sources.jar",
+    "sha256": "d628ff3faef817facebd17b6befbc32f13ec8719fc6502ac29c7f8820fcfdff9",
+    "vendorSha1": "b718deb2c12d59845188ced40bfc7d86e9b5b033",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/31.13.2/sdk-common-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools",
+    "name": "sdklib",
+    "version": "31.13.2",
+    "file": "sdklib-31.13.2-sources.jar",
+    "sha256": "6952bdb381b685444f3eccf5533d737a816d4ab7d780516f41393dd134ab4a74",
+    "vendorSha1": "f0a0acfda14c9d5dc9f02403bcd07de52ea0f70a",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/31.13.2/sdklib-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "shared",
+    "version": "31.13.2",
+    "file": "shared-31.13.2-sources.jar",
+    "sha256": "5272a075b6ffa1edbe020457ae5f91c06cc4c12100a36e7194ebc090b7832af2",
+    "vendorSha1": "dd4f303e106095b143007c605ce2c285817a695f",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/31.13.2/shared-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.7.30",
+    "file": "slf4j-api-1.7.30-sources.jar",
+    "sha256": "9ee459644577590fed7ea94afae781fa3cc9311d4553faee8a3219ffbd7cc386",
+    "vendorSha1": "71a1fdefa224da50f1db6306ce609981e20186c9",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.jvnet.staxex",
+    "name": "stax-ex",
+    "version": "1.8.1",
+    "file": "stax-ex-1.8.1-sources.jar",
+    "sha256": "1333d591414aa494425e49fae1f3cb8aec6b58148956353ef1d0b53fac49129c",
+    "vendorSha1": "9a46c7d2b4baa07f67f062da02d31fe84f3d26ea",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android",
+    "name": "signflinger",
+    "version": "8.13.2",
+    "file": "signflinger-8.13.2-sources.jar",
+    "sha256": "6ea6551350faf30f27845283e2961eed980228efaa1899f1839303b648ac50bb",
+    "vendorSha1": "d4709807b3a8b5d4446eb43d120e01ba634038e0",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/signflinger/8.13.2/signflinger-8.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.tensorflow",
+    "name": "tensorflow-lite-metadata",
+    "version": "0.2.0",
+    "file": "tensorflow-lite-metadata-0.2.0-sources.jar",
+    "sha256": "178c49195d9728480e655cf37ab480963cb7d4065af52c5450e9508c18c64a1d",
+    "vendorSha1": "9adca3799954566a32102c9744b090436d2591b9",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/tensorflow/tensorflow-lite-metadata/0.2.0/tensorflow-lite-metadata-0.2.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "tracker",
+    "version": "31.13.2",
+    "file": "tracker-31.13.2-sources.jar",
+    "sha256": "b46d2ecd8af5a63b7cccc244b8938542dec03e1ca3b14092b8ba213a81a7e522",
+    "vendorSha1": "98e41af9ebc7ed5bcb4e4ae62ba236633b4b0b6a",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/31.13.2/tracker-31.13.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.devtools.ksp",
+    "name": "symbol-processing-api",
+    "version": "2.2.21-2.0.4",
+    "file": "symbol-processing-api-2.2.21-2.0.4-sources.jar",
+    "sha256": "f37f9e6b579ed62aa5741fbd1c862e6b67907a6a49270336838104d43df2505c",
+    "vendorSha1": "f897026a9b54a25b98259d5a6f88a0513250e868",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/devtools/ksp/symbol-processing-api/2.2.21-2.0.4/symbol-processing-api-2.2.21-2.0.4-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.crypto.tink",
+    "name": "tink",
+    "version": "1.7.0",
+    "file": "tink-1.7.0-sources.jar",
+    "sha256": "b2795d77719b0df17ee03c68c2bc00be0ffc61072fbb46d7de42d849ff16af60",
+    "vendorSha1": "4e0145256a2acc075bae67d56e9aa0334aef217c",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/crypto/tink/tink/1.7.0/tink-1.7.0-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.devtools.ksp",
+    "name": "symbol-processing-common-deps",
+    "version": "2.2.21-2.0.4",
+    "file": "symbol-processing-common-deps-2.2.21-2.0.4-sources.jar",
+    "sha256": "ab8f60721ed4f4bac1e17a70de106aa76bc9c4ad4ccef68b06f6d4eaa42eccad",
+    "vendorSha1": "d0c400e3c732b186fa68b2472b7d8a5f49e580c3",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/devtools/ksp/symbol-processing-common-deps/2.2.21-2.0.4/symbol-processing-common-deps-2.2.21-2.0.4-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.google.devtools.ksp",
+    "name": "symbol-processing-gradle-plugin",
+    "version": "2.2.21-2.0.4",
+    "file": "symbol-processing-gradle-plugin-2.2.21-2.0.4-sources.jar",
+    "sha256": "1c73ae3e3cf5c0378b43b40b9d5d00f754675f6e9e12481f67cce67260e409c1",
+    "vendorSha1": "05494f3a916f0979eb20fb0114d32d0478a076cc",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/com/google/devtools/ksp/symbol-processing-gradle-plugin/2.2.21-2.0.4/symbol-processing-gradle-plugin-2.2.21-2.0.4-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "txw2",
+    "version": "2.3.2",
+    "file": "txw2-2.3.2-sources.jar",
+    "sha256": "a5ae8ac7886df60992e4039c75b7095cf04d1bea3a81f77f72e2c652f8f57a56",
+    "vendorSha1": "294dff1d7635508067320ded761b73bf3729b2ff",
+    "vendorDigestUrl": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "transform-api",
+    "version": "2.0.0-deprecated-use-gradle-api",
+    "file": "transform-api-2.0.0-deprecated-use-gradle-api-sources.jar",
+    "sha256": "5a1c6b7c2b573cf641519fafbc41ef1ca62046d906b0f592afdc0bd0a6fd1276",
+    "vendorSha1": "0f18536c1fe08673c69e869be170759616a9df16",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api-sources.jar.sha1",
+    "verified": true
+  },
+  {
+    "group": "com.android",
+    "name": "zipflinger",
+    "version": "8.13.2",
+    "file": "zipflinger-8.13.2-sources.jar",
+    "sha256": "7271e8c351e78fedc8a57069529ce3941064515c76de648273b705af71cfdf80",
+    "vendorSha1": "797ecde3bd064cb1afdddc9be07ba4ce14ed68b3",
+    "vendorDigestUrl": "https://dl.google.com/dl/android/maven2/com/android/zipflinger/8.13.2/zipflinger-8.13.2-sources.jar.sha1",
+    "verified": true
+  }
+]

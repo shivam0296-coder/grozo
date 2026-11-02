@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "sourceAddControls": "DISABLED_UNPRICED",
+  "demoAdd": "PASS",
+  "minimumBasket": "BLOCKED_BELOW_199",
+  "quantity": 3,
+  "item": "Basmati rice",
+  "subtotalPaise": 38700,
+  "couponDiscountPaise": 2000,
+  "deliveryPaise": 1900,
+  "totalPaise": 38600,
+  "developmentCheckout": "PASS_LOCAL_SIMULATION",
+  "developmentCancellation": "PASS_CANCELLED",
+  "realPayment": false,
+  "realDelivery": false,
+  "categoryCounts": "CORRECTED_AND_CHECKED",
+  "previewErrorAndRetry": "PASS",
+  "sourceModeRestored": true
+}

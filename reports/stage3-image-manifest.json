@@ -1,0 +1,278 @@
+{
+  "sourceStatus": "EXACT_PHOTOS_PENDING",
+  "verifiedProductImages": 0,
+  "products": [
+    {
+      "productId": "10000000-0000-4000-8000-000000000001",
+      "variantId": "20000000-0000-4000-8000-000000000001",
+      "name": "Bananas",
+      "brand": "GROZO Select · development",
+      "pack": "6 pieces",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000002",
+      "variantId": "20000000-0000-4000-8000-000000000002",
+      "name": "Farm-fresh tomatoes",
+      "brand": "GROZO Select · development",
+      "pack": "500 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000003",
+      "variantId": "20000000-0000-4000-8000-000000000003",
+      "name": "Whole milk",
+      "brand": "GROZO Select · development",
+      "pack": "500 ml",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000004",
+      "variantId": "20000000-0000-4000-8000-000000000004",
+      "name": "Whole wheat bread",
+      "brand": "GROZO Select · development",
+      "pack": "400 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000005",
+      "variantId": "20000000-0000-4000-8000-000000000005",
+      "name": "Royal apples",
+      "brand": "GROZO Select · development",
+      "pack": "4 pieces",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000006",
+      "variantId": "20000000-0000-4000-8000-000000000006",
+      "name": "Tender spinach",
+      "brand": "GROZO Select · development",
+      "pack": "250 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000007",
+      "variantId": "20000000-0000-4000-8000-000000000007",
+      "name": "Greek-style curd",
+      "brand": "GROZO Select · development",
+      "pack": "400 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000008",
+      "variantId": "20000000-0000-4000-8000-000000000008",
+      "name": "Salted potato chips",
+      "brand": "GROZO Select · development",
+      "pack": "90 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000009",
+      "variantId": "20000000-0000-4000-8000-000000000009",
+      "name": "Orange juice",
+      "brand": "GROZO Select · development",
+      "pack": "1 litre",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000010",
+      "variantId": "20000000-0000-4000-8000-000000000010",
+      "name": "Hand wash",
+      "brand": "GROZO Select · development",
+      "pack": "250 ml",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000011",
+      "variantId": "20000000-0000-4000-8000-000000000011",
+      "name": "Kitchen towels",
+      "brand": "GROZO Select · development",
+      "pack": "2 rolls",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000012",
+      "variantId": "20000000-0000-4000-8000-000000000012",
+      "name": "Floor cleaner",
+      "brand": "GROZO Select · development",
+      "pack": "500 ml",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000013",
+      "variantId": "20000000-0000-4000-8000-000000000013",
+      "name": "Basmati rice",
+      "brand": "GROZO Select · development",
+      "pack": "1 kg",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000014",
+      "variantId": "20000000-0000-4000-8000-000000000014",
+      "name": "Whole wheat atta",
+      "brand": "GROZO Select · development",
+      "pack": "5 kg",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000015",
+      "variantId": "20000000-0000-4000-8000-000000000015",
+      "name": "Green peas",
+      "brand": "GROZO Select · development",
+      "pack": "500 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000016",
+      "variantId": "20000000-0000-4000-8000-000000000016",
+      "name": "Baby wipes",
+      "brand": "GROZO Select · development",
+      "pack": "72 pieces",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000017",
+      "variantId": "20000000-0000-4000-8000-000000000017",
+      "name": "Almonds",
+      "brand": "GROZO Select · development",
+      "pack": "200 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    },
+    {
+      "productId": "10000000-0000-4000-8000-000000000018",
+      "variantId": "20000000-0000-4000-8000-000000000018",
+      "name": "Fresh carrots",
+      "brand": "GROZO Select · development",
+      "pack": "500 g",
+      "status": "pending",
+      "sourceUrl": null,
+      "rights": null,
+      "verified": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-fruits",
+      "name": "Fruits",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-vegetables",
+      "name": "Vegetables",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-dairy",
+      "name": "Dairy",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-bakery",
+      "name": "Bakery",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-snacks",
+      "name": "Snacks",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-beverages",
+      "name": "Beverages",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-personal-care",
+      "name": "Personal Care",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-household",
+      "name": "Household",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-cleaning",
+      "name": "Cleaning",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-staples",
+      "name": "Staples",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-frozen",
+      "name": "Frozen",
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cat-baby-care",
+      "name": "Baby Care",
+      "status": "pending",
+      "sourceUrl": null
+    }
+  ]
+}

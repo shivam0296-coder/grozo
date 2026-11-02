@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-31",
+  "catalogueEntries": 390,
+  "individualEntriesSearched": 390,
+  "searchQueryBatches": 98,
+  "taxonomyNodes": 52,
+  "uniqueAcceptedPhotographs": 103,
+  "entriesWithAcceptedImages": 104,
+  "entriesWithoutAcceptedImages": 286,
+  "manualFollowUpEntries": 286,
+  "manualQueueOverlapsMissing": true,
+  "unverifiedImagesIncluded": 0,
+  "visualDecisions": 150,
+  "rejectedCandidates": 46,
+  "byCategory": [
+    {
+      "category": "Household Grocery",
+      "entries": 100,
+      "withImages": 0,
+      "withoutImages": 100
+    },
+    {
+      "category": "Personal Care & Home Protection",
+      "entries": 88,
+      "withImages": 0,
+      "withoutImages": 88
+    },
+    {
+      "category": "Vegetables",
+      "entries": 102,
+      "withImages": 52,
+      "withoutImages": 50
+    },
+    {
+      "category": "Fruits",
+      "entries": 100,
+      "withImages": 52,
+      "withoutImages": 48
+    }
+  ],
+  "exactPackPhotographs": 0,
+  "scope": "All entries accounted for. Accepted photographs match the source-named loose produce/cultivar, not a merchant SKU/lot. Missing means no suitable exact reusable photo secured in this research, not proof no photo exists anywhere.",
+  "applicationOrWebsiteChanges": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@grozo/client",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/store.ts",
+    "./api": "./src/api.ts",
+    "./types": "./src/types.ts"
+  }
+}

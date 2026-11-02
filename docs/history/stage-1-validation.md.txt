@@ -1,0 +1,56 @@
+# Stage 1 validation record
+
+Date: 2026-10-30. Active phase/objective: GROZO Stage 1 planning, architecture and executable commerce foundation. The owner requested staged delivery; no later stage is claimed complete.
+
+## Verified results
+
+| Check | Result |
+| --- | --- |
+| Node runtime | v24.22.1 |
+| Offline project check | PASS: Node requirement, all JSON parsing, TS/JS syntax, required files and basic source-content checks |
+| Domain tests | 20 passed, 0 failed |
+| Contract intent checks | 6 passed, 0 failed |
+| Combined run | 26 passed, 0 failed, 0 skipped; about 0.22 seconds test-process time |
+| Accounting cases | 500 deterministic mixed-tax/discount baskets inside the domain suite |
+| Fictional basket example | PASS: ₹420 subtotal, ₹42 coupon, free delivery, ₹378 payable |
+| SVG | PASS: well-formed XML; original source mark |
+| Local documentation links | PASS: referenced local Markdown targets exist |
+| SQL inventory | 47 CREATE TABLE declarations; design only |
+| API inventory | 30 planned operations, 34 schemas; all local references resolved |
+| Source packaging | Source-only ZIP built and entry contents compared with source after final documentation update; receipt outside the project records the archive checksum |
+
+These tests verify bounded money/state behavior and contract intent. They are not proof of useful AI, customer demand, operational capacity, database correctness, successful integrations or production readiness.
+
+## Skipped or unavailable checks
+
+- Static TypeScript compiler check: no compiler/dependencies installed. Node syntax/type stripping does not check types.
+- Full OpenAPI standards/schema validation and generated-client build: maintained validator/tooling not installed; structural/reference checks only.
+- PostgreSQL parsing/migration, seed execution, database permissions, transaction/concurrency and backup tests: no local PostgreSQL executable/server detected.
+- NestJS, React, Android compilation and APK/AAB: application implementations and corresponding dependencies/toolchains are pending.
+- Browser/responsive/accessibility and Android device tests: no UI is shipped in Stage 1.
+- OTP, Maps, payment/webhook/refund and FCM tests: adapters/credentials are absent and disabled.
+- Security penetration, legal/policy review, load/soak, deployment and rollback: later release gates.
+
+## Files and decisions
+
+41 new source/documentation files reside in the GROZO project: root controls/config, 14 documentation/decision files, original logo/tokens, domain source, tests/example, API contract, database migration/reference seed, packaging/check scripts and explicit destination READMEs. Consult the actual ZIP inventory for the authoritative list. ADR 0001 records assumptions and the next-stage boundary. No neighboring research-project file was edited.
+
+GROZO is not yet initialized as a Git repository and has no commit or remote. The neighboring repository exists; Git status needed a per-command safe-directory override due to ownership metadata. Its existing untracked files were preserved; no global Git setting was changed.
+
+## Resources and effects
+
+- Installed local Node and PowerShell only; short CPU-only checks; no GPU, training, package install, database, cloud resources or paid API calls.
+- Measured source checkpoint before this expanded validation record: 41 files, 186,045 bytes. Final source remains below 250 KB; archive size/checksum are reported with the delivered ZIP.
+- No application runtime network calls. Official public documentation searches informed architecture and credential guidance. No project/customer data was uploaded to those providers.
+- Current memory inventory was unavailable through restricted CIM access. No memory/capacity claim is made. Free disk checkpoint was approximately 163 GB.
+- No datasets, externally trained weights, product photographs, customer/rider records or production secrets were acquired.
+- Original project material remains all rights reserved; no license change, package adoption or third-party media redistribution.
+
+## Tooling issues resolved or recorded
+
+Initial patch-helper writes failed before source creation. After directory write access was granted, scoped PowerShell writes succeeded. An oversized contract write hit the Windows command-line length limit; bounded chunks succeeded and JSON/reference checks passed. These were authoring-tool failures, not failing product tests. System memory discovery remained unavailable.
+
+## Limits and next smallest step
+
+Stage 1 is delivered with the limits above. Next: Stage 2 dependency/toolchain inventory and exact version/lock/license review, then complete customer web and Android UI/workspace implementation. Persisted checkout still needs quote persistence, fiscal configuration, real stock/coupon concurrency tests and a zero-payable-order policy before customer use.
+

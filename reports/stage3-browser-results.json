@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-30",
+  "runner": "Codex Cua automation, shared browser-flows.mjs and stage3-browser-flows.mjs",
+  "passed": 63,
+  "results": [
+    {
+      "test": "Customer home navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Customer desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Instant product search",
+      "result": "passed"
+    },
+    {
+      "test": "Basket navigation and editable quantities",
+      "result": "passed"
+    },
+    {
+      "test": "Coupon and free delivery calculate ₹470",
+      "result": "passed"
+    },
+    {
+      "test": "Development order confirmation",
+      "result": "passed"
+    },
+    {
+      "test": "Placed order can be cancelled locally",
+      "result": "passed"
+    },
+    {
+      "test": "Customer error state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer empty state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer loading state",
+      "result": "passed"
+    },
+    {
+      "test": "Customer mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Search empty results",
+      "result": "passed"
+    },
+    {
+      "test": "Search filter recovery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Products",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Inventory",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Customers",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Delivery partners",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Service zones",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Campaigns",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Coupons",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Reports",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Support inbox",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Settings",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Activity log",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Integrations",
+      "result": "passed"
+    },
+    {
+      "test": "Admin navigation: Overview",
+      "result": "passed"
+    },
+    {
+      "test": "Admin desktop page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 1425,
+        "width": 1425
+      }
+    },
+    {
+      "test": "Admin mobile page fits viewport",
+      "result": "passed",
+      "viewport": {
+        "content": 375,
+        "width": 375
+      }
+    },
+    {
+      "test": "Mobile admin drawer navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Admin rejects selling price above MRP",
+      "result": "passed"
+    },
+    {
+      "test": "Admin creates and filters a development product",
+      "result": "passed"
+    },
+    {
+      "test": "Admin product update",
+      "result": "passed"
+    },
+    {
+      "test": "Admin confirm, pack, assign, dispatch and simulated delivery",
+      "result": "passed"
+    },
+    {
+      "test": "Admin support resolution",
+      "result": "passed"
+    },
+    {
+      "test": "Admin campaign date form",
+      "result": "passed"
+    },
+    {
+      "test": "Admin error state",
+      "result": "passed"
+    },
+    {
+      "test": "Notifications remain an explicit placeholder",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue studio navigation",
+      "result": "passed"
+    },
+    {
+      "test": "Create root category",
+      "result": "passed"
+    },
+    {
+      "test": "Create mapped subcategory",
+      "result": "passed"
+    },
+    {
+      "test": "Create brand",
+      "result": "passed"
+    },
+    {
+      "test": "CSV invalid row blocks complete batch",
+      "result": "passed"
+    },
+    {
+      "test": "Invalid CSV import button disabled",
+      "result": "passed"
+    },
+    {
+      "test": "CSV preview preserves duplicate-looking rows",
+      "result": "passed"
+    },
+    {
+      "test": "Duplicate import requires explicit retention",
+      "result": "passed"
+    },
+    {
+      "test": "Bulk import adds searchable variants",
+      "result": "passed"
+    },
+    {
+      "test": "All imported pack variants retained",
+      "result": "passed"
+    },
+    {
+      "test": "Variant and price edit persists",
+      "result": "passed"
+    },
+    {
+      "test": "Image upload remains pending review",
+      "result": "passed"
+    },
+    {
+      "test": "Image source metadata persists",
+      "result": "passed"
+    },
+    {
+      "test": "Image replacement persists",
+      "result": "passed"
+    },
+    {
+      "test": "Missing PDF counts remain explicit",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue admin mobile fits viewport",
+      "result": "passed"
+    },
+    {
+      "test": "Catalogue sorting and stock filter",
+      "result": "passed"
+    },
+    {
+      "test": "Visible catalogue price order is ascending",
+      "result": "passed"
+    },
+    {
+      "test": "List view toggle",
+      "result": "passed"
+    },
+    {
+      "test": "Detailed product information",
+      "result": "passed"
+    },
+    {
+      "test": "Missing exact photograph disclosed",
+      "result": "passed"
+    },
+    {
+      "test": "Recently viewed section",
+      "result": "passed"
+    },
+    {
+      "test": "Recently viewed contains opened item",
+      "result": "passed"
+    },
+    {
+      "test": "Customer tablet fits viewport",
+      "result": "passed"
+    },
+    {
+      "test": "Saved delivery location selection",
+      "result": "passed"
+    },
+    {
+      "test": "Keyboard Escape closes native dialog",
+      "result": "passed"
+    }
+  ],
+  "consoleErrors": [],
+  "notes": [
+    "No native device/emulator execution.",
+    "Upload tests used GROZO interface screenshots only on explicitly synthetic QA products, left pending review. No test image is claimed as a product photograph.",
+    "Initial CSV same-file reselection and price selector failures were corrected before the successful runs."
+  ],
+  "historicalConsoleErrors": [
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:47.420Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:47.420Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.248Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.249Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.249Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.249Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.400Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.401Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.401Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.401Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.744Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.747Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.753Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:34:48.753Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:54:41.752Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:54:41.752Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:54:41.762Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:54:41.770Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:10.400Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:10.404Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:10.410Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:10.412Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:12.940Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:12.941Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:12.941Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:12.941Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:13.549Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:13.550Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:13.550Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. All",
+      "timestamp": "2026-10-30T15:55:13.550Z",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    }
+  ],
+  "postFixCheck": {
+    "checkpoint": "2026-10-30T16:04:50.015Z",
+    "fix": "Unique home collection section keys use their titles.",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "desktop": {
+      "width": 1425,
+      "content": 1425
+    },
+    "freshPageErrors": 0
+  }
+}

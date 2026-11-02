@@ -1,0 +1,3 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const file='apps/web/index.html';writeFileSync(file,readFileSync(file,'utf8').replace('GROZO customer interface — Stage 2 development preview.','GROZO grocery catalogue for Siyana, Bulandshahr. Explore fresh produce and everyday essentials. Ordering is not open yet.').replace('GROZO — Your everyday, a little fresher.','GROZO — Goodness, Delivered by the Bagful.'));
+const p=JSON.parse(readFileSync('package.json','utf8'));p.version='0.4.0';p.description='GROZO Android testing builds, customer catalogue, local admin and shared read-only API';p.scripts['dev:api']='node services/api/server.mjs';p.scripts['build:catalogue']='pnpm --filter @grozo/web build';writeFileSync('package.json',JSON.stringify(p,null,2)+'\n');

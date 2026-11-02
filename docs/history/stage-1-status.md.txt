@@ -1,0 +1,38 @@
+# GROZO status
+
+Date: 2026-10-30. Active objective: Stage 1 architecture and executable commerce foundation.
+
+## Capability maturity
+
+| Capability | Status | Evidence/limit |
+| --- | --- | --- |
+| Architecture, stack, folder map, roadmap | DESIGNED | docs/architecture.md and roadmap.md |
+| Price calculation | PROTOTYPE | TypeScript implementation and offline rule tests |
+| Role-aware order transition policy | PROTOTYPE | Pure rule tests; no authentication/database workflow |
+| Original logo/design tokens | SOURCE_ASSET | SVG/token files; no app integration |
+| PostgreSQL schema/reference seed | DESIGNED | SQL draft, not database-validated |
+| REST API | DESIGNED | 30-operation core OpenAPI baseline; no HTTP service |
+| Android customer/rider | NOT_IMPLEMENTED | Reserved destinations only |
+| Website/admin | NOT_IMPLEMENTED | Reserved destinations only |
+| Identity/persistence/worker/reports | NOT_IMPLEMENTED | Architecture/schema only |
+| Maps/payments/OTP/FCM/location | NOT_IMPLEMENTED | Disabled placeholders and setup guide |
+| AI/models/recommendation quality | NOT_IMPLEMENTED | No model/provider or quality evidence |
+| Production deployment/APK/AAB | NOT_IMPLEMENTED | No build/release claim |
+
+## Decisions and assumptions
+
+ADR 0001 records the modular monolith, separate worker, integer-paise tax-inclusive money and threshold/cancellation interpretations. All paid/external integrations remain disabled. Zero-payable orders need an explicit no-charge fulfilment design before implementation; never submit a zero-amount Razorpay order.
+
+## Files and resources
+
+New project files are under this GROZO folder: documentation, source domain rules/tests, database designs, API contract, branding, reference seed, environment template and verification/package scripts. The neighboring research repository is preserved. GROZO is not yet a Git repository and has no commit or remote.
+
+Stage 1 uses the installed Node runtime and short CPU-only local checks; no installed packages, dataset/model/media acquisition, GPU, cloud service or paid API use. Exact source/archive size and final check outcomes are recorded in validation.md. Existing machine memory inventory could not be read due to restricted system access; no capacity claim follows from this work.
+
+## Security/privacy/data/license effects
+
+No real customer/rider data, production secrets or payment details are used. The supplied owner contact details are not embedded into application fixtures. Product photos remain unacquired. Original material remains all rights reserved; no repository license change or third-party package adoption. Public official documentation was read for planning; no application data was sent to those services.
+
+## Next smallest step
+
+Stage 2 toolchain/dependency inventory and exact lock/version review, followed by complete customer web catalogue/cart UI and Android workspaces. See the full roadmap and requirement coverage. Full database/API/provider/build/device checks are pending.

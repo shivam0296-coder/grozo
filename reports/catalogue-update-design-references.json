@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "name": "Screenshot 2026-10-31 132256.png",
+      "sha256": "fed270624ac841410c439a71931b5dac4b38439904a2394f746f359c0d176bce",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132243.png",
+      "sha256": "1020113374b5370869e47daa3389cbfb25a0da8d21761398b16aeaa3d81ccd09",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132200.png",
+      "sha256": "11afee0afe4ccedf73784139e0d1416a9fba1f34724486186198bd305c7d65a2",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132111.png",
+      "sha256": "406e9e9b09a3e88c7f1f5cb936a856c77e2158e79584a47b737d87ca88d0d1a1",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132047.png",
+      "sha256": "84cbcfacfb1b199f193f96456d3e81f1643bf488ec57c87664a1b28f4673ea43",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132035.png",
+      "sha256": "5405e833f2df76ba6b1e18c41c54c03d421e99cf3cec8d2d9d81b6904257f810",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132022.png",
+      "sha256": "a9f1936e80298a201dc32ffcb4c5d5346507e82567541592b5f53d96dc33a421",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 132001.png",
+      "sha256": "5c6ead6e3f00f0a92dccf176e738c4d57c237dc7829798ae66e3dfc13945400a",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 131950.png",
+      "sha256": "1b4abbf42dbe80a7769604b4a04e5c7ff61adab7082ef9d09b1b5bb766821ec4",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 131938.png",
+      "sha256": "565044ae2b027d9f8245ea1ba8aa69218299fcff3ddc90a87c205a84d3761ebc",
+      "use": "Layout reference only; not copied into application assets."
+    },
+    {
+      "name": "Screenshot 2026-10-31 131926.png",
+      "sha256": "70462f1133ba7d0c856da2bfa9627764e8bf97cc9b7419d4bf4b39539aed00bf",
+      "use": "Layout reference only; not copied into application assets."
+    }
+  ],
+  "decisions": [
+    "Retain GROZO original logo/green identity.",
+    "Compact category/photo grids, horizontal shelves, fixed image proportions, pack and price hierarchy, prominent add controls.",
+    "Do not copy competitor brands, promotional graphics, ratings, discounts or delivery promises."
+  ]
+}

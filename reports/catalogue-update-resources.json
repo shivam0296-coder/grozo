@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-31",
+  "logicalBytes": 5285503531,
+  "approvedStorageCapBytes": 6000000000,
+  "approvedOriginalDownloadCapBytes": 3000000000,
+  "newToolchainDownloadsThisUpdate": 0,
+  "photoDownloadsThisUpdate": 2721877,
+  "rows": [
+    {
+      "path": ".toolchains",
+      "bytes": 2775918534
+    },
+    {
+      "path": ".cache",
+      "bytes": 2137305093
+    },
+    {
+      "path": "node_modules",
+      "bytes": 141908339
+    },
+    {
+      "path": "apps/android/.gradle",
+      "bytes": 4657143
+    },
+    {
+      "path": "apps/android/core/build",
+      "bytes": 14162239
+    },
+    {
+      "path": "apps/android/customer/build",
+      "bytes": 106648672
+    },
+    {
+      "path": "apps/android/rider/build",
+      "bytes": 104903511
+    }
+  ],
+  "notes": "Logical file sizes; excludes source documents/deliverable copies outside the project. No emulator/paid service."
+}

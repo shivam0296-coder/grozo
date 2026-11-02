@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-30",
+  "version": "0.3.0-development",
+  "stage3Complete": false,
+  "missingInputs": [
+    "PDF A",
+    "PDF B",
+    "design references",
+    "approved exact product photographs"
+  ],
+  "nodeTests": {
+    "passed": 57,
+    "failed": 0,
+    "skipped": 0
+  },
+  "androidUnitTests": {
+    "passed": 16,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "browserAssertions": {
+    "passed": 63,
+    "runner": "Cua using shared browser test functions"
+  },
+  "typecheck": "passed",
+  "webBuilds": "both passed; non-fatal Tailwind sourcemap warning",
+  "androidBuilds": "both assembleDebug passed offline",
+  "apkSignatures": "debug v2 verified; certificate matches Stage 2",
+  "nativeDeviceOrEmulatorRun": false,
+  "pdfImport": {
+    "sourceTotal": null,
+    "imported": 0
+  },
+  "sourceProducts": {
+    "count": 18,
+    "kind": "preserved synthetic development fixtures"
+  },
+  "exactVerifiedProductImages": 0,
+  "liveBackend": false,
+  "liveProviders": [],
+  "sourceFileDeletions": 0,
+  "originalBrandAssetsVerified": 3,
+  "protectedStage1FilesVerified": 7,
+  "resources": {
+    "measuredLocalDirectoriesBytes": 5269765784,
+    "emulatorInstalled": false,
+    "newThirdPartyDependencyVersions": false,
+    "paidServices": false
+  }
+}

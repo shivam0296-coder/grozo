@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-31",
+  "version": "2026-10-31-v1",
+  "documents": [
+    {
+      "file": "household_grocery_list.pdf",
+      "sha256": "732f8d075432bb8dd304da4af3f895313f2f1bf35e268387ce8dbc17684f6470",
+      "bytes": 31519,
+      "pages": 2,
+      "sourceEntries": 100,
+      "importedEntries": 100,
+      "pageEntryCounts": {
+        "1": 56,
+        "2": 44
+      }
+    },
+    {
+      "file": "personal_care_and_protectors.pdf",
+      "sha256": "42f64c49c254e82d3af16190e38013face7afe8b4a509c335f3e461cd8887290",
+      "bytes": 28861,
+      "pages": 2,
+      "sourceEntries": 88,
+      "importedEntries": 88,
+      "pageEntryCounts": {
+        "1": 52,
+        "2": 36
+      }
+    },
+    {
+      "file": "vegetables_list.pdf",
+      "sha256": "1c17dca99581e5042c91d32bbbdcdb472f3c1c9ede652540cd74ffaf965a8bf9",
+      "bytes": 36051,
+      "pages": 5,
+      "sourceEntries": 102,
+      "importedEntries": 102,
+      "pageEntryCounts": {
+        "1": 24,
+        "2": 28,
+        "3": 24,
+        "4": 25,
+        "5": 1
+      }
+    },
+    {
+      "file": "fruits_list.pdf",
+      "sha256": "2fa4e0dca1f349d256e7860e4f234539863591999e97bd33f1563c4cc6380112",
+      "bytes": 63047,
+      "pages": 4,
+      "sourceEntries": 100,
+      "importedEntries": 100,
+      "pageEntryCounts": {
+        "1": 24,
+        "2": 28,
+        "3": 29,
+        "4": 19
+      }
+    }
+  ],
+  "pagesReviewed": 13,
+  "sourceEntries": 390,
+  "importedEntries": 390,
+  "unmappedEntries": 0,
+  "sourceRootCategories": 4,
+  "sourceCategoryNodes": 52,
+  "subordinateNodes": 48,
+  "maximumDepth": 3,
+  "identifiedBrandLabels": 77,
+  "sellableSkus": 0,
+  "missingMerchantPackPriceStock": 390,
+  "groupedAlternativeEntries": 50,
+  "exactDuplicateGroups": 2,
+  "photosReviewed": 13,
+  "photosPending": 377,
+  "sourcePreservation": "Grouped alternatives and duplicate-looking entries remain separate complete source records.",
+  "notes": [
+    "These PDFs are concept/name lists, not priced merchant SKU feeds.",
+    "English names preserved. Raw bilingual extraction retained; embedded-font spacing in Hindi requires review against the cited PDF page.",
+    "No assumed pack size, selling price, MRP, stock or fiscal classification."
+  ]
+}

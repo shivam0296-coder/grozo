@@ -1,0 +1,472 @@
+{
+  "categories": [
+    {
+      "id": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "name": "Household Grocery",
+      "parentId": null,
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Complete Household Grocery Items List"
+    },
+    {
+      "id": "4b0a9c31-bb16-5a64-b7da-7337bbf294a5",
+      "name": "Dairy & Breakfast Essentials",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "डेयरी और सुबह का नाश्ता (Dairy & Breakfast Essentials)"
+    },
+    {
+      "id": "15d31995-80f3-5381-a372-5ff90de0d4e7",
+      "name": "Staples - Flours, Rice & Pulses",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "बु  नयादी स्टेपल्स - आटा, चावल और दालें (Staples - Flours, Rice & Pulses)"
+    },
+    {
+      "id": "74cc7930-c391-55f6-8859-3050179297cf",
+      "name": "Sweeteners & Baking",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "मीठा और बे  कंग का सामान (Sweeteners & Baking)"
+    },
+    {
+      "id": "20987e3a-5fc1-5603-afb6-e9f95880eb84",
+      "name": "Cooking Oils & Ghee",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "कु  कंग ऑयल और घी (Cooking Oils & Ghee)"
+    },
+    {
+      "id": "21c8ee86-a55a-5b55-adcc-3bbf4802d27c",
+      "name": "Spices & Condiments",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "खड़े और  पसे मसाले (Spices & Condiments)"
+    },
+    {
+      "id": "013a2cc8-867a-5732-8127-d712b1bd9de0",
+      "name": "Beverages",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "चाय, कॉफी और पेय पदा  र्थ (Beverages)"
+    },
+    {
+      "id": "83dad249-d704-5b27-a5fd-e2e45d2eaf86",
+      "name": "Snacks, Packaged Foods & Sauces",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "स्नैक्स, नूडल्स और सॉस (Snacks, Packaged Foods & Sauces)"
+    },
+    {
+      "id": "d4aa07ac-06ec-56db-af41-7ed338650856",
+      "name": "Dry Fruits & Seeds",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "सूखे मेवे और बीज (Dry Fruits & Seeds)"
+    },
+    {
+      "id": "6ec942e9-0b57-5add-8014-d63e6433f688",
+      "name": "Puja Essentials",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "पूजा सामग्री (Puja Essentials)"
+    },
+    {
+      "id": "cb8e24df-f72e-5b68-b86e-98d00d39fdbf",
+      "name": "Kitchen & Home Utilities",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "रसोई और घर की सफाई का सामान (Kitchen & Home Utilities)"
+    },
+    {
+      "id": "c6d542cc-5f5c-56f1-bd80-3dde5557f67a",
+      "name": "Personal Care Grocery",
+      "parentId": "0dca91d2-d38d-57c0-9ae2-fb37c891cfed",
+      "active": true,
+      "sourceDocument": "household_grocery_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "पसर्थनल के यर  कराना (Personal Care Grocery)"
+    },
+    {
+      "id": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "name": "Personal Care & Home Protection",
+      "parentId": null,
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Personal Care, Skin Care & Home Protection"
+    },
+    {
+      "id": "3a7c820d-c1ee-518f-a250-f6ef248e9cc3",
+      "name": "Personal Hygiene & Bathing",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "व्य   क्तिगक्ति स्वच्छक्तिा और नहाने के उत्पाद (Personal Hygiene & Bathing)"
+    },
+    {
+      "id": "b9e732a8-a7ae-545d-8b0f-2db9657f3920",
+      "name": "Bathing Soaps",
+      "parentId": "3a7c820d-c1ee-518f-a250-f6ef248e9cc3",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Bathing Soaps"
+    },
+    {
+      "id": "ae4a12bd-fcfc-5a77-a871-d00be201e63f",
+      "name": "Shampoo & Hair Care",
+      "parentId": "3a7c820d-c1ee-518f-a250-f6ef248e9cc3",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Shampoo & Hair Care"
+    },
+    {
+      "id": "5b199623-aa79-5246-8716-09c7df65a5f3",
+      "name": "Skin Care & Oral Care",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "स्कनके यर और ओरल के यर (Skin Care & Oral Care)"
+    },
+    {
+      "id": "b8bc5eba-a11c-52a7-a4c9-5fe81b6b357b",
+      "name": "Face & Hand Wash",
+      "parentId": "5b199623-aa79-5246-8716-09c7df65a5f3",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Face & Hand Wash"
+    },
+    {
+      "id": "5c2a15d9-a577-5270-841c-4948efb58f70",
+      "name": "Oral Care",
+      "parentId": "5b199623-aa79-5246-8716-09c7df65a5f3",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Oral Care"
+    },
+    {
+      "id": "c7424afb-9e9f-5fb3-afdd-5d4d2009a997",
+      "name": "Laundry & Detergents",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "लॉन्ड्री और कपड़े धोने के उत्पाद (Laundry & Detergents)"
+    },
+    {
+      "id": "dc95399b-5521-5977-9e35-03a1edc8f093",
+      "name": "Detergent Powders",
+      "parentId": "c7424afb-9e9f-5fb3-afdd-5d4d2009a997",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Detergent Powders"
+    },
+    {
+      "id": "8083dcab-cdd6-5398-b55e-e398d4f95db0",
+      "name": "Liquid & Additives",
+      "parentId": "c7424afb-9e9f-5fb3-afdd-5d4d2009a997",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Liquid & Additives"
+    },
+    {
+      "id": "d6a6d38a-4553-59e6-9d06-2d10da0ee276",
+      "name": "Home Protectors & Cleaners",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "घर के प्रोटे  ट  र्स और फ  र्स  लीनर (Home Protectors & Cleaners)"
+    },
+    {
+      "id": "8d0a5eb7-2202-586c-beae-58626e5fa974",
+      "name": "Surface & Toilet Cleaners",
+      "parentId": "d6a6d38a-4553-59e6-9d06-2d10da0ee276",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Surface & Toilet Cleaners"
+    },
+    {
+      "id": "efc7f0cb-a49b-5e03-82a9-154ba21cd33c",
+      "name": "Dishwash & Glass Cleaners",
+      "parentId": "d6a6d38a-4553-59e6-9d06-2d10da0ee276",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 1,
+      "rawHeading": "Dishwash & Glass Cleaners"
+    },
+    {
+      "id": "4b54e6ed-21af-5b0e-96d7-87d826e9d37b",
+      "name": "Pest Control & Home Protectors",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "घरेलू कीटाणु और कीट रक्षक (Pest Control & Home Protectors)"
+    },
+    {
+      "id": "5f05553d-7717-502f-89a5-6a78b96dfae3",
+      "name": "Mosquito & Insect Repellents",
+      "parentId": "4b54e6ed-21af-5b0e-96d7-87d826e9d37b",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "Mosquito & Insect Repellents"
+    },
+    {
+      "id": "17905d7d-10a7-56e8-987f-17afcb4ad990",
+      "name": "Home Ambiance & Utility",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "होम के यर और रूम फ्रे  नर (Home Ambiance & Utility)"
+    },
+    {
+      "id": "416c636e-64d5-59e0-906b-2573f49ed71f",
+      "name": "Air Cleaners & Fresheners",
+      "parentId": "17905d7d-10a7-56e8-987f-17afcb4ad990",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "Air Cleaners & Fresheners"
+    },
+    {
+      "id": "cc5399a6-3717-55cc-8237-fc40b859017d",
+      "name": "Tissues & Wipes",
+      "parentId": "17905d7d-10a7-56e8-987f-17afcb4ad990",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "Tissues & Wipes"
+    },
+    {
+      "id": "3499e8bc-ec4d-5488-b3eb-9a2f857d9bce",
+      "name": "Men's Grooming",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "पुरुषों की ग्रू  मंग (Men's Grooming)"
+    },
+    {
+      "id": "360132ef-11d8-57f3-8a7a-fab7069549b3",
+      "name": "First Aid & OTC Healthcare",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "प्राथ  मक  चि  कत्  ा और स्वास्थ्य (First Aid & OTC Healthcare)"
+    },
+    {
+      "id": "1b5f463f-8291-58eb-b5f3-c9bd7e76b493",
+      "name": "Baby Care & Utilities",
+      "parentId": "3255be01-9b04-51be-995a-8995f4f4d622",
+      "active": true,
+      "sourceDocument": "personal_care_and_protectors.pdf",
+      "sourcePage": 2,
+      "rawHeading": "बेबी के यर और अन्य उपयो  गक्तिा (Baby Care & Utilities)"
+    },
+    {
+      "id": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "name": "Vegetables",
+      "parentId": null,
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "100+ Vegetables Name List (India)"
+    },
+    {
+      "id": "e91d7b4f-aa02-5e7a-b793-66a2bac5e32b",
+      "name": "Tubers and Root Vegetables",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "कं दमूल और जड़ वाली स   जयां (Tubers and Root Vegetables)"
+    },
+    {
+      "id": "3108e665-9590-5d94-862b-fe076a21196e",
+      "name": "Leafy Greens",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "हरी पत्तेदार स   जयां (Leafy Greens)"
+    },
+    {
+      "id": "efbe4538-0c1b-59f6-adb0-0ac44ca0b563",
+      "name": "Gourds and Vines",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "लता या बेल वाली स   जयां (Gourds and Vines)"
+    },
+    {
+      "id": "7e54eaea-1e4b-5c01-98d0-e8fd934a39ac",
+      "name": "Cruciferous & Flower Vegetables",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "फू ल और क्रू  सफे रस स   जयां (Cruciferous & Flower Vegetables)"
+    },
+    {
+      "id": "3f033cd5-9c74-5b53-9a1a-2095e7119ad9",
+      "name": "Pods and Beans",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 3,
+      "rawHeading": "फलीदार स   जयां (Pods and Beans)"
+    },
+    {
+      "id": "5afc8efb-0de1-5141-92ef-34969f6f1859",
+      "name": "Nightshades & Fruiting Vegetables",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 3,
+      "rawHeading": "सोलानेसी और फल वाली स   जयां (Nightshades & Fruiting Vegetables)"
+    },
+    {
+      "id": "308a99be-b402-564c-a99a-c259b49cfbdb",
+      "name": "Alliums",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 3,
+      "rawHeading": "प्याज और बल्ब वाली स   जयां (Alliums)"
+    },
+    {
+      "id": "b2e01d25-027b-5397-b2bf-dbe16811ed3c",
+      "name": "Mushrooms",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 4,
+      "rawHeading": "मशरूम (Mushrooms)"
+    },
+    {
+      "id": "c317cd87-ac32-518a-93e5-e8ba3fabfccf",
+      "name": "कच्चे फल जो स  जी की तरह इस्तेमाल होते हैं",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 4,
+      "rawHeading": "कच्चे फल जो स  जी की तरह इस्तेमाल होते हैं"
+    },
+    {
+      "id": "8b014f0d-1b8f-5384-9994-8ca91e0beeb7",
+      "name": "व  शष्ट पारंप  रक और जंगली स   जयां",
+      "parentId": "5f3a025b-d3c7-50b2-b6df-c44b8b9b5b88",
+      "active": true,
+      "sourceDocument": "vegetables_list.pdf",
+      "sourcePage": 4,
+      "rawHeading": "व  शष्ट पारंप  रक और जंगली स   जयां"
+    },
+    {
+      "id": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "name": "Fruits",
+      "parentId": null,
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "100 Fruits Name List (India)"
+    },
+    {
+      "id": "f4f19142-9e09-5394-b368-4156826216f7",
+      "name": "सदाबहार और आम फल (रोजाना  मलने वाले)",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "सदाबहार और आम फल (रोजाना  मलने वाले)"
+    },
+    {
+      "id": "b42702da-43f8-56de-bc6a-473dac1acc79",
+      "name": "Berries & Small Fruits",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 1,
+      "rawHeading": "बेर और छोटे फल (Berries & Small Fruits)"
+    },
+    {
+      "id": "7c0e86a8-9401-53ad-a2d6-3fd1a128cd38",
+      "name": "Indian Traditional Fruits",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "लोक  प्रिय क्षेत्रीय और पारम्प  रक फल (Indian Traditional Fruits)"
+    },
+    {
+      "id": "87d9b25c-c091-5e39-8f26-74ff2861a805",
+      "name": "Exotic & Imported Fruits",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 2,
+      "rawHeading": "प्रिी  मयम और  वदेशी फल (Exotic & Imported Fruits)"
+    },
+    {
+      "id": "e400306f-39b7-5cb4-b193-aee3134303fa",
+      "name": "Specific Varieties",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 3,
+      "rawHeading": "फलों की  व  शष्ट  कस्म (Specific Varieties)"
+    },
+    {
+      "id": "7762a3c4-f0a1-5499-8840-55afbda24f22",
+      "name": "Dry Fruits & Dates",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 4,
+      "rawHeading": "सूखे मेवे और खजूर (Dry Fruits & Dates)"
+    },
+    {
+      "id": "46fb43b7-b6b8-5735-9bf4-c9ab1eda111f",
+      "name": "Rare & Specialty Fruits",
+      "parentId": "4e0c7a2d-92ab-5354-9a60-ca465fe4c635",
+      "active": true,
+      "sourceDocument": "fruits_list.pdf",
+      "sourcePage": 4,
+      "rawHeading": "कु छ दुलर्लभ, जंगली और अन्य फल (Rare & Specialty Fruits)"
+    }
+  ]
+}

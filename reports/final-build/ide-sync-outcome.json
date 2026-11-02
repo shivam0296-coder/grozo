@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "projectFolder": "apps/android",
+  "folderContains": "settings.gradle.kts",
+  "openedInAndroidStudio": true,
+  "commandLineBuild": "PASS_OFFLINE_BOTH_APKS_AND_21_CORE_TESTS",
+  "ideGradleSync": "UNVERIFIED",
+  "observedFailures": ["Strict dependency verification lacked Gradle 8.13 source ZIP checksum", "Strict dependency verification lacked 146 IDE dependency source archive checksums"],
+  "fixes": ["Matched Gradle source ZIP against official SHA-256 and added exact checksum", "Verified 146 cached source archives against official Google/Maven repository SHA-1 values, then pinned their SHA-256 checksums"],
+  "strictDependencyVerificationDisabled": false,
+  "subsequentSuccessfulSyncObserved": false,
+  "stopReason": "Build workspace and new IDE caches exceeded approved 6 GB disk limit. Downloads stopped; approved cleanup commands were policy-blocked. Owner requested finishing without further IDE sync testing.",
+  "physicalDeviceTest": "NOT_PERFORMED_OWNER_CHOSE_NO_PHONE"
+}

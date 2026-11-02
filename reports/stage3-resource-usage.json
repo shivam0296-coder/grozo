@@ -1,0 +1,26 @@
+[
+  {
+    "path": ".toolchains",
+    "bytes": 2775918534.0
+  },
+  {
+    "path": ".cache",
+    "bytes": 2136733104.0
+  },
+  {
+    "path": "node_modules",
+    "bytes": 141908035.0
+  },
+  {
+    "path": "apps/android/customer/build",
+    "bytes": 102465968.0
+  },
+  {
+    "path": "apps/android/rider/build",
+    "bytes": 100729158.0
+  },
+  {
+    "path": "apps/android/core/build",
+    "bytes": 12010985.0
+  }
+]
