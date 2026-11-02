@@ -1,5 +1,7 @@
 # GROZO capability status
 
+Publication confirmed 2026-11-02: GitHub source https://github.com/shivam0296-coder/grozo (498 initial source files verified byte-for-byte) and pre-launch catalogue https://shivam0296-coder.github.io/grozo/ (Actions build/deploy success; live home/search/detail checked). This upgrades static catalogue hosting to DEPLOYED_PRE_LAUNCH only. Backend commerce/admin hosting and production readiness remain pending. See final-build/publication.json in reports.
+
 Latest closeout: 2026-11-02. Both code-5 debug APKs are built/verified; 70 Node and 21 Android core tests passed. IDE sync remains unverified; phone testing was declined. The owner requested no further IDE testing. Read FINAL-TEST-REPORT.md and reports/final-build/resource-summary.json for the disk-limit overage and blocked cleanup. GitHub/deployment outcomes are recorded in reports/final-build/publication.json. Older stage paragraphs below are historical.
 
 Reviewed 2026-10-31. Active objective: Stage 3 owner PDF/reference catalogue update on the existing development project.

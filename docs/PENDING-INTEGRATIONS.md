@@ -7,7 +7,7 @@
 - Public pre-launch customer catalogue: home/categories/search/filter/pagination/details, reviewed photo credits, business contact links, policy drafts and explicit unavailable account/cart/order/profile/tracking routes.
 - Existing labelled browser/native local demo checkout and delivery workflow, and admin management interfaces, retained for testing. They do not synchronize across apps/origins.
 - Shared executable read-only catalogue API, input/CORS/error tests, optional browser data fetching and native HTTPS connection check.
-- GitHub Pages workflow, installation/deployment/API/iOS guides and complete source/APK packaging.
+- Published GitHub source and GitHub Pages pre-launch catalogue, installation/deployment/API/iOS guides and complete source/APK packaging. Actual publication evidence is in reports/final-build/publication.json.
 
 ## Required before real orders
 
@@ -25,6 +25,6 @@
 | Release signing | Owner-controlled keystore/secure backup and completed release/backend validation; no release APK is delivered |
 | Device/browser QA | Physical Android installation/launch/navigation/lifecycle/accessibility and actual iPhone Safari/tablet tests |
 | Business readiness | Final policies, coverage/service hours, support ownership, security/accessibility/load/monitoring/rollback evidence |
-| Hosting | Confirm successful Pages deployment separately from a pushed workflow; host a real commerce backend separately after implementation |
+| Hosting | Static pre-launch Pages catalogue deployed and checked; persistent commerce backend and admin hosting remain pending |
 
 The APKs are actual installable-format development builds. They are not complete production commerce applications. No API key can fill missing merchant data or implement the backend. Next smallest action: install/test the APKs on a physical phone, provide merchant-reviewed SKUs, then complete persistent authenticated commerce.

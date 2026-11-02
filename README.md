@@ -1,5 +1,7 @@
 # GROZO · Final testing delivery
 
+**Published catalogue:** https://shivam0296-coder.github.io/grozo/ · **Source:** https://github.com/shivam0296-coder/grozo. GitHub Actions build/deploy succeeded on 2026-11-02; live home/search/detail were checked. The complete initial publication's 498 source files matched local bytes. This is a pre-launch catalogue with ordering disabled. See [publication evidence](reports/final-build/publication.json).
+
 **Goodness, Delivered by the Bagful.**
 
 Start with [Android installation](docs/INSTALL-ANDROID.md), [website/GitHub hosting](docs/DEPLOY-WEBSITE.md), [actual tests](docs/FINAL-TEST-REPORT.md), [implemented API](docs/final-api.md) and [pending integrations](docs/PENDING-INTEGRATIONS.md). The customer and partner debug APKs are built and verified. Physical-device testing remains pending. The public website is a pre-launch catalogue; real orders/authentication/providers are not connected.

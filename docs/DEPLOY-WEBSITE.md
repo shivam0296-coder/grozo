@@ -1,5 +1,7 @@
 # Website, GitHub and hosting
 
+Confirmed 2026-11-02: https://shivam0296-coder.github.io/grozo/ is deployed successfully. GitHub Pages Source is GitHub Actions. Workflow run 41374191718 passed both build and deploy for commit 1ba13458101273ead60b662c09286e2ff9794e3d. Live home, search and product detail were checked. Source publication was fetched and all 498 files matched local raw Git blob hashes. See reports/final-build/publication.json. The public site is a bundled pre-launch catalogue; no persistent commerce backend/admin is deployed.
+
 The public customer build is a **pre-launch catalogue**. It accepts no real orders. The persistent commerce backend is not implemented. Admin remains a labelled local development workspace and is not published by the Pages workflow.
 
 ## Build and preview

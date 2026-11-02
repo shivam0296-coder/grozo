@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "sourceFiles": 533,
+  "sourceFiles": 535,
   "protectedStage1Files": 7,
   "protectedStage1Hashes": "PASS",
   "apkHashes": "PASS",
@@ -12,7 +12,8 @@
     "reports/screenshots/final-api-error.jpg",
     "reports/screenshots/final-catalogue-desktop.jpg",
     "reports/screenshots/final-catalogue-phone-frame.jpg",
-    "reports/screenshots/final-demo-cancelled-order.jpg"
+    "reports/screenshots/final-demo-cancelled-order.jpg",
+    "reports/screenshots/final-deployed-website.jpg"
   ],
   "physicalDevice": "NOT_TESTED_OWNER_CHOSE_NO_PHONE",
   "ideSync": "UNVERIFIED_OWNER_REQUESTED_NO_FURTHER_TESTING",

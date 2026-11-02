@@ -2,10 +2,123 @@
   "date": "2026-11-02",
   "repository": "https://github.com/shivam0296-coder/grozo",
   "originalCommit": "f81148a9e2e0caad334cf669ff6e767c5bdbc26f",
-  "sourcePublication": "IN_PROGRESS_NOT_YET_CONFIRMED",
+  "sourcePublication": "CONFIRMED",
+  "verifiedSourceCommit": "1ba13458101273ead60b662c09286e2ff9794e3d",
+  "verifiedMatchingSourceFiles": 498,
+  "sourceVerification": "git fetch plus scripts/verify-published-source.mjs: all paths and raw Git blob hashes match; wrapper executable; screenshots excluded from Git",
   "pagesSource": "GitHub Actions",
   "pagesSourceVerifiedInBrowser": true,
-  "deployment": "NOT_YET_CONFIRMED",
-  "liveUrl": null,
-  "publicScope": "Pre-launch source catalogue only; no real ordering/authentication/payment/tracking; admin not deployed"
+  "workflowRunId": 41374191718,
+  "workflowUrl": "https://github.com/shivam0296-coder/grozo/actions/runs/41374191718",
+  "workflowConclusion": "success",
+  "jobs": [
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm install --global pnpm@11.25.0",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pnpm install --frozen-lockfile",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pnpm typecheck",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pnpm test",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pnpm --filter @grozo/web build",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/configure-pages@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-pages-artifact@v3",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Deploy catalogue",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "deployment": "SUCCESS",
+  "deployedCommit": "1ba13458101273ead60b662c09286e2ff9794e3d",
+  "deploymentId": 7482330389,
+  "liveUrl": "https://shivam0296-coder.github.io/grozo/",
+  "deploymentConfirmedAt": "2026-11-02T01:46:54Z",
+  "liveBrowserChecks": [
+    "Homepage loaded",
+    "Three visible hero photos loaded",
+    "Royal Gala search: one correct match",
+    "Royal Gala Apple detail and CC BY-SA attribution loaded"
+  ],
+  "browserScreenshot": "reports/screenshots/final-deployed-website.jpg",
+  "publicScope": "Pre-launch source catalogue only. No real ordering/authentication/payment/tracking; admin not deployed",
+  "subsequentDocumentationCommits": "May follow this verified deployment. Application source is unchanged by the closeout documentation."
 }

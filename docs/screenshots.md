@@ -6,6 +6,7 @@ These actual browser captures are included in the final ZIP under **grozo/report
 
 | View | Screenshot |
 | --- | --- |
+| Live GitHub Pages catalogue | [Open](../reports/screenshots/final-deployed-website.jpg) |
 | Pre-launch customer catalogue | [Open](../reports/screenshots/final-catalogue-desktop.jpg) |
 | Customer catalogue, 375 px browser frame | [Open](../reports/screenshots/final-catalogue-phone-frame.jpg) |
 | Configured read-only catalogue API | [Open](../reports/screenshots/final-api-catalogue.jpg) |

@@ -1,5 +1,11 @@
 # Final testing report — completed checks through 2026-11-02
 
+## Confirmed publication
+
+Source published to **https://github.com/shivam0296-coder/grozo**, preserving original commit f81148a9e2e0caad334cf669ff6e767c5bdbc26f. Initial complete source commit **1ba13458101273ead60b662c09286e2ff9794e3d** was fetched from GitHub; all **498** source paths/raw Git blob hashes matched the local project, with no missing/unexpected files. Wrapper executable mode is correct. Generated screenshots and APKs remain outside Git, in the final delivery.
+
+GitHub Actions run **41374191718** passed dependency installation, typecheck, tests, website build and Pages deployment. Confirmed live URL: **https://shivam0296-coder.github.io/grozo/**. Browser checks on that URL passed home rendering, three visible hero photographs, Royal Gala search (one result), product detail and photo attribution. See publication.json and final-deployed-website.jpg. Real commerce/backend/admin were not deployed. Closeout documentation may follow in later commits without changing the application.
+
 ## Closeout decisions
 
 The owner chose no phone testing and explicitly requested finishing without further Android Studio sync testing. **IDE sync remains unverified.** The project folder opened; known strict-verification failures for the Gradle source ZIP and 146 IDE source archives were addressed using official repository checksums. No successful subsequent sync was observed. Verification remains strict. See reports/final-build/ide-sync-outcome.json.

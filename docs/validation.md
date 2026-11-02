@@ -60,6 +60,8 @@ Limitations/next step: 286 unresolved image records, missing merchant pack ident
 
 ## Final testing update — 2026-11-01
 
+Publication closeout 2026-11-02: complete source commit 1ba13458101273ead60b662c09286e2ff9794e3d published and fetched; all 498 Git source files matched local raw hashes, with no unexpected files. GitHub Pages Actions run 41374191718 passed build/deploy. Live https://shivam0296-coder.github.io/grozo/ home/search/detail/photo attribution were checked. Screenshots/APKs are ZIP artifacts, not Git content. See reports/final-build/publication.json. Static hosting does not implement commerce.
+
 Actual Node HTTP tests, Android code-5 build/signature/manifest/catalogue/photo integrity and browser route/responsive observations are recorded in reports/final-build and FINAL-TEST-REPORT.md. Historical reports remain unchanged. No phone, PostgreSQL, authentication/provider flow or production readiness is inferred. The initial URL-configuration compile error was fixed with an explicit java.net.URI import; its failed attempt report is retained.
 
 Closeout 2026-11-02: reran 70 Node tests, TypeScript, source syntax/structure and Android configuration checks successfully. Rechecked seven protected Stage 1 hashes and both APK hashes. IDE sync remains unverified; owner requested no further IDE testing. Build/new IDE caches measured 6,245,275,062 bytes against a 6 GB limit; downloads stopped, owner-approved cleanup was policy-blocked, no cache files deleted. See final-build/resource-summary.json and ide-sync-outcome.json. No new device/provider/production maturity claim. Publication evidence is separate in final-build/publication.json; all complete-package entries are verified by scripts/package-final.ps1.
